@@ -1,0 +1,12970 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+struct VirtualActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename T1, typename T2>
+struct VirtualActionInvoker2
+{
+	typedef void (*Action)(void*, T1, T2, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct VirtualActionInvoker3
+{
+	typedef void (*Action)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+template <typename T1>
+struct InterfaceActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+struct Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC;
+struct List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10;
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+struct List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D;
+struct List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7;
+struct Tuple_2_t4B75F18A57363D88671568DEF504983C60E18AC6;
+struct Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D;
+struct Tuple_2U5BU5D_tD5C0D67E137DC38677FB3A0A7D7DB3E10396F27C;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB;
+struct QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct SourceProcessorContainerU5BU5D_tB96692E0E93CE748C3228F1A11B6BCB386DC9E3D;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746;
+struct TargetProcessorContainerU5BU5D_t28BDB198AFB97DDAD08ADB09E781E906662DE841;
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9;
+struct JointPairU5BU5D_t497D50D5A83F1CF02B5650B119ED2977C0131C9E;
+struct ShapePoseDataU5BU5D_t8A41073F3465AA0DABA17D6E5DAB52575AB5F014;
+struct TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02;
+struct HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174;
+struct TwistDataU5BU5D_tAFE9CFD167CE0E25D98576337E4A2815F0557791;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D;
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533;
+struct CharacterRetargeterConfig_tD8FF2B4F325BC140BE821B1083EA466B12F72877;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct CustomProcessor_t1C6BC472E61F0934CCC3920AB460E6C206219944;
+struct CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct Exception_t;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C;
+struct HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9;
+struct ISourceDataProvider_tE4EE67FEF00E67F376A1ABA6CB8A8F655309AE32;
+struct LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct SkeletonData_t020F9688821723F3D7B0FEF129449FF8B2133B45;
+struct SkeletonDraw_tAF9D0523E0DEEA27947AE061C23B239055D0BC0D;
+struct SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A;
+struct String_t;
+struct TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5;
+struct TargetProcessorContainer_t8D3D38243B67B16EF0E81F0B6E1D5CC6F0E69815;
+struct TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct TwistSkeletalProcessor_t7DE24125E85EAAD40734573C30C9B5FB3AEFB34E;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE;
+struct TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SkeletonUtilities_t583D4C09F4CCD8A4A4BE33022C14FEFE49C5C977_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TargetType_tB366D9D8F2FB27D3F1B1EE43CC4C77E66000DB77_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB____Target_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705____TargetFoot_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral1125C39982869BFF7969F89C6B283C58A36150E3;
+IL2CPP_EXTERN_C String_t* _stringLiteral240CBD9DF61071551A4CC6C010BA10976793ECB1;
+IL2CPP_EXTERN_C String_t* _stringLiteral2EF2881902FFC8C1FF38921948340F0B6E305D2E;
+IL2CPP_EXTERN_C String_t* _stringLiteral382069F1B6E66B55CBE469E79247224459D8641D;
+IL2CPP_EXTERN_C String_t* _stringLiteral3B776819585123418C9C64C1771A80DBA1AB0B96;
+IL2CPP_EXTERN_C String_t* _stringLiteral3F8F85202A2B970E34F74F0545F3D0607228FA8A;
+IL2CPP_EXTERN_C String_t* _stringLiteral50DC7EA4962AA8B5E20F5F961628FD5455BA0857;
+IL2CPP_EXTERN_C String_t* _stringLiteral5DF1ED5C4A7E490818417C801D35C4D65B028DDC;
+IL2CPP_EXTERN_C String_t* _stringLiteral9B996FAAB4D8C6FBC4110B9DE9C45E4C79796143;
+IL2CPP_EXTERN_C String_t* _stringLiteralAEBBB10A3D03A63B11A94AF04221A64D6FEC92D0;
+IL2CPP_EXTERN_C String_t* _stringLiteralC48B6378DD58D2F823093DAA596BBF6D53338DCD;
+IL2CPP_EXTERN_C String_t* _stringLiteralDE84FDA2CBB4082BDA60BF436B8A9ABF63977A3B;
+IL2CPP_EXTERN_C String_t* _stringLiteralE0C46BB9BCAEE8617DFE8694EB9A0435DD9D41AD;
+IL2CPP_EXTERN_C String_t* _stringLiteralF21A3C274D91C57F9E953BCF59603CF72AA09175;
+IL2CPP_EXTERN_C const RuntimeMethod* Assert_IsNotNull_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_m72240EBB45F7125B8C24DBB73BD98006E5FB6E64_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CharacterRetargeter_GetTargetProcessor_TisAnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D_m3C90E7B408FFB2B8A9EBABBB99C25D5DB023140D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m4C7472698DA2D5D1127049CF9B058D4C8409E559_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m9BF6C1C74CD711998DC8FAE5D6B8083586F5CFB5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m9B7900F0C982A9DC75543B8F4CFBEC4CB1FD7603_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mBAA697FE341E389C86536D9444A3E4AC02109E87_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mA4F2E7228E54D3358C2D19355B1CC74D4C90043A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mCBBD283BB42C56D73B7C4194020EC95292B36129_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HandSkeletalProcessor_Initialize_m0F9F128D96B31A3B5421769ED32EDB8B6A6473BA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IJobExtensions_Schedule_TisBlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769_mF2D38F3893A3165E57154DC1B45B4D0A922B9BF2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IJobExtensions_Schedule_TisHipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902_mD3FC83CE3C2AB0D956F022BB8452FB6DAE0404BA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IJobExtensions_Schedule_TisWriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F_mF6D1C29476912B2346F242BD8CFF60C1B6EF61B4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* IJobParallelForTransformExtensions_ScheduleReadOnly_TisGetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB_m0EE5817A60792D7AB35824FD7327EAB71FA9412D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m3151BF67C010FC809DC9FB763BA0E3BF6B27E950_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m987C18A8716CD144EAB56D6FFFFC8CAB09B6F974_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_mA673C9345062B236D8BA0A2E5A7E2318EDF9DAD9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m01FCD3FC513065087F7E312BC9DE2D1C3FF655E5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_mBD20BA7C8B31434FBCFBBE469C013C18CFE8A5B7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Reverse_mBFAFF0525A15BEE8D9047F24C691E9C05D4FAAF4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_ToArray_m5925CCD2844741E30EB14EDD03DD79F169BBFA80_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_ToArray_m5B91500384BF0E304C4E899D29B1F215FA52721E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m2974BC8CB4B4AF46B92B897CACF3712312D0F775_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m6502F1C29DD2682D6B383565B1CE0317256DF0D0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LocomotionSkeletalProcessor_OnWhenLocomotionEventHandled_m6C6CFEF407F71C790E252FAF3B2F0F709197DEEA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_Dispose_mF45D215FAA9CFDB84A992C4F761FF43E80276F9B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_ToArray_mE8EF1C5F5517BB045B2BBA5C9D519C3AF4C67ABA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_m018651076DF9934BB5F9C88A179C94132F8CAD72_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_mCA71AA13DF1339BF7AA14DBB1A9EA4C6C3B2DD7B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_mD36831FA83409A960B0E23FA0303873EC8EC5BD0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1_get_IsCreated_mD24A174276905BA38E8992234D3A387A1BDF2E97_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Tuple_2__ctor_mA05CE69762F62419AD54A7941390F8E69A1BE398_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Tuple_2_get_Item1_m4F2F0466D7D6D137CCEE4091DD5BBA9ADB3C54E2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Tuple_2_get_Item2_mB7B341B2FC8B2C556F60894DA0C43CCC8F6E24E1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_0_0_0_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+struct TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2;
+
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB;
+struct QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746;
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9;
+struct JointPairU5BU5D_t497D50D5A83F1CF02B5650B119ED2977C0131C9E;
+struct TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02;
+struct HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174;
+struct TwistDataU5BU5D_tAFE9CFD167CE0E25D98576337E4A2815F0557791;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10  : public RuntimeObject
+{
+	Tuple_2U5BU5D_tD5C0D67E137DC38677FB3A0A7D7DB3E10396F27C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D  : public RuntimeObject
+{
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7  : public RuntimeObject
+{
+	TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct Tuple_2_t4B75F18A57363D88671568DEF504983C60E18AC6  : public RuntimeObject
+{
+	RuntimeObject* ___m_Item1;
+	RuntimeObject* ___m_Item2;
+};
+struct Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D  : public RuntimeObject
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_Item1;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_Item2;
+};
+struct U3CPrivateImplementationDetailsU3E_t258832872B560AB25CCC9224F92B3793CFD23114  : public RuntimeObject
+{
+};
+struct IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5  : public RuntimeObject
+{
+	float ____weight;
+	bool ____isFoldoutExpanded;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D  : public RuntimeObject
+{
+	int32_t ___TargetIndex;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___CustomHandTransform;
+};
+struct Enumerator_tA7A280A9EF4005662A95711DC2BD15EEA6B91E47 
+{
+	List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* ____current;
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D 
+{
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____current;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03  : public TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5
+{
+	CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9* ____ccdData;
+	CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ____characterRetargeter;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct CustomProcessor_t1C6BC472E61F0934CCC3920AB460E6C206219944  : public TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5
+{
+	CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* ____customBehavior;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 
+{
+	uint64_t ___jobGroup;
+	int32_t ___version;
+};
+struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682__padding[1];
+	};
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 
+{
+	int32_t ___Index;
+};
+struct UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF 
+{
+	uint64_t ___m_value;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D4850_tE1FE117201E6FB1524512518A330D99C98BEBFD7 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D4850_tE1FE117201E6FB1524512518A330D99C98BEBFD7__padding[4850];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D4875_tDB92C7A8FE9EDAB16549AB957D64AE31B7BA285A 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D4875_tDB92C7A8FE9EDAB16549AB957D64AE31B7BA285A__padding[4875];
+	};
+};
+#pragma pack(pop, tp)
+struct JointPair_t187303B8D48F61000D34AFF5032713571E05B185 
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Joint;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___ParentJoint;
+};
+struct JointPair_t187303B8D48F61000D34AFF5032713571E05B185_marshaled_pinvoke
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Joint;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___ParentJoint;
+};
+struct JointPair_t187303B8D48F61000D34AFF5032713571E05B185_marshaled_com
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Joint;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___ParentJoint;
+};
+struct Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25 
+{
+	bool ___hasValue;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___value;
+};
+struct Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE 
+{
+	bool ___hasValue;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value;
+};
+struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
+{
+	int32_t ___value__;
+};
+struct BodyJointId_t4325E3CC057E71451D9D63463F2C06956FD665E1 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct HandJointId_t112B251DAEDE9EF4C669D039AB9CE6B2A01AB898 
+{
+	int32_t ___value__;
+};
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	int32_t ___value__;
+};
+struct LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8  : public TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5
+{
+	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ____locomotionEventHandlerObject;
+	RuntimeObject* ____locomotionEventHandler;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____cameraRig;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ____animator;
+	String_t* ____animatorVerticalParam;
+	String_t* ____animatorHorizontalParam;
+	float ____animationSpeed;
+	AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* ____animProcessor;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____characterRetargeter;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____velocity;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ____rotationalVelocity;
+};
+struct NativeArrayOptions_t3E979EEF4B4840228A7692A97DA07553C6465F1D 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
+};
+struct TransformAccess_tF0D55E1C5B6B29B618E8A129AB633E2F1100D580 
+{
+	intptr_t ___hierarchy;
+	int32_t ___index;
+};
+struct TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4 
+{
+	intptr_t ___m_TransformArray;
+};
+struct TwistSkeletalProcessor_t7DE24125E85EAAD40734573C30C9B5FB3AEFB34E  : public TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5
+{
+	int32_t ____sourceIndex;
+	TwistDataU5BU5D_tAFE9CFD167CE0E25D98576337E4A2815F0557791* ____targetData;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____twistForwardAxis;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____twistUpAxis;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ____twistLocalRotationAxisOffset;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ____segmentEndUpAxis;
+};
+struct TargetType_tB366D9D8F2FB27D3F1B1EE43CC4C77E66000DB77 
+{
+	int32_t ___value__;
+};
+struct IKAlgorithm_t340653F3E261F7DC766E2F88BB9D5B99875DCD69 
+{
+	int32_t ___value__;
+};
+struct HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705 
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___TargetFoot;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___TargetHint;
+	TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* ___LegIndexes;
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 ___MidLegIndex;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___LegBones;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___LegLengths;
+	int32_t ____localMidLegIndex;
+};
+struct HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshaled_pinvoke
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___TargetFoot;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___TargetHint;
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2* ___LegIndexes;
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 ___MidLegIndex;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___LegBones;
+	Il2CppSafeArray* ___LegLengths;
+	int32_t ____localMidLegIndex;
+};
+struct HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshaled_com
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___TargetFoot;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___TargetHint;
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2* ___LegIndexes;
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 ___MidLegIndex;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___LegBones;
+	Il2CppSafeArray* ___LegLengths;
+	int32_t ____localMidLegIndex;
+};
+struct RotationType_tD58F7B6EB01892B0375178D9775F6185D4E2DC0F 
+{
+	int32_t ___value__;
+};
+struct TranslationType_t97D4BABD1EDD1C5D0030103150399BD6255EF5CB 
+{
+	int32_t ___value__;
+};
+struct JointRelativeSpaceType_t9855BD720BF56C04F9465E6BB3EA76F75EA27917 
+{
+	int32_t ___value__;
+};
+struct KnownJointType_t22C13B3DCD4CF068A953258181DF579422C938BC 
+{
+	int32_t ___value__;
+};
+struct NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___Orientation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Position;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Scale;
+};
+struct RetargetingBehavior_t8C74ED982CD58F1041B226BA0187CD8A684AD382 
+{
+	int32_t ___value__;
+};
+struct SkeletonTPoseType_tD94E740E813963A9336CE1D27EC37C01395FBB7D 
+{
+	int32_t ___value__;
+};
+struct SkeletonType_tF9BB117A008E0E2A5877E70EA15A0774FE4C5C34 
+{
+	int32_t ___value__;
+};
+struct BodyTrackingBoneId_t2B3F4545D1F00C83A365D915C347032BB94508FF 
+{
+	int32_t ___value__;
+};
+struct ProcessorType_t9218958BE0D0EC8CF2AC7535A47A8770DD80B9E1 
+{
+	int32_t ___value__;
+};
+struct TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A 
+{
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 ___Index;
+	float ___Weight;
+};
+struct NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB 
+{
+	int32_t ___Item1;
+	int32_t ___Item2;
+};
+struct ValueTuple_2_t9270F8474E554C7C106A7F7DE4F0D15C12802EAB 
+{
+	int32_t ___Item1;
+	int32_t ___Item2;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C  : public TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____handsTransform;
+	String_t* ____leftHandTransformName;
+	String_t* ____rightHandTransformName;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ____leftHandJoints;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ____rightHandJoints;
+	bool ____useRetargetedHandRotation;
+	bool ____matchFingers;
+	bool ____limitStretch;
+	int32_t ____ikIterations;
+	float ____ikTolerance;
+	bool ____runSerial;
+	int32_t ____algorithm;
+	CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ____retargeter;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____parentJointIndicesTarget;
+	ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* ____leftArmIKData;
+	ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* ____rightArmIKData;
+};
+struct HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5  : public TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5
+{
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnEnterHipPinningArea;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnExitHipPinningArea;
+	float ____hipPinningThreshold;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____hipPinningObject;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____hipPinningTargetParent;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____targetHips;
+	HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705 ____leftData;
+	HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705 ____rightData;
+	int32_t ____hipsJointIndex;
+	int32_t ____rootJointIndex;
+	bool ____previouslyActive;
+	CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ____retargeter;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____initialHipPosition;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ____initialHipRotation;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____hipsTransform;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____rootTransform;
+};
+struct LocomotionEvent_tECDD51A234545203F40F068C91D2745873285642 
+{
+	int32_t ___U3CIdentifierU3Ek__BackingField;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___U3CPoseU3Ek__BackingField;
+	int32_t ___U3CTranslationU3Ek__BackingField;
+	int32_t ___U3CRotationU3Ek__BackingField;
+	uint64_t ___U3CEventIdU3Ek__BackingField;
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct TargetProcessorContainer_t8D3D38243B67B16EF0E81F0B6E1D5CC6F0E69815  : public RuntimeObject
+{
+	int32_t ____currentProcessorType;
+	TwistSkeletalProcessor_t7DE24125E85EAAD40734573C30C9B5FB3AEFB34E* ____twistProcessor;
+	AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* ____animationProcessor;
+	LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* ____locomotionProcessor;
+	CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* ____ccdProcessor;
+	HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* ____handProcessor;
+	HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* ____hipPinningProcessor;
+	CustomProcessor_t1C6BC472E61F0934CCC3920AB460E6C206219944* ____customProcessor;
+};
+struct CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB 
+{
+	TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* ___IKChain;
+	int32_t ___TargetType;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Target;
+	float ___Tolerance;
+	int32_t ___MaxIterations;
+};
+struct CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshaled_pinvoke
+{
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2* ___IKChain;
+	int32_t ___TargetType;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Target;
+	float ___Tolerance;
+	int32_t ___MaxIterations;
+};
+struct CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshaled_com
+{
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2* ___IKChain;
+	int32_t ___TargetType;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Target;
+	float ___Tolerance;
+	int32_t ___MaxIterations;
+};
+struct HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE 
+{
+	int32_t ___HandJointID;
+	int32_t ___BodyJointID;
+};
+struct Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC  : public MulticastDelegate_t
+{
+};
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+struct AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D  : public TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5
+{
+	TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* ____animBlendIndices;
+	int32_t ____rootJointIndex;
+	int32_t ____hipsJointIndex;
+	NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C ____nativeBlendIndices;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A  : public RuntimeObject
+{
+	bool ___U3CIsInitializedU3Ek__BackingField;
+	bool ___U3CAppliedPoseU3Ek__BackingField;
+	SkeletonData_t020F9688821723F3D7B0FEF129449FF8B2133B45* ___U3CSourceSkeletonDataU3Ek__BackingField;
+	SkeletonData_t020F9688821723F3D7B0FEF129449FF8B2133B45* ___U3CTargetSkeletonDataU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___HipsScale;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___RetargetedPose;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___RetargetedPoseLocal;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___TargetReferencePoseLocal;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___SourcePose;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___SourceReferencePose;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___SourceMinTPose;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___SourceMaxTPose;
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___SourceParentIndices;
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___TargetParentIndices;
+	int32_t ____retargetingBehavior;
+	bool ____hideLowerBodyWhenUpperBodyTracking;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____hideLegScale;
+	bool ____applyRootScale;
+	bool ____applyHeadScale;
+	float ____currentScale;
+	float ____headScaleFactor;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____scaleRange;
+	SkeletonDraw_tAF9D0523E0DEEA27947AE061C23B239055D0BC0D* ____sourceSkeletonDraw;
+	SkeletonDraw_tAF9D0523E0DEEA27947AE061C23B239055D0BC0D* ____targetSkeletonDraw;
+	uint64_t ____nativeHandle;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ____targetReferencePose;
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ____targetFingerIndices;
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ____applyPoseJobHandle;
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769 
+{
+	float ___Weight;
+	int32_t ___RootIndex;
+	int32_t ___HipsIndex;
+	NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C ___BlendIndices;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___SourcePose;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___TargetPose;
+};
+struct GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB 
+{
+	NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 ___Poses;
+};
+struct WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F 
+{
+	NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 ___CustomHandPoses;
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___TargetIndices;
+	float ___Weight;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___OutputPoses;
+};
+struct HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902 
+{
+	float ___Weight;
+	int32_t ___HipsIndex;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___TargetPosition;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___TargetPose;
+};
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE  : public RuntimeObject
+{
+	TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* ___TargetToCustomHand;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___ArmJointIndicesReversed;
+	NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 ___CustomHandPoses;
+	TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4 ___CustomHandTransforms;
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C ___TargetIndices;
+	GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB ___GetCustomHandPosesJob;
+};
+struct CharacterRetargeterConfig_tD8FF2B4F325BC140BE821B1083EA466B12F72877  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___U3CValidationErrorsU3Ek__BackingField;
+	TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* ____config;
+	JointPairU5BU5D_t497D50D5A83F1CF02B5650B119ED2977C0131C9E* ____jointPairs;
+	ShapePoseDataU5BU5D_t8A41073F3465AA0DABA17D6E5DAB52575AB5F014* ____shapePoseData;
+	TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4 ____joints;
+};
+struct CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533  : public CharacterRetargeterConfig_tD8FF2B4F325BC140BE821B1083EA466B12F72877
+{
+	bool ____debugDrawSourceSkeleton;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____debugDrawSourceSkeletonColor;
+	bool ____debugDrawTargetSkeleton;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____debugDrawTargetSkeletonColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____debugDrawInvalidTargetSkeletonColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ____debugDrawInvalidSourceSkeletonColor;
+	SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* ____skeletonRetargeter;
+	SourceProcessorContainerU5BU5D_tB96692E0E93CE748C3228F1A11B6BCB386DC9E3D* ____sourceProcessorContainers;
+	TargetProcessorContainerU5BU5D_t28BDB198AFB97DDAD08ADB09E781E906662DE841* ____targetProcessorContainers;
+	RuntimeObject* ____dataProvider;
+	String_t* ____currentManifestation;
+	bool ____isValid;
+	bool ____isCalibrated;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____debugDrawTransform;
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ____convertPoseJobHandle;
+};
+struct List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10_StaticFields
+{
+	Tuple_2U5BU5D_tD5C0D67E137DC38677FB3A0A7D7DB3E10396F27C* ___s_emptyArray;
+};
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_StaticFields
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_StaticFields
+{
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___s_emptyArray;
+};
+struct List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7_StaticFields
+{
+	TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t258832872B560AB25CCC9224F92B3793CFD23114_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D4875_tDB92C7A8FE9EDAB16549AB957D64AE31B7BA285A ___40BA0759E12F5CBC053574B057F2E285A27A2FD65537BFE691DFCA614CE9E3E1;
+	__StaticArrayInitTypeSizeU3D4850_tE1FE117201E6FB1524512518A330D99C98BEBFD7 ___7EE455D390B5870E1680BAD085A71C3D75103F866D711018D00476A9E8BABB6F;
+};
+struct IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields
+{
+	PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ____cachedCCdPosesLocal;
+	PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ____cachedOldPoses;
+	PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ____cachedFabrikPoses;
+	QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* ____fabrikRotChanges;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields
+{
+	float ___Epsilon;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_StaticFields
+{
+	int32_t ____verticalHash;
+	int32_t ____horizontalHash;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
+{
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___k_Identity;
+};
+struct LocomotionEvent_tECDD51A234545203F40F068C91D2745873285642_StaticFields
+{
+	uint64_t ____nextEventId;
+};
+struct HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE_StaticFields
+{
+	HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* ___LeftHandBodyJointPairs;
+	HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* ___RightHandBodyJointPairs;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174  : public RuntimeArray
+{
+	ALIGN_FIELD (8) HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE m_Items[1];
+
+	inline HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746  : public RuntimeArray
+{
+	ALIGN_FIELD (8) TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 m_Items[1];
+
+	inline TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9  : public RuntimeArray
+{
+	ALIGN_FIELD (8) CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB m_Items[1];
+
+	inline CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___IKChain), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Target), (void*)NULL);
+		#endif
+	}
+	inline CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___IKChain), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Target), (void*)NULL);
+		#endif
+	}
+};
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* m_Items[1];
+
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02  : public RuntimeArray
+{
+	ALIGN_FIELD (8) TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* m_Items[1];
+
+	inline TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct JointPairU5BU5D_t497D50D5A83F1CF02B5650B119ED2977C0131C9E  : public RuntimeArray
+{
+	ALIGN_FIELD (8) JointPair_t187303B8D48F61000D34AFF5032713571E05B185 m_Items[1];
+
+	inline JointPair_t187303B8D48F61000D34AFF5032713571E05B185 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline JointPair_t187303B8D48F61000D34AFF5032713571E05B185* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, JointPair_t187303B8D48F61000D34AFF5032713571E05B185 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Joint), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___ParentJoint), (void*)NULL);
+		#endif
+	}
+	inline JointPair_t187303B8D48F61000D34AFF5032713571E05B185 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline JointPair_t187303B8D48F61000D34AFF5032713571E05B185* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, JointPair_t187303B8D48F61000D34AFF5032713571E05B185 value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___Joint), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___ParentJoint), (void*)NULL);
+		#endif
+	}
+};
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float m_Items[1];
+
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct TwistDataU5BU5D_tAFE9CFD167CE0E25D98576337E4A2815F0557791  : public RuntimeArray
+{
+	ALIGN_FIELD (8) TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A m_Items[1];
+
+	inline TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 m_Items[1];
+
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 m_Items[1];
+
+	inline Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 m_Items[1];
+
+	inline Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueTuple_2__ctor_m3243992DEAA9537654C57F8BCFDF91EC997836CD_gshared (ValueTuple_2_t9270F8474E554C7C106A7F7DE4F0D15C12802EAB* __this, int32_t ___0_item1, int32_t ___1_item2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mD36831FA83409A960B0E23FA0303873EC8EC5BD0_gshared (NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C* __this, TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* ___0_array, int32_t ___1_allocator, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_mF45D215FAA9CFDB84A992C4F761FF43E80276F9B_gshared (NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobExtensions_Schedule_TisBlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769_mF2D38F3893A3165E57154DC1B45B4D0A922B9BF2_gshared (BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769 ___0_jobData, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependsOn, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_gshared (Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_gshared (Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032_gshared (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_m018651076DF9934BB5F9C88A179C94132F8CAD72_gshared (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_IsNotNull_TisRuntimeObject_mFA75318800124DED2E924476F16DD129394A20AC_gshared (RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* NativeArray_1_ToArray_mE8EF1C5F5517BB045B2BBA5C9D519C3AF4C67ABA_gshared (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Component_GetComponentsInChildren_TisRuntimeObject_m90734C3A39A158985239CB90DE2F0792F1D99926_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, bool ___0_includeInactive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Reverse_m3A8BEF4194B03E75859F94B4EE2F54045AF98708_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Tuple_2__ctor_m1F7B239EC49FE179C459F8DD99F1725E91E9C489_gshared (Tuple_2_t4B75F18A57363D88671568DEF504983C60E18AC6* __this, RuntimeObject* ___0_item1, RuntimeObject* ___1_item2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Tuple_2_get_Item1_mBF34A596062BBB3C1DD2A6CA36810366F445C9FA_gshared_inline (Tuple_2_t4B75F18A57363D88671568DEF504983C60E18AC6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Tuple_2_get_Item2_m4C8E8E93C0299E98E046C765CA6ABB544412C1D9_gshared_inline (Tuple_2_t4B75F18A57363D88671568DEF504983C60E18AC6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_gshared (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mCA71AA13DF1339BF7AA14DBB1A9EA4C6C3B2DD7B_gshared (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobParallelForTransformExtensions_ScheduleReadOnly_TisGetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB_m0EE5817A60792D7AB35824FD7327EAB71FA9412D_gshared (GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB ___0_jobData, TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4 ___1_transforms, int32_t ___2_batchSize, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___3_dependsOn, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobExtensions_Schedule_TisWriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F_mF6D1C29476912B2346F242BD8CFF60C1B6EF61B4_gshared (WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F ___0_jobData, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependsOn, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_mD24A174276905BA38E8992234D3A387A1BDF2E97_gshared_inline (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6_gshared (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_gshared_inline (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_gshared (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobExtensions_Schedule_TisHipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902_mD3FC83CE3C2AB0D956F022BB8452FB6DAE0404BA_gshared (HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902 ___0_jobData, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependsOn, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_mACCF66E6123363194544D2A59FB5D27047C15FD8_gshared (Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CharacterRetargeter_GetTargetProcessor_TisRuntimeObject_mCCA462296DD551BA0483E6E9477F437877C24D37_gshared (CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandBodyJointPair__ctor_mC744353A9E500D461682D750EFA938FE982B670E (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE* __this, int32_t ___0_handJointId, int32_t ___1_bodyJointId, const RuntimeMethod* method) ;
+inline void ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9 (ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB* __this, int32_t ___0_item1, int32_t ___1_item2, const RuntimeMethod* method)
+{
+	((  void (*) (ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB*, int32_t, int32_t, const RuntimeMethod*))ValueTuple_2__ctor_m3243992DEAA9537654C57F8BCFDF91EC997836CD_gshared)(__this, ___0_item1, ___1_item2, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA (ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB ___0_tuple, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CharacterRetargeter_get_RetargetingHandle_mEEE86C51359EC442E2947FC308BFF5A0E7E19FCB (CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MSDKUtility_GetJointIndexByKnownJointType_m456D0764FC8044D8971A511E6E647F0DE6159856 (uint64_t ___0_handle, int32_t ___1_skeletonType, int32_t ___2_knownJointType, int32_t* ___3_jointIndex, const RuntimeMethod* method) ;
+inline void NativeArray_1__ctor_mD36831FA83409A960B0E23FA0303873EC8EC5BD0 (NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C* __this, TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* ___0_array, int32_t ___1_allocator, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C*, TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746*, int32_t, const RuntimeMethod*))NativeArray_1__ctor_mD36831FA83409A960B0E23FA0303873EC8EC5BD0_gshared)(__this, ___0_array, ___1_allocator, method);
+}
+inline void NativeArray_1_Dispose_mF45D215FAA9CFDB84A992C4F761FF43E80276F9B (NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C* __this, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C*, const RuntimeMethod*))NativeArray_1_Dispose_mF45D215FAA9CFDB84A992C4F761FF43E80276F9B_gshared)(__this, method);
+}
+inline JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobExtensions_Schedule_TisBlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769_mF2D38F3893A3165E57154DC1B45B4D0A922B9BF2 (BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769 ___0_jobData, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependsOn, const RuntimeMethod* method)
+{
+	return ((  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 (*) (BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, const RuntimeMethod*))IJobExtensions_Schedule_TisBlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769_mF2D38F3893A3165E57154DC1B45B4D0A922B9BF2_gshared)(___0_jobData, ___1_dependsOn, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JobHandle_Complete_mDCED35A125AAB37EDDAB2E31C805B4904B614A4A (JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetProcessor__ctor_m7A34D70B43FEFB1D20A3B61E4899D52FDC9B7DE4 (TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6 (TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 ___0_targetJointIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void BlendAnimationJob_Execute_m59431636285E81C417ECA8BDB4011BC341375EFF (BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCDSkeletalData_Validate_mC470C165B34975FD266D9B6C2A077CA95E673F54 (CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCDSkeletalData_Initialize_m4128A1A9C87E0D335BAAB17C81CC349269BE3A45 (CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_characterRetargeter, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCDSkeletalProcessor_RunCCDOnSkeletalData_m20D66D61B882F63141A687555E2A5F653FACB1D1 (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB ___0_ccdData, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPoseLocal, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline (CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CCDSkeletalProcessor_GetTargetPosition_m5A5B784B9EE51B9D12E0DFEA985DA6373458ABA9 (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB ___0_ccdData, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_targetPosition, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+inline void Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2 (Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, const RuntimeMethod*))Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_gshared)(__this, ___0_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+inline void Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A (Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25*, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*))Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_gshared)(__this, ___0_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 SkeletonUtilities_ComputeWorldPoses_mC9358FFB91AEE2BD4B11F38AF25F44B4E8DA9AA4 (SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* ___0_skeletonRetargeter, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPoses, Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE ___2_rootPosition, Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25 ___3_rootRotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051 (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 CCDSkeletalProcessor_GetIKChainEndFirst_mA70A76389B0A77DE53F46128015E308277F1364D (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* ___0_ikChain, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPoseLocal, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IKUtilities_SolveCCDIKLocalNativeArray_m060B6B5CBF26BA8B53DB4068CB28F75B1051BADD (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_chainParentWorldSpace, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___1_bonesLocalSpace, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_targetPositionWorld, float ___3_tolerance, float ___4_maxIterations, const RuntimeMethod* method) ;
+inline void NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032 (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* __this, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*, const RuntimeMethod*))NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTransform__ctor_mCDA3BB298187AFBE12F8B1F0027980CB65CBE200 (NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_orientation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, const RuntimeMethod* method) ;
+inline void NativeArray_1__ctor_m018651076DF9934BB5F9C88A179C94132F8CAD72 (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*, int32_t, int32_t, int32_t, const RuntimeMethod*))NativeArray_1__ctor_m018651076DF9934BB5F9C88A179C94132F8CAD72_gshared)(__this, ___0_length, ___1_allocator, ___2_options, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_point, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Scale_m7C3CD199271902D5C00CBF35CD230DEB62B68CAE_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CCDSkeletalProcessor_GetTrackedPosition_m75107C7CB77946DA5C04031F5A1940BBEF99BAD8 (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, int32_t ___0_boneId, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_targetPosition, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663 (bool ___0_condition, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Assert_IsTrue_m390B3F48332F46CE76AB45491A60ACDCCF521AAE (bool ___0_condition, String_t* ___1_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+inline void Assert_IsNotNull_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_m72240EBB45F7125B8C24DBB73BD98006E5FB6E64 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Assert_IsNotNull_TisRuntimeObject_mFA75318800124DED2E924476F16DD129394A20AC_gshared)(___0_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MSDKUtility_GetParentJointIndexes_m5BD917D29649E780EA4D112B26ECC365BB0E8AB6 (uint64_t ___0_handle, int32_t ___1_skeletonType, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___2_jointIndexArray, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+inline Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* NativeArray_1_ToArray_mE8EF1C5F5517BB045B2BBA5C9D519C3AF4C67ABA (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method)
+{
+	return ((  Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* (*) (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*, const RuntimeMethod*))NativeArray_1_ToArray_mE8EF1C5F5517BB045B2BBA5C9D519C3AF4C67ABA_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t SkeletonRetargeter_get_NativeHandle_mF0092281A661115A641BE710D5285E3D392507E1_inline (SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MSDKUtility_GetKnownJointName_m0B19DBF84C87460E1DB4CEF78FFD6022B083D4D1 (uint64_t ___0_handle, int32_t ___1_skeletonType, int32_t ___2_knownJointType, String_t** ___3_jointName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* OVRExtensions_FindChildRecursive_m5633F7F37E170C66A576F57D0FF34E99BFC2E9A1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, String_t* ___1_name, const RuntimeMethod* method) ;
+inline TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, bool ___0_includeInactive, const RuntimeMethod* method)
+{
+	return ((  TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, bool, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m90734C3A39A158985239CB90DE2F0792F1D99926_gshared)(__this, ___0_includeInactive, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmIKData__ctor_mD4CEA8D0488FE2B047F87AB448CE870866A38165 (ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* HandSkeletalProcessor_FindTransformsDownChain_m731969AF5D5AC0CCF674E962AB9B36A62D0C89F9 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_startingTransform, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_endTransform, const RuntimeMethod* method) ;
+inline void List_1_Reverse_mBFAFF0525A15BEE8D9047F24C691E9C05D4FAAF4 (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*, const RuntimeMethod*))List_1_Reverse_m3A8BEF4194B03E75859F94B4EE2F54045AF98708_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_InitializeArmJointIndices_m7ECBE3AB5BA4D18B84F140C01DFC9AF355EA9E3E (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, uint64_t ___0_pluginHandle, List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___1_armBones, ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* ___2_armIkData, const RuntimeMethod* method) ;
+inline void List_1__ctor_m6502F1C29DD2682D6B383565B1CE0317256DF0D0 (List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_FillJointMappings_mBFBD01F2D8E8B8EB3DBD6CD55C83F0527E8C1823 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_characterBonesHand, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___1_customHandBones, List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10** ___2_mappedCharacterDataBones, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_InitializeTargetToCustomHandAssociation_m8719B6D1FA6F0ECABFE92D7231C1F3E2DA3F1CB5 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, uint64_t ___0_pluginHandle, List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* ___1_targetToCustomHandTuples, ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* ___2_armIkData, const RuntimeMethod* method) ;
+inline void List_1_Clear_mA673C9345062B236D8BA0A2E5A7E2318EDF9DAD9_inline (List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_SetupJob_m7A1A6C7F1FEA07F0106EF93051DC799A90F641F0 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* ___0_targetToCustomHand, NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* ___1_customHandPoses, TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4* ___2_customHandTransforms, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___3_targetIndicesArray, GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB* ___4_getPosesJob, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmIKData_CleanUp_m834AA835D7A1EEFF401050E8EA62E330ACADBF91 (ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_SetJointRotationToTarget_mED8CE15CAE79B19234BAF243CB25BC88576A102E (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_targetPoseLocal, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___1_targetPoseWorld, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_targetRotationWorld, int32_t ___3_armJointIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_FixLocalFingerPosesSerial_m8E5CEE711F311C61EAE9A04AF307A77A2C8FE508 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_targetPoseLocal, float ___1_weight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_FixLocalFingerPosesJobs_m46B6422F77DBD974DFD337CACF3E1EA675565B4B (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_currentPose, float ___1_weight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_RunCCDOnSkeletalData_m79F4B5FC1EE667393464DDBB6D2E0D7E28F9AFCB (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* ___0_armIKData, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___1_customHandJoints, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___2_targetSkeletonPoseLocal, float ___3_weight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeTransform__ctor_mDA63D7AB12228914E5B4AA3DA4F92390277D1347 (NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_orientation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_scale, const RuntimeMethod* method) ;
+inline void List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268 (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_inline (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+inline void List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_gshared)(__this, method);
+}
+inline Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D List_1_GetEnumerator_m01FCD3FC513065087F7E312BC9DE2D1C3FF655E5 (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D (*) (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m9BF6C1C74CD711998DC8FAE5D6B8083586F5CFB5 (Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Enumerator_get_Current_mCBBD283BB42C56D73B7C4194020EC95292B36129_inline (Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D* __this, const RuntimeMethod* method)
+{
+	return ((  Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*) (Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MSDKUtility_GetJointIndex_mF1FA498EEAFE3A44A94E6A6A1DF0A04F2791EC36 (uint64_t ___0_handle, int32_t ___1_skeletonType, String_t* ___2_jointName, int32_t* ___3_jointIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+inline void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline)(__this, ___0_item, method);
+}
+inline bool Enumerator_MoveNext_mBAA697FE341E389C86536D9444A3E4AC02109E87 (Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+inline Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
+{
+	return ((  Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+inline void Tuple_2__ctor_mA05CE69762F62419AD54A7941390F8E69A1BE398 (Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_item1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_item2, const RuntimeMethod* method)
+{
+	((  void (*) (Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Tuple_2__ctor_m1F7B239EC49FE179C459F8DD99F1725E91E9C489_gshared)(__this, ___0_item1, ___1_item2, method);
+}
+inline void List_1_Add_m3151BF67C010FC809DC9FB763BA0E3BF6B27E950_inline (List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* __this, Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10*, Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline void List_1__ctor_m2974BC8CB4B4AF46B92B897CACF3712312D0F775 (List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline Enumerator_tA7A280A9EF4005662A95711DC2BD15EEA6B91E47 List_1_GetEnumerator_mBD20BA7C8B31434FBCFBBE469C013C18CFE8A5B7 (List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tA7A280A9EF4005662A95711DC2BD15EEA6B91E47 (*) (List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m4C7472698DA2D5D1127049CF9B058D4C8409E559 (Enumerator_tA7A280A9EF4005662A95711DC2BD15EEA6B91E47* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tA7A280A9EF4005662A95711DC2BD15EEA6B91E47*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* Enumerator_get_Current_mA4F2E7228E54D3358C2D19355B1CC74D4C90043A_inline (Enumerator_tA7A280A9EF4005662A95711DC2BD15EEA6B91E47* __this, const RuntimeMethod* method)
+{
+	return ((  Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* (*) (Enumerator_tA7A280A9EF4005662A95711DC2BD15EEA6B91E47*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Tuple_2_get_Item1_m4F2F0466D7D6D137CCEE4091DD5BBA9ADB3C54E2_inline (Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* __this, const RuntimeMethod* method)
+{
+	return ((  Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*) (Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D*, const RuntimeMethod*))Tuple_2_get_Item1_mBF34A596062BBB3C1DD2A6CA36810366F445C9FA_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetToCustomHandAssociation__ctor_m440B6EA9233E5D67E741AE69934B43FAF97EF41C (TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* __this, const RuntimeMethod* method) ;
+inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Tuple_2_get_Item2_mB7B341B2FC8B2C556F60894DA0C43CCC8F6E24E1_inline (Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* __this, const RuntimeMethod* method)
+{
+	return ((  Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*) (Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D*, const RuntimeMethod*))Tuple_2_get_Item2_m4C8E8E93C0299E98E046C765CA6ABB544412C1D9_gshared_inline)(__this, method);
+}
+inline void List_1_Add_m987C18A8716CD144EAB56D6FFFFC8CAB09B6F974_inline (List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7* __this, TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7*, TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline bool Enumerator_MoveNext_m9B7900F0C982A9DC75543B8F4CFBEC4CB1FD7603 (Enumerator_tA7A280A9EF4005662A95711DC2BD15EEA6B91E47* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tA7A280A9EF4005662A95711DC2BD15EEA6B91E47*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+inline TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* List_1_ToArray_m5B91500384BF0E304C4E899D29B1F215FA52721E (List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7* __this, const RuntimeMethod* method)
+{
+	return ((  TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* (*) (List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7*, const RuntimeMethod*))List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared)(__this, method);
+}
+inline void NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*, int32_t, int32_t, int32_t, const RuntimeMethod*))NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_gshared)(__this, ___0_length, ___1_allocator, ___2_options, method);
+}
+inline void NativeArray_1__ctor_mCA71AA13DF1339BF7AA14DBB1A9EA4C6C3B2DD7B (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, int32_t ___0_length, int32_t ___1_allocator, int32_t ___2_options, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*, int32_t, int32_t, int32_t, const RuntimeMethod*))NativeArray_1__ctor_mCA71AA13DF1339BF7AA14DBB1A9EA4C6C3B2DD7B_gshared)(__this, ___0_length, ___1_allocator, ___2_options, method);
+}
+inline TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* List_1_ToArray_m5925CCD2844741E30EB14EDD03DD79F169BBFA80 (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* __this, const RuntimeMethod* method)
+{
+	return ((  TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* (*) (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*, const RuntimeMethod*))List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformAccessArray__ctor_m3F03FA9FCE967291261CF8C120432E66F7C931C5 (TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4* __this, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_transforms, int32_t ___1_desiredJobCount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 HandSkeletalProcessor_GetIKChainEndFirst_m2A1E625234C36394EC2F36B2A6FE0CFF7802972A (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_ikChainReversed, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPoseLocal, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 SkeletonRetargeter_get_RootScale_m1DC800C718D14E8F5DFAA3EB2CA277C4C7CD305C (SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 HandSkeletalProcessor_GetTargetRelativeToEffectorParent_mDE9A4CF8ECA10B1283873D08CC9ACE382A6788EA (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, int32_t ___0_endEffectorParentIndex, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___1_targetWorldPose, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_targetPositionWorldLerp, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_rootScale, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_SetLocalPositionAndRotation_mC449335A9C9B8302DD342743244AFE461E1CF9FC (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_targetPoseLocal, int32_t ___1_targetSkeletonIndex, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_customHandBone, float ___3_weight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+inline JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobParallelForTransformExtensions_ScheduleReadOnly_TisGetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB_m0EE5817A60792D7AB35824FD7327EAB71FA9412D (GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB ___0_jobData, TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4 ___1_transforms, int32_t ___2_batchSize, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___3_dependsOn, const RuntimeMethod* method)
+{
+	return ((  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 (*) (GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB, TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4, int32_t, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, const RuntimeMethod*))IJobParallelForTransformExtensions_ScheduleReadOnly_TisGetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB_m0EE5817A60792D7AB35824FD7327EAB71FA9412D_gshared)(___0_jobData, ___1_transforms, ___2_batchSize, ___3_dependsOn, method);
+}
+inline JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobExtensions_Schedule_TisWriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F_mF6D1C29476912B2346F242BD8CFF60C1B6EF61B4 (WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F ___0_jobData, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependsOn, const RuntimeMethod* method)
+{
+	return ((  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 (*) (WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, const RuntimeMethod*))IJobExtensions_Schedule_TisWriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F_mF6D1C29476912B2346F242BD8CFF60C1B6EF61B4_gshared)(___0_jobData, ___1_dependsOn, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TransformAccess_get_isValid_mE291D1524BBEBBF8FB07BEB6954F1612C9EF6E89 (TransformAccess_tF0D55E1C5B6B29B618E8A129AB633E2F1100D580* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 TransformAccess_get_localPosition_m966B091D10A9D50533F14B1064C8B7B5473BEA42 (TransformAccess_tF0D55E1C5B6B29B618E8A129AB633E2F1100D580* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 TransformAccess_get_localRotation_mCD20FB3CC27A40749964DFD08DBEEBAD14C0CFA0 (TransformAccess_tF0D55E1C5B6B29B618E8A129AB633E2F1100D580* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void GetCustomHandLocalPosesJob_Execute_m2BDD259FEA2D6FA94CE788C681C6B45DD31FE675 (GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, TransformAccess_tF0D55E1C5B6B29B618E8A129AB633E2F1100D580 ___1_transform, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void WriteCharacterHandLocalPosesJob_Execute_mDF5543E9E8CFB5C9B115A8C9C8C3C0F3F9F082E4 (WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) ;
+inline bool NativeArray_1_get_IsCreated_mD24A174276905BA38E8992234D3A387A1BDF2E97_inline (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*, const RuntimeMethod*))NativeArray_1_get_IsCreated_mD24A174276905BA38E8992234D3A387A1BDF2E97_gshared_inline)(__this, method);
+}
+inline void NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6 (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*, const RuntimeMethod*))NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TransformAccessArray_get_isCreated_m27A01F9644D14864AAF311A87959DF8705A0B142 (TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransformAccessArray_Dispose_mC0775DCFFE41173544615D7031AC028D653C4186 (TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4* __this, const RuntimeMethod* method) ;
+inline bool NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*, const RuntimeMethod*))NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_gshared_inline)(__this, method);
+}
+inline void NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method)
+{
+	((  void (*) (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*, const RuntimeMethod*))NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MSDKUtility_GetSkeletonTPose_mEB00F62F8BE628CECC7EB522E63116A18E83FA84 (uint64_t ___0_handle, int32_t ___1_skeletonType, int32_t ___2_tposeType, int32_t ___3_jointSpaceType, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___4_transformArray, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JointPairU5BU5D_t497D50D5A83F1CF02B5650B119ED2977C0131C9E* CharacterRetargeterConfig_get_JointPairs_m26419DBAD2EAAA3E9759B8106B21FB7B768E1242_inline (CharacterRetargeterConfig_tD8FF2B4F325BC140BE821B1083EA466B12F72877* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningData_Initialize_mB65CDF271343C91484870B65DE11E9BCE9A1AC73 (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_characterRetargeter, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___1_localTPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningSkeletalProcessor_UpdateHipPinningObjectRotation_mA7677C745A5209BFAEE82250742F6A3C2D96FCDA (HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_initialHipRotation, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_currentHipRotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
+inline JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 IJobExtensions_Schedule_TisHipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902_mD3FC83CE3C2AB0D956F022BB8452FB6DAE0404BA (HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902 ___0_jobData, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependsOn, const RuntimeMethod* method)
+{
+	return ((  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 (*) (HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, const RuntimeMethod*))IJobExtensions_Schedule_TisHipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902_mD3FC83CE3C2AB0D956F022BB8452FB6DAE0404BA_gshared)(___0_jobData, ___1_dependsOn, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningData_Solve_m24A512C063E5A9830D533C3D707830C8F4DCB6B2 (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_SignedAngle_m76C77F9D7BAF5969FA5B7500ED2D5FF9F9FA4153_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_from, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_to, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_axis, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80 (float ___0_angle, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_axis, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_FromToRotation_mCB3100F93637E72455388B901C36EF8A25DFDB9A (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_fromDirection, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_toDirection, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IKUtilities_SolveCCDIK_m7B3E85EF919F323202D7303B0E8595E3D9D8AE2A (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_bones, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_targetPosition, float ___2_tolerance, float ___3_maxIterations, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void HipPinningJob_Execute_mEC177E59C8EF67F449E226C4F7CA6E7A469251AB (HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) ;
+inline void Action_2__ctor_mACCF66E6123363194544D2A59FB5D27047C15FD8 (Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_mACCF66E6123363194544D2A59FB5D27047C15FD8_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A (String_t* ___0_name, const RuntimeMethod* method) ;
+inline AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* CharacterRetargeter_GetTargetProcessor_TisAnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D_m3C90E7B408FFB2B8A9EBABBB99C25D5DB023140D (CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* __this, const RuntimeMethod* method)
+{
+	return ((  AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* (*) (CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533*, const RuntimeMethod*))CharacterRetargeter_GetTargetProcessor_TisRuntimeObject_mCCA462296DD551BA0483E6E9477F437877C24D37_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_current, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_target, float ___2_maxDistanceDelta, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_RotateTowards_m50EF9D609C80CD423CDA856EA3481DE2004633A3_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_from, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_to, float ___2_maxDegreesDelta, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TargetProcessor_get_Weight_m4A7A06AC5A45C9069F17B94E1EABD3771B64D6FC_inline (TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1 (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetFloat_m2CDA219BBAB214F4069C9844780EBCE6CCF579F5 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, int32_t ___0_id, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_MoveTowards_m69751B5EC50D8E7127D4BB2C8D908E38808AF45D_inline (float ___0_current, float ___1_target, float ___2_maxDelta, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TargetProcessor_set_Weight_mDAE70E3A4BE77C664837F04683E61D468C254574_inline (TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LocomotionEvent_get_Translation_m30955E2197430BDBD58E8E13F4AB5389A0CC914D_inline (LocomotionEvent_tECDD51A234545203F40F068C91D2745873285642* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LocomotionEvent_get_Rotation_m17D423D1279F818504AB3E3F0CA0ECE99CC1D82C_inline (LocomotionEvent_tECDD51A234545203F40F068C91D2745873285642* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MSDKUtilityHelper_TransformVector_mA15252A542ECE487FC31345F38EAE7C182577015 (NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 ___0_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MSDKUtilityHelper_InverseTransformVector_m6E11E89AA8C31230A739DE0C0677776E7E7AFA43 (NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 ___0_t, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_upwards, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IKUtilities_IsTargetUnreachable_m52147AD1E2565D4A347F9DFEE6E2444992575704 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_target, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___1_joints, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___2_distanceToNextJoint, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKUtilities_CachePoses_m149BAEAB7B9C2F754F56256C4E48490D06F0022F (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_joints, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB** ___1_cachedPoses, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB** ___2_finalPoses, QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7** ___3_rotationalChanges, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKUtilities_RunFABRIK_m72931B4A66AA55E3464B74BFB1ABF41A0425E487 (bool ___0_targetIsUnreachable, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_distanceToNextJoint, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_target, float ___3_targetTolerance, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___4_fabrikPoses, int32_t ___5_maxIterations, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKUtilities_FixJointRotations_m3CE34137CDF9C82FCDCB3D26356DD82889621DD9 (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_joints, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___1_oldPoses, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___2_cachedFABRIKPoses, QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* ___3_rotationDeltas, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKUtilities_WritePosesToJoints_m4C6DCAD2416380BB62DA89A3085385FA233650A3 (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_joints, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___1_cachedFabrikPoses, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IKUtilities_WasFABRIKSuccessful_mA1A8874A39E0FCF745FCE0A1CF8C344DA67F096C (float ___0_targetTolerance, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_target, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___2_joints, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 IKUtilities_GetRotationChange_m7480E25B7FB40919C90888E60D36C5339984D143 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_oldJointPosition, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_oldJointTargetPosition, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_newJointPosition, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_newTargetPosition, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 IKUtilities_GetBoneWorldPosition_m7E586BA6E42D63840C82F9F4CFDB8B90627D29E0 (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___0_poses, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rootPosition, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rootRotation, int32_t ___3_boneIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 IKUtilities_GetBoneWorldRotation_mEE1F1A9D42C23309083E1E6247E6C371E2480767 (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___0_poses, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rootRotation, int32_t ___2_boneIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 IKUtilities_GetBoneDeltaRotationWithEffectorTowardGoal_m832DCC58BB2CA43A002D97EC75E897F8BBF58170 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_effectorPosition, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_bonePosition, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_goalPosition, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKUtilities_ApplyPosesToTransforms_m9E2C834E8A34201B3B3867D38B82C3DCD1047533 (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___0_poses, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___1_bones, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 IKUtilities_GetBoneWorldPosition_m9B19F9836D7928E81802DFE93BFE143E48476ED5 (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_bonesEndEffectorFirst, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rootPosition, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rootRotation, int32_t ___3_boneIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 IKUtilities_GetBoneWorldRotation_m683ACA61C579D5C04CA1B17B76448787C4CC268F (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_bonesEndEffectorFirst, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rootRotation, int32_t ___2_boneIndex, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Angle_mB16906B482814C140FE5BA9D041D2DC11E42A68D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_from, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_to, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Angle_mAADDBB3C30736B4C7B75CF3A241C1CF5E0386C26_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_SlerpUnclamped_mAE7F4DF2F239831CCAA1DFB52F313E5AED52D32D (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8_gshared)(__this, ___0_item, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Dot_mF9D3BE33940A47979DADA7E81650AEB356D5D12B_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_inline (float ___0_dot, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123551
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandBodyJointPair__ctor_mC744353A9E500D461682D750EFA938FE982B670E (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE* __this, int32_t ___0_handJointId, int32_t ___1_bodyJointId, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:173>
+		int32_t L_0 = ___0_handJointId;
+		__this->___HandJointID = L_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:174>
+		int32_t L_1 = ___1_bodyJointId;
+		__this->___BodyJointID = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:175>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void HandBodyJointPair__ctor_mC744353A9E500D461682D750EFA938FE982B670E_AdjustorThunk (RuntimeObject* __this, int32_t ___0_handJointId, int32_t ___1_bodyJointId, const RuntimeMethod* method)
+{
+	HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE*>(__this + _offset);
+	HandBodyJointPair__ctor_mC744353A9E500D461682D750EFA938FE982B670E(_thisAdjusted, ___0_handJointId, ___1_bodyJointId, method);
+}
+// Method Definition Index: 123552
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA (ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB ___0_tuple, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:181>
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_0 = ___0_tuple;
+		int32_t L_1 = L_0.___Item1;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_2 = ___0_tuple;
+		int32_t L_3 = L_2.___Item2;
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		HandBodyJointPair__ctor_mC744353A9E500D461682D750EFA938FE982B670E((&L_4), L_1, L_3, NULL);
+		return L_4;
+	}
+}
+// Method Definition Index: 123553
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandBodyJointPair__cctor_m305BCDE95FCB9E5787518B9252F496D8CB75AFE2 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:32>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:33>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:34>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:35>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:36>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:37>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:38>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:39>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:40>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:41>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:42>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:43>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:44>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:45>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:47>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:49>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:50>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:52>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:54>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:55>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:57>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:58>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:59>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:60>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:61>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:62>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:63>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:64>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:65>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:66>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:67>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:68>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:69>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:70>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:71>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:72>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:73>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:74>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:75>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:76>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:77>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:78>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:79>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:80>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:81>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:82>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:83>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:84>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:85>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:86>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:87>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:90>
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_0 = (HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174*)(HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174*)SZArrayNew(HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174_il2cpp_TypeInfo_var, (uint32_t)((int32_t)26));
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_1 = L_0;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_2), 1, ((int32_t)19), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_3;
+		L_3 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_2, NULL);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_3);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_4 = L_1;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_5), 0, ((int32_t)18), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_6;
+		L_6 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_5, NULL);
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_6);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_7 = L_4;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_8), 2, ((int32_t)20), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_9;
+		L_9 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_8, NULL);
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_9);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_10 = L_7;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_11), 3, ((int32_t)21), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_12;
+		L_12 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_11, NULL);
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(3), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_12);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_13 = L_10;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_14), 4, ((int32_t)22), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_15;
+		L_15 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_14, NULL);
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(4), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_15);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_16 = L_13;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_17), 6, ((int32_t)24), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_18;
+		L_18 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_17, NULL);
+		NullCheck(L_16);
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(5), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_18);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_19 = L_16;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_20;
+		memset((&L_20), 0, sizeof(L_20));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_20), 7, ((int32_t)25), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_21;
+		L_21 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_20, NULL);
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(6), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_21);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_22 = L_19;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_23), 8, ((int32_t)26), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_24;
+		L_24 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_23, NULL);
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(7), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_24);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_25 = L_22;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_26), ((int32_t)9), ((int32_t)27), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_27;
+		L_27 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_26, NULL);
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(8), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_27);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_28 = L_25;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_29;
+		memset((&L_29), 0, sizeof(L_29));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_29), ((int32_t)11), ((int32_t)29), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_30;
+		L_30 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_29, NULL);
+		NullCheck(L_28);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_30);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_31 = L_28;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_32;
+		memset((&L_32), 0, sizeof(L_32));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_32), ((int32_t)12), ((int32_t)30), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_33;
+		L_33 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_32, NULL);
+		NullCheck(L_31);
+		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_33);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_34 = L_31;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_35;
+		memset((&L_35), 0, sizeof(L_35));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_35), ((int32_t)13), ((int32_t)31), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_36;
+		L_36 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_35, NULL);
+		NullCheck(L_34);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_36);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_37 = L_34;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_38;
+		memset((&L_38), 0, sizeof(L_38));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_38), ((int32_t)14), ((int32_t)32), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_39;
+		L_39 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_38, NULL);
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_39);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_40 = L_37;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_41;
+		memset((&L_41), 0, sizeof(L_41));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_41), ((int32_t)16), ((int32_t)34), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_42;
+		L_42 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_41, NULL);
+		NullCheck(L_40);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_42);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_43 = L_40;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_44;
+		memset((&L_44), 0, sizeof(L_44));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_44), ((int32_t)17), ((int32_t)35), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_45;
+		L_45 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_44, NULL);
+		NullCheck(L_43);
+		(L_43)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_45);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_46 = L_43;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_47;
+		memset((&L_47), 0, sizeof(L_47));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_47), ((int32_t)18), ((int32_t)36), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_48;
+		L_48 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_47, NULL);
+		NullCheck(L_46);
+		(L_46)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_48);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_49 = L_46;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_50;
+		memset((&L_50), 0, sizeof(L_50));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_50), ((int32_t)19), ((int32_t)37), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_51;
+		L_51 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_50, NULL);
+		NullCheck(L_49);
+		(L_49)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)16)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_51);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_52 = L_49;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_53;
+		memset((&L_53), 0, sizeof(L_53));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_53), ((int32_t)21), ((int32_t)39), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_54;
+		L_54 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_53, NULL);
+		NullCheck(L_52);
+		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_54);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_55 = L_52;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_56;
+		memset((&L_56), 0, sizeof(L_56));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_56), ((int32_t)22), ((int32_t)40), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_57;
+		L_57 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_56, NULL);
+		NullCheck(L_55);
+		(L_55)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)18)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_57);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_58 = L_55;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_59;
+		memset((&L_59), 0, sizeof(L_59));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_59), ((int32_t)23), ((int32_t)41), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_60;
+		L_60 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_59, NULL);
+		NullCheck(L_58);
+		(L_58)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)19)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_60);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_61 = L_58;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_62;
+		memset((&L_62), 0, sizeof(L_62));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_62), ((int32_t)24), ((int32_t)42), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_63;
+		L_63 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_62, NULL);
+		NullCheck(L_61);
+		(L_61)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)20)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_63);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_64 = L_61;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_65;
+		memset((&L_65), 0, sizeof(L_65));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_65), 5, ((int32_t)23), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_66;
+		L_66 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_65, NULL);
+		NullCheck(L_64);
+		(L_64)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)21)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_66);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_67 = L_64;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_68;
+		memset((&L_68), 0, sizeof(L_68));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_68), ((int32_t)10), ((int32_t)28), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_69;
+		L_69 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_68, NULL);
+		NullCheck(L_67);
+		(L_67)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)22)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_69);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_70 = L_67;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_71;
+		memset((&L_71), 0, sizeof(L_71));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_71), ((int32_t)15), ((int32_t)33), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_72;
+		L_72 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_71, NULL);
+		NullCheck(L_70);
+		(L_70)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)23)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_72);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_73 = L_70;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_74;
+		memset((&L_74), 0, sizeof(L_74));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_74), ((int32_t)20), ((int32_t)38), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_75;
+		L_75 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_74, NULL);
+		NullCheck(L_73);
+		(L_73)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)24)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_75);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_76 = L_73;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_77;
+		memset((&L_77), 0, sizeof(L_77));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_77), ((int32_t)25), ((int32_t)43), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_78;
+		L_78 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_77, NULL);
+		NullCheck(L_76);
+		(L_76)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)25)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_78);
+		((HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE_StaticFields*)il2cpp_codegen_static_fields_for(HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE_il2cpp_TypeInfo_var))->___LeftHandBodyJointPairs = L_76;
+		Il2CppCodeGenWriteBarrier((void**)(&((HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE_StaticFields*)il2cpp_codegen_static_fields_for(HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE_il2cpp_TypeInfo_var))->___LeftHandBodyJointPairs), (void*)L_76);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:96>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:100>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:103>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:104>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:105>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:106>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:107>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:108>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:109>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:110>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:111>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:112>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:114>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:115>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:118>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:119>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:120>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:121>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:122>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:123>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:124>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:125>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:126>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:127>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:128>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:130>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:139>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:140>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:142>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:145>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:146>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:147>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:149>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:150>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:151>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:152>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:153>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SourceProcessors/ISDKSkeletalProcessor.cs:154>
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_79 = (HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174*)(HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174*)SZArrayNew(HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174_il2cpp_TypeInfo_var, (uint32_t)((int32_t)26));
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_80 = L_79;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_81;
+		memset((&L_81), 0, sizeof(L_81));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_81), 1, ((int32_t)45), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_82;
+		L_82 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_81, NULL);
+		NullCheck(L_80);
+		(L_80)->SetAt(static_cast<il2cpp_array_size_t>(0), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_82);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_83 = L_80;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_84;
+		memset((&L_84), 0, sizeof(L_84));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_84), 0, ((int32_t)44), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_85;
+		L_85 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_84, NULL);
+		NullCheck(L_83);
+		(L_83)->SetAt(static_cast<il2cpp_array_size_t>(1), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_85);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_86 = L_83;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_87;
+		memset((&L_87), 0, sizeof(L_87));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_87), 2, ((int32_t)46), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_88;
+		L_88 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_87, NULL);
+		NullCheck(L_86);
+		(L_86)->SetAt(static_cast<il2cpp_array_size_t>(2), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_88);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_89 = L_86;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_90;
+		memset((&L_90), 0, sizeof(L_90));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_90), 3, ((int32_t)47), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_91;
+		L_91 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_90, NULL);
+		NullCheck(L_89);
+		(L_89)->SetAt(static_cast<il2cpp_array_size_t>(3), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_91);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_92 = L_89;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_93;
+		memset((&L_93), 0, sizeof(L_93));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_93), 4, ((int32_t)48), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_94;
+		L_94 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_93, NULL);
+		NullCheck(L_92);
+		(L_92)->SetAt(static_cast<il2cpp_array_size_t>(4), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_94);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_95 = L_92;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_96;
+		memset((&L_96), 0, sizeof(L_96));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_96), 6, ((int32_t)50), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_97;
+		L_97 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_96, NULL);
+		NullCheck(L_95);
+		(L_95)->SetAt(static_cast<il2cpp_array_size_t>(5), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_97);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_98 = L_95;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_99;
+		memset((&L_99), 0, sizeof(L_99));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_99), 7, ((int32_t)51), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_100;
+		L_100 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_99, NULL);
+		NullCheck(L_98);
+		(L_98)->SetAt(static_cast<il2cpp_array_size_t>(6), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_100);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_101 = L_98;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_102;
+		memset((&L_102), 0, sizeof(L_102));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_102), 8, ((int32_t)52), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_103;
+		L_103 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_102, NULL);
+		NullCheck(L_101);
+		(L_101)->SetAt(static_cast<il2cpp_array_size_t>(7), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_103);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_104 = L_101;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_105;
+		memset((&L_105), 0, sizeof(L_105));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_105), ((int32_t)9), ((int32_t)53), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_106;
+		L_106 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_105, NULL);
+		NullCheck(L_104);
+		(L_104)->SetAt(static_cast<il2cpp_array_size_t>(8), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_106);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_107 = L_104;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_108;
+		memset((&L_108), 0, sizeof(L_108));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_108), ((int32_t)11), ((int32_t)55), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_109;
+		L_109 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_108, NULL);
+		NullCheck(L_107);
+		(L_107)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_109);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_110 = L_107;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_111;
+		memset((&L_111), 0, sizeof(L_111));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_111), ((int32_t)12), ((int32_t)56), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_112;
+		L_112 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_111, NULL);
+		NullCheck(L_110);
+		(L_110)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_112);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_113 = L_110;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_114;
+		memset((&L_114), 0, sizeof(L_114));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_114), ((int32_t)13), ((int32_t)57), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_115;
+		L_115 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_114, NULL);
+		NullCheck(L_113);
+		(L_113)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_115);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_116 = L_113;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_117;
+		memset((&L_117), 0, sizeof(L_117));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_117), ((int32_t)14), ((int32_t)58), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_118;
+		L_118 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_117, NULL);
+		NullCheck(L_116);
+		(L_116)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_118);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_119 = L_116;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_120;
+		memset((&L_120), 0, sizeof(L_120));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_120), ((int32_t)16), ((int32_t)60), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_121;
+		L_121 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_120, NULL);
+		NullCheck(L_119);
+		(L_119)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_121);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_122 = L_119;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_123;
+		memset((&L_123), 0, sizeof(L_123));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_123), ((int32_t)17), ((int32_t)61), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_124;
+		L_124 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_123, NULL);
+		NullCheck(L_122);
+		(L_122)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_124);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_125 = L_122;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_126;
+		memset((&L_126), 0, sizeof(L_126));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_126), ((int32_t)18), ((int32_t)62), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_127;
+		L_127 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_126, NULL);
+		NullCheck(L_125);
+		(L_125)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_127);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_128 = L_125;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_129;
+		memset((&L_129), 0, sizeof(L_129));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_129), ((int32_t)19), ((int32_t)63), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_130;
+		L_130 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_129, NULL);
+		NullCheck(L_128);
+		(L_128)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)16)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_130);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_131 = L_128;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_132;
+		memset((&L_132), 0, sizeof(L_132));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_132), ((int32_t)21), ((int32_t)65), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_133;
+		L_133 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_132, NULL);
+		NullCheck(L_131);
+		(L_131)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_133);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_134 = L_131;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_135;
+		memset((&L_135), 0, sizeof(L_135));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_135), ((int32_t)22), ((int32_t)66), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_136;
+		L_136 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_135, NULL);
+		NullCheck(L_134);
+		(L_134)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)18)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_136);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_137 = L_134;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_138;
+		memset((&L_138), 0, sizeof(L_138));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_138), ((int32_t)23), ((int32_t)67), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_139;
+		L_139 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_138, NULL);
+		NullCheck(L_137);
+		(L_137)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)19)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_139);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_140 = L_137;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_141;
+		memset((&L_141), 0, sizeof(L_141));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_141), ((int32_t)24), ((int32_t)68), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_142;
+		L_142 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_141, NULL);
+		NullCheck(L_140);
+		(L_140)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)20)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_142);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_143 = L_140;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_144;
+		memset((&L_144), 0, sizeof(L_144));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_144), 5, ((int32_t)49), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_145;
+		L_145 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_144, NULL);
+		NullCheck(L_143);
+		(L_143)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)21)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_145);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_146 = L_143;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_147;
+		memset((&L_147), 0, sizeof(L_147));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_147), ((int32_t)10), ((int32_t)54), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_148;
+		L_148 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_147, NULL);
+		NullCheck(L_146);
+		(L_146)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)22)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_148);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_149 = L_146;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_150;
+		memset((&L_150), 0, sizeof(L_150));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_150), ((int32_t)15), ((int32_t)59), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_151;
+		L_151 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_150, NULL);
+		NullCheck(L_149);
+		(L_149)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)23)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_151);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_152 = L_149;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_153;
+		memset((&L_153), 0, sizeof(L_153));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_153), ((int32_t)20), ((int32_t)64), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_154;
+		L_154 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_153, NULL);
+		NullCheck(L_152);
+		(L_152)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)24)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_154);
+		HandBodyJointPairU5BU5D_t9D0CCC067FD99B6F9B2CB05D7C9250C1BF590174* L_155 = L_152;
+		ValueTuple_2_t65592B480209F96BF746DD32434DAFD8914568AB L_156;
+		memset((&L_156), 0, sizeof(L_156));
+		ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9((&L_156), ((int32_t)25), ((int32_t)69), ValueTuple_2__ctor_m3891A19D3E1B4E3FC2BD7BCB80091A4F9F6D0BF9_RuntimeMethod_var);
+		HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE L_157;
+		L_157 = HandBodyJointPair_op_Implicit_mD1F2487F634654D87B4E082C51946AC0DD6A7ECA(L_156, NULL);
+		NullCheck(L_155);
+		(L_155)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)25)), (HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE)L_157);
+		((HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE_StaticFields*)il2cpp_codegen_static_fields_for(HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE_il2cpp_TypeInfo_var))->___RightHandBodyJointPairs = L_155;
+		Il2CppCodeGenWriteBarrier((void**)(&((HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE_StaticFields*)il2cpp_codegen_static_fields_for(HandBodyJointPair_t0F626F464D13B1CE4862F520FDD053E102BA9BEE_il2cpp_TypeInfo_var))->___RightHandBodyJointPairs), (void*)L_155);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123554
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TargetProcessor_get_Weight_m4A7A06AC5A45C9069F17B94E1EABD3771B64D6FC (TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessor.cs:38>
+		float L_0 = __this->____weight;
+		return L_0;
+	}
+}
+// Method Definition Index: 123555
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetProcessor_set_Weight_mDAE70E3A4BE77C664837F04683E61D468C254574 (TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessor.cs:39>
+		float L_0 = ___0_value;
+		__this->____weight = L_0;
+		return;
+	}
+}
+// Method Definition Index: 123560
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetProcessor__ctor_m7A34D70B43FEFB1D20A3B61E4899D52FDC9B7DE4 (TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessor.cs:47>
+		__this->____weight = (1.0f);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessor.cs:53>
+		__this->____isFoldoutExpanded = (bool)1;
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123561
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TargetProcessorContainer_get_CurrentProcessorType_m8834C1F453C028F85CCA15A7C9DBACD35607BD76 (TargetProcessorContainer_t8D3D38243B67B16EF0E81F0B6E1D5CC6F0E69815* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessorContainer.cs:17>
+		int32_t L_0 = __this->____currentProcessorType;
+		return L_0;
+	}
+}
+// Method Definition Index: 123562
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5* TargetProcessorContainer_GetCurrentProcessor_mC8A1D464EF5A4BAA1EF4C938019EB6D9A16CAEE6 (TargetProcessorContainer_t8D3D38243B67B16EF0E81F0B6E1D5CC6F0E69815* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5* V_2 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessorContainer.cs:74>
+		int32_t L_0 = __this->____currentProcessorType;
+		V_1 = L_0;
+		int32_t L_1 = V_1;
+		V_0 = L_1;
+		int32_t L_2 = V_0;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_2, 1)))
+		{
+			case 0:
+			{
+				goto IL_0030;
+			}
+			case 1:
+			{
+				goto IL_0039;
+			}
+			case 2:
+			{
+				goto IL_0042;
+			}
+			case 3:
+			{
+				goto IL_004b;
+			}
+			case 4:
+			{
+				goto IL_0054;
+			}
+			case 5:
+			{
+				goto IL_005d;
+			}
+			case 6:
+			{
+				goto IL_0066;
+			}
+		}
+	}
+	{
+		goto IL_006f;
+	}
+
+IL_0030:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessorContainer.cs:77>
+		TwistSkeletalProcessor_t7DE24125E85EAAD40734573C30C9B5FB3AEFB34E* L_3 = __this->____twistProcessor;
+		V_2 = L_3;
+		goto IL_0073;
+	}
+
+IL_0039:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessorContainer.cs:79>
+		AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* L_4 = __this->____animationProcessor;
+		V_2 = L_4;
+		goto IL_0073;
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessorContainer.cs:81>
+		LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* L_5 = __this->____locomotionProcessor;
+		V_2 = L_5;
+		goto IL_0073;
+	}
+
+IL_004b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessorContainer.cs:83>
+		CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* L_6 = __this->____ccdProcessor;
+		V_2 = L_6;
+		goto IL_0073;
+	}
+
+IL_0054:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessorContainer.cs:85>
+		HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* L_7 = __this->____handProcessor;
+		V_2 = L_7;
+		goto IL_0073;
+	}
+
+IL_005d:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessorContainer.cs:87>
+		HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* L_8 = __this->____hipPinningProcessor;
+		V_2 = L_8;
+		goto IL_0073;
+	}
+
+IL_0066:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessorContainer.cs:89>
+		CustomProcessor_t1C6BC472E61F0934CCC3920AB460E6C206219944* L_9 = __this->____customProcessor;
+		V_2 = L_9;
+		goto IL_0073;
+	}
+
+IL_006f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessorContainer.cs:91>
+		V_2 = (TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)NULL;
+		goto IL_0073;
+	}
+
+IL_0073:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessorContainer.cs:93>
+		TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5* L_10 = V_2;
+		return L_10;
+	}
+}
+// Method Definition Index: 123563
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetProcessorContainer__ctor_m25B71B2831C6808FF9A2B18D861BDD2AA1B82D7F (TargetProcessorContainer_t8D3D38243B67B16EF0E81F0B6E1D5CC6F0E69815* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123564
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* AnimationSkeletalProcessor_get_AnimBlendIndices_m70C0C100460B04FE5CFA118CC58011EFFD27A28D (AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:84>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_0 = __this->____animBlendIndices;
+		return L_0;
+	}
+}
+// Method Definition Index: 123565
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationSkeletalProcessor_set_AnimBlendIndices_mE8E4A7E765049A8817AAB1BD8A534119E4CAF2A0 (AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* __this, TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:85>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_0 = ___0_value;
+		__this->____animBlendIndices = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____animBlendIndices), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123566
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationSkeletalProcessor_Initialize_mDC427A632BF3DE55E93C717F2842543AC5453814 (AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_retargeter, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_mD36831FA83409A960B0E23FA0303873EC8EC5BD0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:99>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:100>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_0 = ___0_retargeter;
+		NullCheck(L_0);
+		uint64_t L_1;
+		L_1 = CharacterRetargeter_get_RetargetingHandle_mEEE86C51359EC442E2947FC308BFF5A0E7E19FCB(L_0, NULL);
+		int32_t* L_2 = (int32_t*)(&__this->____rootJointIndex);
+		bool L_3;
+		L_3 = MSDKUtility_GetJointIndexByKnownJointType_m456D0764FC8044D8971A511E6E647F0DE6159856(L_1, 1, 0, L_2, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:101>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:102>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:103>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_4 = ___0_retargeter;
+		NullCheck(L_4);
+		uint64_t L_5;
+		L_5 = CharacterRetargeter_get_RetargetingHandle_mEEE86C51359EC442E2947FC308BFF5A0E7E19FCB(L_4, NULL);
+		int32_t* L_6 = (int32_t*)(&__this->____hipsJointIndex);
+		bool L_7;
+		L_7 = MSDKUtility_GetJointIndexByKnownJointType_m456D0764FC8044D8971A511E6E647F0DE6159856(L_5, 1, 1, L_6, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:104>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_8 = __this->____animBlendIndices;
+		NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		NativeArray_1__ctor_mD36831FA83409A960B0E23FA0303873EC8EC5BD0((&L_9), L_8, 4, NativeArray_1__ctor_mD36831FA83409A960B0E23FA0303873EC8EC5BD0_RuntimeMethod_var);
+		__this->____nativeBlendIndices = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:105>
+		return;
+	}
+}
+// Method Definition Index: 123567
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationSkeletalProcessor_Destroy_mFDD41D545DCF16DF3041FCDAE73BFF001DAD8B29 (AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_mF45D215FAA9CFDB84A992C4F761FF43E80276F9B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:110>
+		NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C* L_0 = (NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C*)(&__this->____nativeBlendIndices);
+		NativeArray_1_Dispose_mF45D215FAA9CFDB84A992C4F761FF43E80276F9B(L_0, NativeArray_1_Dispose_mF45D215FAA9CFDB84A992C4F761FF43E80276F9B_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:111>
+		return;
+	}
+}
+// Method Definition Index: 123568
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationSkeletalProcessor_UpdatePose_mDFB7E6028DD0EB5A4E5E492A4BD339B86A3539F6 (AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_pose, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:116>
+		return;
+	}
+}
+// Method Definition Index: 123569
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationSkeletalProcessor_LateUpdatePose_m8F9F5BF7258DB7710C95C8E596C0B19419B55150 (AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_currentPose, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IJobExtensions_Schedule_TisBlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769_mF2D38F3893A3165E57154DC1B45B4D0A922B9BF2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:126>
+		float L_0 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		V_1 = (bool)((((int32_t)((!(((float)L_0) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:128>
+		goto IL_0088;
+	}
+
+IL_0018:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:131>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:132>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:133>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:134>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:135>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:136>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:137>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:138>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:139>
+		il2cpp_codegen_initobj((&V_2), sizeof(BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769));
+		float L_2 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		(&V_2)->___Weight = L_2;
+		int32_t L_3 = __this->____rootJointIndex;
+		(&V_2)->___RootIndex = L_3;
+		int32_t L_4 = __this->____hipsJointIndex;
+		(&V_2)->___HipsIndex = L_4;
+		NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C L_5 = __this->____nativeBlendIndices;
+		(&V_2)->___BlendIndices = L_5;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_6 = ___0_currentPose;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_7 = (*(NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)L_6);
+		(&V_2)->___SourcePose = L_7;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_8 = ___1_targetPose;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_9 = (*(NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)L_8);
+		(&V_2)->___TargetPose = L_9;
+		BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769 L_10 = V_2;
+		V_0 = L_10;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:140>
+		BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769 L_11 = V_0;
+		il2cpp_codegen_initobj((&V_3), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_12 = V_3;
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_13;
+		L_13 = IJobExtensions_Schedule_TisBlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769_mF2D38F3893A3165E57154DC1B45B4D0A922B9BF2(L_11, L_12, IJobExtensions_Schedule_TisBlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769_mF2D38F3893A3165E57154DC1B45B4D0A922B9BF2_RuntimeMethod_var);
+		V_3 = L_13;
+		JobHandle_Complete_mDCED35A125AAB37EDDAB2E31C805B4904B614A4A((&V_3), NULL);
+	}
+
+IL_0088:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:141>
+		return;
+	}
+}
+// Method Definition Index: 123570
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationSkeletalProcessor__ctor_m2C1D40516364DECBF55580169E657102926CB1D4 (AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* __this, const RuntimeMethod* method) 
+{
+	{
+		TargetProcessor__ctor_m7A34D70B43FEFB1D20A3B61E4899D52FDC9B7DE4(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123571
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void BlendAnimationJob_Execute_m59431636285E81C417ECA8BDB4011BC341375EFF (BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	float V_8 = 0.0f;
+	int32_t V_9 = 0;
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	bool V_12 = false;
+	bool V_13 = false;
+	int32_t G_B12_0 = 0;
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 G_B17_0;
+	memset((&G_B17_0), 0, sizeof(G_B17_0));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:39>
+		V_0 = (bool)0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:40>
+		V_4 = 0;
+		goto IL_0039;
+	}
+
+IL_0008:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:42>
+		NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C* L_0 = (NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C*)(&__this->___BlendIndices);
+		int32_t L_1 = V_4;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_2;
+		L_2 = IL2CPP_NATIVEARRAY_GET_ITEM(TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2, (L_0)->___m_Buffer, L_1);
+		int32_t L_3 = L_2.___Index;
+		int32_t L_4 = __this->___HipsIndex;
+		V_5 = (bool)((((int32_t)((((int32_t)L_3) == ((int32_t)L_4))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_5 = V_5;
+		if (!L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:44>
+		goto IL_0033;
+	}
+
+IL_002f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:47>
+		V_0 = (bool)1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:48>
+		goto IL_004e;
+	}
+
+IL_0033:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:40>
+		int32_t L_6 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+	}
+
+IL_0039:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:40>
+		int32_t L_7 = V_4;
+		NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C* L_8 = (NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C*)(&__this->___BlendIndices);
+		int32_t L_9;
+		L_9 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_8)->___m_Length);
+		V_6 = (bool)((((int32_t)L_7) < ((int32_t)L_9))? 1 : 0);
+		bool L_10 = V_6;
+		if (L_10)
+		{
+			goto IL_0008;
+		}
+	}
+
+IL_004e:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:51>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_11 = (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)(&__this->___SourcePose);
+		int32_t L_12 = __this->___HipsIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_13;
+		L_13 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_11)->___m_Buffer, L_12);
+		V_1 = L_13;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:52>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_14 = (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)(&__this->___TargetPose);
+		int32_t L_15 = __this->___HipsIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_16;
+		L_16 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_14)->___m_Buffer, L_15);
+		V_2 = L_16;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:53>
+		bool L_17 = V_0;
+		V_7 = L_17;
+		bool L_18 = V_7;
+		if (!L_18)
+		{
+			goto IL_00c8;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:55>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_19 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = L_19.___Position;
+		float L_21 = L_20.___y;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_22 = (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)(&__this->___TargetPose);
+		int32_t L_23 = __this->___RootIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_24;
+		L_24 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_22)->___m_Buffer, L_23);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = L_24.___Position;
+		float L_26 = L_25.___y;
+		V_8 = ((float)il2cpp_codegen_subtract(L_21, L_26));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:57>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_27 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = L_27.___Position;
+		float L_29 = L_28.___x;
+		float L_30 = V_8;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_31 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = L_31.___Position;
+		float L_33 = L_32.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_34), L_29, L_30, L_33, NULL);
+		(&V_1)->___Position = L_34;
+	}
+
+IL_00c8:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:61>
+		V_3 = 0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:62>
+		V_9 = 0;
+		goto IL_018c;
+	}
+
+IL_00d2:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:64>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_35 = (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)(&__this->___TargetPose);
+		int32_t L_36 = V_9;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_37;
+		L_37 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_35)->___m_Buffer, L_36);
+		V_10 = L_37;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:65>
+		int32_t L_38 = V_3;
+		NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C* L_39 = (NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C*)(&__this->___BlendIndices);
+		int32_t L_40;
+		L_40 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_39)->___m_Length);
+		if ((((int32_t)L_38) >= ((int32_t)L_40)))
+		{
+			goto IL_0107;
+		}
+	}
+	{
+		NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C* L_41 = (NativeArray_1_t501EEF079D42AAF8E9223DAD1AD636F9E9A6EB0C*)(&__this->___BlendIndices);
+		int32_t L_42 = V_3;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_43;
+		L_43 = IL2CPP_NATIVEARRAY_GET_ITEM(TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2, (L_41)->___m_Buffer, L_42);
+		int32_t L_44;
+		L_44 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_43, NULL);
+		int32_t L_45 = V_9;
+		G_B12_0 = ((((int32_t)L_44) > ((int32_t)L_45))? 1 : 0);
+		goto IL_0108;
+	}
+
+IL_0107:
+	{
+		G_B12_0 = 1;
+	}
+
+IL_0108:
+	{
+		V_12 = (bool)G_B12_0;
+		bool L_46 = V_12;
+		if (!L_46)
+		{
+			goto IL_0111;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:67>
+		goto IL_0186;
+	}
+
+IL_0111:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:70>
+		int32_t L_47 = V_9;
+		int32_t L_48 = __this->___HipsIndex;
+		bool L_49 = V_0;
+		if (((int32_t)(((((int32_t)L_47) == ((int32_t)L_48))? 1 : 0)&(int32_t)L_49)))
+		{
+			goto IL_012e;
+		}
+	}
+	{
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_50 = (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)(&__this->___SourcePose);
+		int32_t L_51 = V_9;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_52;
+		L_52 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_50)->___m_Buffer, L_51);
+		G_B17_0 = L_52;
+		goto IL_012f;
+	}
+
+IL_012e:
+	{
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_53 = V_1;
+		G_B17_0 = L_53;
+	}
+
+IL_012f:
+	{
+		V_11 = G_B17_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:71>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_54 = V_10;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_55 = L_54.___Orientation;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_56 = V_11;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_57 = L_56.___Orientation;
+		float L_58 = __this->___Weight;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_59;
+		L_59 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15(L_55, L_57, L_58, NULL);
+		(&V_10)->___Orientation = L_59;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:72>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_60 = V_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = L_60.___Position;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_62 = V_11;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63 = L_62.___Position;
+		float L_64 = __this->___Weight;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65;
+		L_65 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_61, L_63, L_64, NULL);
+		(&V_10)->___Position = L_65;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:73>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_66 = (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)(&__this->___TargetPose);
+		int32_t L_67 = V_9;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_68 = V_10;
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_66)->___m_Buffer, L_67, (L_68));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:74>
+		int32_t L_69 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_69, 1));
+	}
+
+IL_0186:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:62>
+		int32_t L_70 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_70, 1));
+	}
+
+IL_018c:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:62>
+		int32_t L_71 = V_9;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_72 = (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)(&__this->___TargetPose);
+		int32_t L_73;
+		L_73 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_72)->___m_Length);
+		V_13 = (bool)((((int32_t)L_71) < ((int32_t)L_73))? 1 : 0);
+		bool L_74 = V_13;
+		if (L_74)
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/AnimationSkeletalProcessor.cs:76>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void BlendAnimationJob_Execute_m59431636285E81C417ECA8BDB4011BC341375EFF_AdjustorThunk (RuntimeObject* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method)
+{
+	BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<BlendAnimationJob_tC750B55EE10D9FC49EF9307E71652CE1436E7769*>(__this + _offset);
+	BlendAnimationJob_Execute_m59431636285E81C417ECA8BDB4011BC341375EFF(_thisAdjusted, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123572
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9* CCDSkeletalProcessor_get_CCDData_m8E2F262C3C23BD48A306052C3943280F9BA92EB0 (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:93>
+		CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9* L_0 = __this->____ccdData;
+		return L_0;
+	}
+}
+// Method Definition Index: 123573
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCDSkeletalProcessor_Initialize_m233D2557B2F88970632558397C34CA169EF58856 (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_retargeter, const RuntimeMethod* method) 
+{
+	CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9* V_0 = NULL;
+	int32_t V_1 = 0;
+	CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:106>
+		CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9* L_0 = __this->____ccdData;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_002c;
+	}
+
+IL_000d:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:106>
+		CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_2 = L_4;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:108>
+		CCDSkeletalData_Validate_mC470C165B34975FD266D9B6C2A077CA95E673F54((&V_2), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:109>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_5 = ___0_retargeter;
+		CCDSkeletalData_Initialize_m4128A1A9C87E0D335BAAB17C81CC349269BE3A45((&V_2), L_5, NULL);
+		int32_t L_6 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+	}
+
+IL_002c:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:106>
+		int32_t L_7 = V_1;
+		CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9* L_8 = V_0;
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length)))))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:112>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_9 = ___0_retargeter;
+		__this->____characterRetargeter = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____characterRetargeter), (void*)L_9);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:113>
+		return;
+	}
+}
+// Method Definition Index: 123574
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCDSkeletalProcessor_Destroy_mB4937C215E88D8E4480DC808146C333A82A80C1A (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:118>
+		return;
+	}
+}
+// Method Definition Index: 123575
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCDSkeletalProcessor_UpdatePose_m1008123749064134F169263F0CA1787B09DC3C4D (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_pose, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:123>
+		return;
+	}
+}
+// Method Definition Index: 123576
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCDSkeletalProcessor_LateUpdatePose_m0E58D9C2975C501AD11199541EFA21209B0333FA (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_currentPose, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPoseLocal, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9* V_1 = NULL;
+	int32_t V_2 = 0;
+	CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:130>
+		float L_0 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		V_0 = (bool)((((int32_t)((!(((float)L_0) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:132>
+		goto IL_0041;
+	}
+
+IL_0018:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:135>
+		CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9* L_2 = __this->____ccdData;
+		V_1 = L_2;
+		V_2 = 0;
+		goto IL_003b;
+	}
+
+IL_0024:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:135>
+		CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9* L_3 = V_1;
+		int32_t L_4 = V_2;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_3 = L_6;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:137>
+		CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB L_7 = V_3;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_8 = ___1_targetPoseLocal;
+		CCDSkeletalProcessor_RunCCDOnSkeletalData_m20D66D61B882F63141A687555E2A5F653FACB1D1(__this, L_7, L_8, NULL);
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_003b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:135>
+		int32_t L_10 = V_2;
+		CCDSkeletalDataU5BU5D_tE2EA2AD655EA42C6C5931EC16D3617540487ABE9* L_11 = V_1;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)))))
+		{
+			goto IL_0024;
+		}
+	}
+
+IL_0041:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:139>
+		return;
+	}
+}
+// Method Definition Index: 123577
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCDSkeletalProcessor_RunCCDOnSkeletalData_m20D66D61B882F63141A687555E2A5F653FACB1D1 (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB ___0_ccdData, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPoseLocal, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SkeletonUtilities_t583D4C09F4CCD8A4A4BE33022C14FEFE49C5C977_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3F8F85202A2B970E34F74F0545F3D0607228FA8A);
+		s_Il2CppMethodInitialized = true;
+	}
+	TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	bool V_13 = false;
+	bool V_14 = false;
+	int32_t V_15 = 0;
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_17;
+	memset((&V_17), 0, sizeof(V_17));
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_18;
+	memset((&V_18), 0, sizeof(V_18));
+	bool V_19 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:145>
+		CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB L_0 = ___0_ccdData;
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_1 = L_0.___IKChain;
+		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:146>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_2 = __this->____characterRetargeter;
+		NullCheck(L_2);
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_3;
+		L_3 = CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline(L_2, NULL);
+		NullCheck(L_3);
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_4 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&L_3->___TargetParentIndices);
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_5 = V_0;
+		NullCheck(L_5);
+		int32_t L_6 = 0;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_7 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		int32_t L_8;
+		L_8 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_7, NULL);
+		int32_t L_9;
+		L_9 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_4)->___m_Buffer, L_8);
+		V_1 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:147>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_10 = V_0;
+		NullCheck(L_10);
+		V_2 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_10)->max_length)), 1));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:149>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_11 = __this->____characterRetargeter;
+		NullCheck(L_11);
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_12;
+		L_12 = CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline(L_11, NULL);
+		NullCheck(L_12);
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_13 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&L_12->___TargetParentIndices);
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_14 = V_0;
+		int32_t L_15 = V_2;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		int32_t L_18;
+		L_18 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_17, NULL);
+		int32_t L_19;
+		L_19 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_13)->___m_Buffer, L_18);
+		V_3 = L_19;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:151>
+		int32_t L_20 = V_1;
+		if ((((int32_t)L_20) == ((int32_t)(-1))))
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		int32_t L_21 = V_3;
+		G_B3_0 = ((((int32_t)L_21) == ((int32_t)(-1)))? 1 : 0);
+		goto IL_005d;
+	}
+
+IL_005c:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_005d:
+	{
+		V_13 = (bool)G_B3_0;
+		bool L_22 = V_13;
+		if (!L_22)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:153>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral3F8F85202A2B970E34F74F0545F3D0607228FA8A, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:154>
+		goto IL_0250;
+	}
+
+IL_0074:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:158>
+		CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB L_23 = ___0_ccdData;
+		bool L_24;
+		L_24 = CCDSkeletalProcessor_GetTargetPosition_m5A5B784B9EE51B9D12E0DFEA985DA6373458ABA9(__this, L_23, (&V_4), NULL);
+		V_14 = (bool)((((int32_t)L_24) == ((int32_t)0))? 1 : 0);
+		bool L_25 = V_14;
+		if (!L_25)
+		{
+			goto IL_008c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:160>
+		goto IL_0250;
+	}
+
+IL_008c:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:164>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:165>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:166>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:168>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_26 = __this->____characterRetargeter;
+		NullCheck(L_26);
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_27;
+		L_27 = CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline(L_26, NULL);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_28 = ___1_targetPoseLocal;
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_29 = __this->____characterRetargeter;
+		NullCheck(L_29);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
+		L_30 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_29, NULL);
+		NullCheck(L_30);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_30, NULL);
+		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_32;
+		memset((&L_32), 0, sizeof(L_32));
+		Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2((&L_32), L_31, Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_33 = __this->____characterRetargeter;
+		NullCheck(L_33);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
+		L_34 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_33, NULL);
+		NullCheck(L_34);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_35;
+		L_35 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_34, NULL);
+		Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25 L_36;
+		memset((&L_36), 0, sizeof(L_36));
+		Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A((&L_36), L_35, Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(SkeletonUtilities_t583D4C09F4CCD8A4A4BE33022C14FEFE49C5C977_il2cpp_TypeInfo_var);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_37;
+		L_37 = SkeletonUtilities_ComputeWorldPoses_mC9358FFB91AEE2BD4B11F38AF25F44B4E8DA9AA4(L_27, L_28, L_32, L_36, NULL);
+		V_5 = L_37;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:169>
+		int32_t L_38 = V_1;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_39;
+		L_39 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_5))->___m_Buffer, L_38);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = L_39.___Position;
+		int32_t L_41 = V_1;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_42;
+		L_42 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_5))->___m_Buffer, L_41);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_43 = L_42.___Orientation;
+		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&V_6), L_40, L_43, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:170>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_44 = V_0;
+		int32_t L_45 = V_2;
+		NullCheck(L_44);
+		int32_t L_46 = L_45;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_47 = (L_44)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		V_7 = L_47;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:171>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:172>
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_48 = V_7;
+		int32_t L_49;
+		L_49 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_48, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_50;
+		L_50 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_5))->___m_Buffer, L_49);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = L_50.___Position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_4;
+		float L_53 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54;
+		L_54 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_51, L_52, L_53, NULL);
+		V_8 = L_54;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:175>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_55 = V_0;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_56 = ___1_targetPoseLocal;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_57;
+		L_57 = CCDSkeletalProcessor_GetIKChainEndFirst_mA70A76389B0A77DE53F46128015E308277F1364D(__this, L_55, L_56, NULL);
+		V_9 = L_57;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:178>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:179>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_58 = V_6;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_59 = V_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60 = V_8;
+		CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB L_61 = ___0_ccdData;
+		float L_62 = L_61.___Tolerance;
+		CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB L_63 = ___0_ccdData;
+		int32_t L_64 = L_63.___MaxIterations;
+		bool L_65;
+		L_65 = IKUtilities_SolveCCDIKLocalNativeArray_m060B6B5CBF26BA8B53DB4068CB28F75B1051BADD(L_58, L_59, L_60, L_62, ((float)L_64), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:183>
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_66 = V_7;
+		int32_t L_67;
+		L_67 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_66, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_68;
+		L_68 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_5))->___m_Buffer, L_67);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_69 = L_68.___Orientation;
+		V_10 = L_69;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:184>
+		V_15 = 0;
+		goto IL_01b0;
+	}
+
+IL_0152:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:186>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_70 = V_0;
+		int32_t L_71 = V_15;
+		NullCheck(L_70);
+		int32_t L_72 = L_71;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_73 = (L_70)->GetAt(static_cast<il2cpp_array_size_t>(L_72));
+		V_16 = L_73;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:188>
+		int32_t L_74 = V_2;
+		int32_t L_75 = V_15;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_76;
+		L_76 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_9))->___m_Buffer, ((int32_t)il2cpp_codegen_subtract(L_74, L_75)));
+		V_17 = L_76;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:189>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_77 = ___1_targetPoseLocal;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_78 = V_16;
+		int32_t L_79;
+		L_79 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_78, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_80;
+		L_80 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_77)->___m_Buffer, L_79);
+		V_18 = L_80;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:190>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:191>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_81 = V_18;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_82 = L_81.___Orientation;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_83 = V_17;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_84 = L_83.___Orientation;
+		float L_85 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_86;
+		L_86 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15(L_82, L_84, L_85, NULL);
+		(&V_18)->___Orientation = L_86;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:192>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_87 = ___1_targetPoseLocal;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_88 = V_16;
+		int32_t L_89;
+		L_89 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_88, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_90 = V_18;
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_87)->___m_Buffer, L_89, (L_90));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:184>
+		int32_t L_91 = V_15;
+		V_15 = ((int32_t)il2cpp_codegen_add(L_91, 1));
+	}
+
+IL_01b0:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:184>
+		int32_t L_92 = V_15;
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_93 = V_0;
+		NullCheck(L_93);
+		V_19 = (bool)((((int32_t)L_92) < ((int32_t)((int32_t)(((RuntimeArray*)L_93)->max_length))))? 1 : 0);
+		bool L_94 = V_19;
+		if (L_94)
+		{
+			goto IL_0152;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:195>
+		NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032((&V_5), NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:198>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:199>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:200>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_95 = __this->____characterRetargeter;
+		NullCheck(L_95);
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_96;
+		L_96 = CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline(L_95, NULL);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_97 = ___1_targetPoseLocal;
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_98 = __this->____characterRetargeter;
+		NullCheck(L_98);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_99;
+		L_99 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_98, NULL);
+		NullCheck(L_99);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_100;
+		L_100 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_99, NULL);
+		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_101;
+		memset((&L_101), 0, sizeof(L_101));
+		Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2((&L_101), L_100, Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_102 = __this->____characterRetargeter;
+		NullCheck(L_102);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_103;
+		L_103 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_102, NULL);
+		NullCheck(L_103);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_104;
+		L_104 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_103, NULL);
+		Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25 L_105;
+		memset((&L_105), 0, sizeof(L_105));
+		Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A((&L_105), L_104, Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(SkeletonUtilities_t583D4C09F4CCD8A4A4BE33022C14FEFE49C5C977_il2cpp_TypeInfo_var);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_106;
+		L_106 = SkeletonUtilities_ComputeWorldPoses_mC9358FFB91AEE2BD4B11F38AF25F44B4E8DA9AA4(L_96, L_97, L_101, L_105, NULL);
+		V_5 = L_106;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:205>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_107 = ___1_targetPoseLocal;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_108 = V_7;
+		int32_t L_109;
+		L_109 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_108, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_110;
+		L_110 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_107)->___m_Buffer, L_109);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_111 = L_110.___Position;
+		V_11 = L_111;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:206>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:207>
+		int32_t L_112 = V_3;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_113;
+		L_113 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_5))->___m_Buffer, L_112);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_114 = L_113.___Orientation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_115;
+		L_115 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_114, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_116 = V_10;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_117;
+		L_117 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_115, L_116, NULL);
+		V_12 = L_117;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:208>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:209>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_118 = ___1_targetPoseLocal;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_119 = V_7;
+		int32_t L_120;
+		L_120 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_119, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_121 = V_12;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_122 = V_11;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_123;
+		memset((&L_123), 0, sizeof(L_123));
+		NativeTransform__ctor_mCDA3BB298187AFBE12F8B1F0027980CB65CBE200((&L_123), L_121, L_122, NULL);
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_118)->___m_Buffer, L_120, (L_123));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:210>
+		NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032((&V_5), NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032_RuntimeMethod_var);
+	}
+
+IL_0250:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:211>
+		return;
+	}
+}
+// Method Definition Index: 123578
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 CCDSkeletalProcessor_GetIKChainEndFirst_mA70A76389B0A77DE53F46128015E308277F1364D (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* ___0_ikChain, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPoseLocal, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_m018651076DF9934BB5F9C88A179C94132F8CAD72_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:216>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:217>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_0 = ___0_ikChain;
+		NullCheck(L_0);
+		NativeArray_1__ctor_m018651076DF9934BB5F9C88A179C94132F8CAD72((&V_0), ((int32_t)(((RuntimeArray*)L_0)->max_length)), 2, 0, NativeArray_1__ctor_m018651076DF9934BB5F9C88A179C94132F8CAD72_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:218>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_1 = ___0_ikChain;
+		NullCheck(L_1);
+		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_1)->max_length)), 1));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:219>
+		int32_t L_2 = V_1;
+		V_2 = L_2;
+		goto IL_003a;
+	}
+
+IL_0017:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:221>
+		int32_t L_3 = V_1;
+		int32_t L_4 = V_2;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_5 = ___1_targetPoseLocal;
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_6 = ___0_ikChain;
+		int32_t L_7 = V_2;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		int32_t L_10;
+		L_10 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_9, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_11;
+		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_5)->___m_Buffer, L_10);
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_0))->___m_Buffer, ((int32_t)il2cpp_codegen_subtract(L_3, L_4)), (L_11));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:219>
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
+	}
+
+IL_003a:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:219>
+		int32_t L_13 = V_2;
+		V_3 = (bool)((((int32_t)((((int32_t)L_13) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_14 = V_3;
+		if (L_14)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:224>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_15 = V_0;
+		V_4 = L_15;
+		goto IL_004a;
+	}
+
+IL_004a:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:225>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_16 = V_4;
+		return L_16;
+	}
+}
+// Method Definition Index: 123579
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 CCDSkeletalProcessor_GetTargetRelativeToEffectorParent_mC2D7A9F5E1E6BF4E7DD568FA053F09D5D13002AE (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, int32_t ___0_endEffectorParentIndex, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___1_targetWorldPose, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_targetPositionWorldLerp, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_rootScale, const RuntimeMethod* method) 
+{
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:230>
+		int32_t L_0 = ___0_endEffectorParentIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_1;
+		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___1_targetWorldPose))->___m_Buffer, L_0);
+		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:231>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:232>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_2 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = L_2.___Orientation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
+		L_4 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_3, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___2_targetPositionWorldLerp;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_6 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = L_6.___Position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_5, L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_4, L_8, NULL);
+		V_1 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:233>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:234>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___3_rootScale;
+		float L_12 = L_11.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___3_rootScale;
+		float L_14 = L_13.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = ___3_rootScale;
+		float L_16 = L_15.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_17), ((float)((1.0f)/L_12)), ((float)((1.0f)/L_14)), ((float)((1.0f)/L_16)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Vector3_Scale_m7C3CD199271902D5C00CBF35CD230DEB62B68CAE_inline(L_10, L_17, NULL);
+		V_2 = L_18;
+		goto IL_005c;
+	}
+
+IL_005c:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:235>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_2;
+		return L_19;
+	}
+}
+// Method Definition Index: 123580
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CCDSkeletalProcessor_GetTargetPosition_m5A5B784B9EE51B9D12E0DFEA985DA6373458ABA9 (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB ___0_ccdData, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_targetPosition, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TargetType_tB366D9D8F2FB27D3F1B1EE43CC4C77E66000DB77_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral382069F1B6E66B55CBE469E79247224459D8641D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAEBBB10A3D03A63B11A94AF04221A64D6FEC92D0);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	bool V_3 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:239>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___1_targetPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_0 = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:241>
+		CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB L_2 = ___0_ccdData;
+		int32_t L_3 = L_2.___TargetType;
+		V_1 = L_3;
+		int32_t L_4 = V_1;
+		V_0 = L_4;
+		int32_t L_5 = V_0;
+		switch (L_5)
+		{
+			case 0:
+			{
+				goto IL_002d;
+			}
+			case 1:
+			{
+				goto IL_0062;
+			}
+			case 2:
+			{
+				goto IL_006e;
+			}
+			case 3:
+			{
+				goto IL_007a;
+			}
+		}
+	}
+	{
+		goto IL_0085;
+	}
+
+IL_002d:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:244>
+		CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB L_6 = ___0_ccdData;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = L_6.___Target;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_2 = L_8;
+		bool L_9 = V_2;
+		if (!L_9)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:246>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral382069F1B6E66B55CBE469E79247224459D8641D, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:247>
+		V_3 = (bool)0;
+		goto IL_00a4;
+	}
+
+IL_004d:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:250>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = ___1_targetPosition;
+		CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB L_11 = ___0_ccdData;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = L_11.___Target;
+		NullCheck(L_12);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_10 = L_13;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:251>
+		V_3 = (bool)1;
+		goto IL_00a4;
+	}
+
+IL_0062:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:254>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_14 = ___1_targetPosition;
+		bool L_15;
+		L_15 = CCDSkeletalProcessor_GetTrackedPosition_m75107C7CB77946DA5C04031F5A1940BBEF99BAD8(__this, ((int32_t)19), L_14, NULL);
+		V_3 = L_15;
+		goto IL_00a4;
+	}
+
+IL_006e:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:257>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_16 = ___1_targetPosition;
+		bool L_17;
+		L_17 = CCDSkeletalProcessor_GetTrackedPosition_m75107C7CB77946DA5C04031F5A1940BBEF99BAD8(__this, ((int32_t)45), L_16, NULL);
+		V_3 = L_17;
+		goto IL_00a4;
+	}
+
+IL_007a:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:260>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_18 = ___1_targetPosition;
+		bool L_19;
+		L_19 = CCDSkeletalProcessor_GetTrackedPosition_m75107C7CB77946DA5C04031F5A1940BBEF99BAD8(__this, 7, L_18, NULL);
+		V_3 = L_19;
+		goto IL_00a4;
+	}
+
+IL_0085:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:263>
+		CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB L_20 = ___0_ccdData;
+		int32_t L_21 = L_20.___TargetType;
+		int32_t L_22 = L_21;
+		RuntimeObject* L_23 = Box(TargetType_tB366D9D8F2FB27D3F1B1EE43CC4C77E66000DB77_il2cpp_TypeInfo_var, &L_22);
+		String_t* L_24;
+		L_24 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralAEBBB10A3D03A63B11A94AF04221A64D6FEC92D0, L_23, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_24, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:264>
+		V_3 = (bool)0;
+		goto IL_00a4;
+	}
+
+IL_00a4:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:266>
+		bool L_25 = V_3;
+		return L_25;
+	}
+}
+// Method Definition Index: 123581
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CCDSkeletalProcessor_GetTrackedPosition_m75107C7CB77946DA5C04031F5A1940BBEF99BAD8 (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, int32_t ___0_boneId, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_targetPosition, const RuntimeMethod* method) 
+{
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	bool V_3 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:270>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___1_targetPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_0 = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:271>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_2 = __this->____characterRetargeter;
+		NullCheck(L_2);
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_3;
+		L_3 = CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline(L_2, NULL);
+		NullCheck(L_3);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_4 = L_3->___SourcePose;
+		V_0 = L_4;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:272>
+		int32_t L_5 = ___0_boneId;
+		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:273>
+		int32_t L_6 = V_1;
+		int32_t L_7;
+		L_7 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_0))->___m_Length);
+		V_2 = (bool)((((int32_t)((((int32_t)L_6) < ((int32_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_2;
+		if (!L_8)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:275>
+		V_3 = (bool)0;
+		goto IL_004c;
+	}
+
+IL_0035:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:278>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_9 = ___1_targetPosition;
+		int32_t L_10 = V_1;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_11;
+		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_0))->___m_Buffer, L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = L_11.___Position;
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_9 = L_12;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:279>
+		V_3 = (bool)1;
+		goto IL_004c;
+	}
+
+IL_004c:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:280>
+		bool L_13 = V_3;
+		return L_13;
+	}
+}
+// Method Definition Index: 123582
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCDSkeletalProcessor__ctor_mCB738D842433DF1F771120F83470C89C9545C22C (CCDSkeletalProcessor_t680DEC3E9205258705947A4E5DBE86670AA41E03* __this, const RuntimeMethod* method) 
+{
+	{
+		TargetProcessor__ctor_m7A34D70B43FEFB1D20A3B61E4899D52FDC9B7DE4(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshal_pinvoke(const CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB& unmarshaled, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB____Target_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB____Target_FieldInfo_var, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___TargetException, NULL);
+}
+IL2CPP_EXTERN_C void CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshal_pinvoke_back(const CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshaled_pinvoke& marshaled, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB____Target_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB____Target_FieldInfo_var, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___TargetException, NULL);
+}
+IL2CPP_EXTERN_C void CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshal_pinvoke_cleanup(CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshal_com(const CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB& unmarshaled, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB____Target_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB____Target_FieldInfo_var, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___TargetException, NULL);
+}
+IL2CPP_EXTERN_C void CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshal_com_back(const CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshaled_com& marshaled, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB____Target_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB____Target_FieldInfo_var, CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___TargetException, NULL);
+}
+IL2CPP_EXTERN_C void CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshal_com_cleanup(CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB_marshaled_com& marshaled)
+{
+}
+// Method Definition Index: 123583
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCDSkeletalData_Validate_mC470C165B34975FD266D9B6C2A077CA95E673F54 (CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC48B6378DD58D2F823093DAA596BBF6D53338DCD);
+		s_Il2CppMethodInitialized = true;
+	}
+	TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* V_0 = NULL;
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:72>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_0 = __this->___IKChain;
+		V_0 = L_0;
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_2 = V_0;
+		NullCheck(L_2);
+		G_B3_0 = ((((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))) > ((int32_t)0))? 1 : 0);
+		goto IL_0014;
+	}
+
+IL_0013:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0014:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)G_B3_0, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:73>
+		int32_t L_3 = __this->___TargetType;
+		V_1 = (bool)((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:75>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->___Target;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_m390B3F48332F46CE76AB45491A60ACDCCF521AAE(L_6, _stringLiteralC48B6378DD58D2F823093DAA596BBF6D53338DCD, NULL);
+	}
+
+IL_0040:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:77>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void CCDSkeletalData_Validate_mC470C165B34975FD266D9B6C2A077CA95E673F54_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB*>(__this + _offset);
+	CCDSkeletalData_Validate_mC470C165B34975FD266D9B6C2A077CA95E673F54(_thisAdjusted, method);
+}
+// Method Definition Index: 123584
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CCDSkeletalData_Initialize_m4128A1A9C87E0D335BAAB17C81CC349269BE3A45 (CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_characterRetargeter, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CCDSkeletalProcessor.cs:87>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void CCDSkeletalData_Initialize_m4128A1A9C87E0D335BAAB17C81CC349269BE3A45_AdjustorThunk (RuntimeObject* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_characterRetargeter, const RuntimeMethod* method)
+{
+	CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<CCDSkeletalData_tB4F333D31EBDD6DE74345A92C28F4842FA2B13CB*>(__this + _offset);
+	CCDSkeletalData_Initialize_m4128A1A9C87E0D335BAAB17C81CC349269BE3A45(_thisAdjusted, ___0_characterRetargeter, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123585
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* CustomProcessor_get_CustomBehaviour_m24FE4F4D5551A63ADCCCE092E129D038E148B79B (CustomProcessor_t1C6BC472E61F0934CCC3920AB460E6C206219944* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessor.cs:18>
+		CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* L_0 = __this->____customBehavior;
+		return L_0;
+	}
+}
+// Method Definition Index: 123586
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomProcessor_set_CustomBehaviour_m76DFC1C01A688E9C7DEB278138665B1C6E0C9AC4 (CustomProcessor_t1C6BC472E61F0934CCC3920AB460E6C206219944* __this, CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessor.cs:19>
+		CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* L_0 = ___0_value;
+		__this->____customBehavior = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____customBehavior), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123587
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomProcessor_Initialize_mA913FA64D343333447F9D69173E66E0772A6C0EE (CustomProcessor_t1C6BC472E61F0934CCC3920AB460E6C206219944* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_retargeter, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessor.cs:31>
+		CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* L_0 = __this->____customBehavior;
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_1 = ___0_retargeter;
+		NullCheck(L_0);
+		VirtualActionInvoker1< CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* >::Invoke(4, L_0, L_1);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessor.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 123588
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomProcessor_Destroy_m5FD3A52236558F8823D341B5C38102EEE7D1C707 (CustomProcessor_t1C6BC472E61F0934CCC3920AB460E6C206219944* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessor.cs:37>
+		CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* L_0 = __this->____customBehavior;
+		NullCheck(L_0);
+		VirtualActionInvoker0::Invoke(5, L_0);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessor.cs:38>
+		return;
+	}
+}
+// Method Definition Index: 123589
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomProcessor_UpdatePose_m5915DB054E5277D7FD1C8E86D25236CF28B92CC4 (CustomProcessor_t1C6BC472E61F0934CCC3920AB460E6C206219944* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_pose, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessor.cs:43>
+		CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* L_0 = __this->____customBehavior;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_1 = ___0_pose;
+		float L_2 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		NullCheck(L_0);
+		VirtualActionInvoker2< NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*, float >::Invoke(6, L_0, L_1, L_2);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessor.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 123590
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomProcessor_LateUpdatePose_m3DC943FFC84D6F00A8F7755DEDEEFD69557D3655 (CustomProcessor_t1C6BC472E61F0934CCC3920AB460E6C206219944* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_currentPose, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPoseLocal, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessor.cs:51>
+		CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* L_0 = __this->____customBehavior;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_1 = ___0_currentPose;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_2 = ___1_targetPoseLocal;
+		float L_3 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		NullCheck(L_0);
+		VirtualActionInvoker3< NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*, float >::Invoke(7, L_0, L_1, L_2, L_3);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessor.cs:52>
+		return;
+	}
+}
+// Method Definition Index: 123591
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomProcessor__ctor_m042C443D5456D448C090563FAE3C0EA6FF3E1B51 (CustomProcessor_t1C6BC472E61F0934CCC3920AB460E6C206219944* __this, const RuntimeMethod* method) 
+{
+	{
+		TargetProcessor__ctor_m7A34D70B43FEFB1D20A3B61E4899D52FDC9B7DE4(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123592
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomProcessorBehavior_Initialize_m95F41DD41C731DF5439FF6FCE669559B5763E7B7 (CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_retargeter, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessorBehavior.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 123593
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomProcessorBehavior_Destroy_m9CEEE39BA35D55F9E32731FDAA4660410E264A9D (CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessorBehavior.cs:27>
+		return;
+	}
+}
+// Method Definition Index: 123594
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomProcessorBehavior_UpdatePose_m2E94BE20A8947923B9D230DD9D2A8F48925A50DC (CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_pose, float ___1_weight, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessorBehavior.cs:38>
+		return;
+	}
+}
+// Method Definition Index: 123595
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomProcessorBehavior_LateUpdatePose_m6614B93E25632E49C27B67B92E8D39342C3A8EC5 (CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_currentPose, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPose, float ___2_weight, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/CustomProcessorBehavior.cs:51>
+		return;
+	}
+}
+// Method Definition Index: 123596
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomProcessorBehavior__ctor_m7CFDE1FFDC55C983F5C671FEF22B628166D10005 (CustomProcessorBehavior_t221DDC07E8D0A63F21127A049EA775B5384D015C* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123597
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* HandSkeletalProcessor_get_HandsTransform_m06F4EF7495B71C4E208E9DFCE9B6DB9ACC294590 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:181>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____handsTransform;
+		return L_0;
+	}
+}
+// Method Definition Index: 123598
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_HandsTransform_m3DDA6836348E9387C0F4122448E72E7003B41F97 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:182>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_value;
+		__this->____handsTransform = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____handsTransform), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123599
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HandSkeletalProcessor_get_LeftHandTransformName_mC1943F96B3FFBCD22CCA0B3C0C2E61055FFC1C72 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:193>
+		String_t* L_0 = __this->____leftHandTransformName;
+		return L_0;
+	}
+}
+// Method Definition Index: 123600
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_LeftHandTransformName_m0EFF8369029E5D68BEAE8C980F5F586F0053F1AD (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:194>
+		String_t* L_0 = ___0_value;
+		__this->____leftHandTransformName = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____leftHandTransformName), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123601
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HandSkeletalProcessor_get_RightHandTransformName_m8CA65553C842FF2452438FA9EDD6837981001ACC (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:205>
+		String_t* L_0 = __this->____rightHandTransformName;
+		return L_0;
+	}
+}
+// Method Definition Index: 123602
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_RightHandTransformName_m8FC76921D6C8C0B18A14B4DD0C3D2C0CE8DC9627 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:206>
+		String_t* L_0 = ___0_value;
+		__this->____rightHandTransformName = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____rightHandTransformName), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123603
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* HandSkeletalProcessor_get_LeftHandJoints_m442279CACF834003F629353C7928741FF22A0EEE (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:218>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = __this->____leftHandJoints;
+		return L_0;
+	}
+}
+// Method Definition Index: 123604
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_LeftHandJoints_m39981E24032C8965F485F4A3EC0A88A4690DEB7F (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:219>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = ___0_value;
+		__this->____leftHandJoints = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____leftHandJoints), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123605
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* HandSkeletalProcessor_get_RightHandJoints_m3AC761D271F7A6FDE020648809D7F724AD6AE1D6 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:231>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = __this->____rightHandJoints;
+		return L_0;
+	}
+}
+// Method Definition Index: 123606
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_RightHandJoints_m509452455ED6AF310CDF5FB2598FD96140134059 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:232>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = ___0_value;
+		__this->____rightHandJoints = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____rightHandJoints), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123607
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HandSkeletalProcessor_get_UseRetargetedHandRotation_m6FFF61B829DFFD42CCBA78EEF4D2900A7E35EF68 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:243>
+		bool L_0 = __this->____useRetargetedHandRotation;
+		return L_0;
+	}
+}
+// Method Definition Index: 123608
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_UseRetargetedHandRotation_m30D9D421126875BCD8D4D663AA1F99194CD536CF (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:244>
+		bool L_0 = ___0_value;
+		__this->____useRetargetedHandRotation = L_0;
+		return;
+	}
+}
+// Method Definition Index: 123609
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HandSkeletalProcessor_get_MatchFingers_m2D547197D52B7CF02900D221D532F2A9DC6CC079 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:255>
+		bool L_0 = __this->____matchFingers;
+		return L_0;
+	}
+}
+// Method Definition Index: 123610
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_MatchFingers_m92509602AB35483E9C7EE55720B3ECF2CC98F71B (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:256>
+		bool L_0 = ___0_value;
+		__this->____matchFingers = L_0;
+		return;
+	}
+}
+// Method Definition Index: 123611
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HandSkeletalProcessor_get_LimitStretch_mFA7F3E94D9A2348A76F7E23EC75DC612F35FCD52 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:267>
+		bool L_0 = __this->____limitStretch;
+		return L_0;
+	}
+}
+// Method Definition Index: 123612
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_LimitStretch_m19215B604D4C431C04D5D455765DA92756636861 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:268>
+		bool L_0 = ___0_value;
+		__this->____limitStretch = L_0;
+		return;
+	}
+}
+// Method Definition Index: 123613
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandSkeletalProcessor_get_IkIterations_m47C8708C1F1E680117A903243A62123019A84163 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:280>
+		int32_t L_0 = __this->____ikIterations;
+		return L_0;
+	}
+}
+// Method Definition Index: 123614
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_IkIterations_m3E3B00B8623FEC4245A2570E755EA0A2197FA10F (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:281>
+		int32_t L_0 = ___0_value;
+		__this->____ikIterations = L_0;
+		return;
+	}
+}
+// Method Definition Index: 123615
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float HandSkeletalProcessor_get_IkTolerance_m63E6EF2A628134E4944DCC9BF71B85E9426064D9 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:293>
+		float L_0 = __this->____ikTolerance;
+		return L_0;
+	}
+}
+// Method Definition Index: 123616
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_IkTolerance_m9ACAD2E9A0F34CA0DC76BFDF7E6C320EEB849530 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:294>
+		float L_0 = ___0_value;
+		__this->____ikTolerance = L_0;
+		return;
+	}
+}
+// Method Definition Index: 123617
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HandSkeletalProcessor_get_RunSerial_m2E0A06A332AE88D5F3C76237D0D10AF77CABE72C (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:306>
+		bool L_0 = __this->____runSerial;
+		return L_0;
+	}
+}
+// Method Definition Index: 123618
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_RunSerial_m0F246BA3B49474BCD679099CC64D2FC30EE8B2C8 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:307>
+		bool L_0 = ___0_value;
+		__this->____runSerial = L_0;
+		return;
+	}
+}
+// Method Definition Index: 123619
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandSkeletalProcessor_get_Algorithm_mC73FFA4AD134960C126075C8EAB7F567FB5AA263 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:318>
+		int32_t L_0 = __this->____algorithm;
+		return L_0;
+	}
+}
+// Method Definition Index: 123620
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_set_Algorithm_m6A9043624368637205280C7EFAA85647B1D90D1D (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:319>
+		int32_t L_0 = ___0_value;
+		__this->____algorithm = L_0;
+		return;
+	}
+}
+// Method Definition Index: 123621
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_Initialize_m0F9F128D96B31A3B5421769ED32EDB8B6A6473BA (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_retargeter, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_IsNotNull_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_m72240EBB45F7125B8C24DBB73BD98006E5FB6E64_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mA673C9345062B236D8BA0A2E5A7E2318EDF9DAD9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Reverse_mBFAFF0525A15BEE8D9047F24C691E9C05D4FAAF4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m6502F1C29DD2682D6B383565B1CE0317256DF0D0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_ToArray_mE8EF1C5F5517BB045B2BBA5C9D519C3AF4C67ABA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF21A3C274D91C57F9E953BCF59603CF72AA09175);
+		s_Il2CppMethodInitialized = true;
+	}
+	NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	uint64_t V_1 = 0;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_4 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_5 = NULL;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* V_6 = NULL;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* V_7 = NULL;
+	String_t* V_8 = NULL;
+	String_t* V_9 = NULL;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* V_10 = NULL;
+	List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* V_11 = NULL;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* V_12 = NULL;
+	bool V_13 = false;
+	int32_t G_B3_0 = 0;
+	int32_t G_B6_0 = 0;
+	int32_t G_B11_0 = 0;
+	int32_t G_B14_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:403>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_0 = ___0_retargeter;
+		__this->____retargeter = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____retargeter), (void*)L_0);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:404>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->____handsTransform;
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsNotNull_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_m72240EBB45F7125B8C24DBB73BD98006E5FB6E64(L_1, Assert_IsNotNull_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_m72240EBB45F7125B8C24DBB73BD98006E5FB6E64_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:405>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_2 = __this->____leftHandJoints;
+		V_12 = L_2;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_3 = V_12;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_4 = V_12;
+		NullCheck(L_4);
+		G_B3_0 = ((((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))) > ((int32_t)0))? 1 : 0);
+		goto IL_002a;
+	}
+
+IL_0029:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_002a:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)G_B3_0, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:406>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_5 = __this->____rightHandJoints;
+		V_12 = L_5;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_6 = V_12;
+		if (!L_6)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_7 = V_12;
+		NullCheck(L_7);
+		G_B6_0 = ((((int32_t)((int32_t)(((RuntimeArray*)L_7)->max_length))) > ((int32_t)0))? 1 : 0);
+		goto IL_0046;
+	}
+
+IL_0045:
+	{
+		G_B6_0 = 0;
+	}
+
+IL_0046:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)G_B6_0, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:408>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:409>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_8 = ___0_retargeter;
+		NullCheck(L_8);
+		uint64_t L_9;
+		L_9 = CharacterRetargeter_get_RetargetingHandle_mEEE86C51359EC442E2947FC308BFF5A0E7E19FCB(L_8, NULL);
+		bool L_10;
+		L_10 = MSDKUtility_GetParentJointIndexes_m5BD917D29649E780EA4D112B26ECC365BB0E8AB6(L_9, 1, (&V_0), NULL);
+		V_13 = (bool)((((int32_t)L_10) == ((int32_t)0))? 1 : 0);
+		bool L_11 = V_13;
+		if (!L_11)
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:411>
+		Exception_t* L_12 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_12, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDE84FDA2CBB4082BDA60BF436B8A9ABF63977A3B)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&HandSkeletalProcessor_Initialize_m0F9F128D96B31A3B5421769ED32EDB8B6A6473BA_RuntimeMethod_var)));
+	}
+
+IL_006f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:414>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13;
+		L_13 = NativeArray_1_ToArray_mE8EF1C5F5517BB045B2BBA5C9D519C3AF4C67ABA((&V_0), NativeArray_1_ToArray_mE8EF1C5F5517BB045B2BBA5C9D519C3AF4C67ABA_RuntimeMethod_var);
+		__this->____parentJointIndicesTarget = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____parentJointIndicesTarget), (void*)L_13);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:415>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_14 = ___0_retargeter;
+		NullCheck(L_14);
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_15;
+		L_15 = CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline(L_14, NULL);
+		NullCheck(L_15);
+		uint64_t L_16;
+		L_16 = SkeletonRetargeter_get_NativeHandle_mF0092281A661115A641BE710D5285E3D392507E1_inline(L_15, NULL);
+		V_1 = L_16;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:416>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:417>
+		uint64_t L_17 = V_1;
+		bool L_18;
+		L_18 = MSDKUtility_GetKnownJointName_m0B19DBF84C87460E1DB4CEF78FFD6022B083D4D1(L_17, 1, 5, (&V_2), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:419>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:420>
+		uint64_t L_19 = V_1;
+		bool L_20;
+		L_20 = MSDKUtility_GetKnownJointName_m0B19DBF84C87460E1DB4CEF78FFD6022B083D4D1(L_19, 1, 4, (&V_3), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:422>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_21 = ___0_retargeter;
+		NullCheck(L_21);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
+		L_22 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_21, NULL);
+		String_t* L_23 = V_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
+		L_24 = OVRExtensions_FindChildRecursive_m5633F7F37E170C66A576F57D0FF34E99BFC2E9A1(L_22, L_23, NULL);
+		V_4 = L_24;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:423>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_25 = ___0_retargeter;
+		NullCheck(L_25);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
+		L_26 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_25, NULL);
+		String_t* L_27 = V_3;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
+		L_28 = OVRExtensions_FindChildRecursive_m5633F7F37E170C66A576F57D0FF34E99BFC2E9A1(L_26, L_27, NULL);
+		V_5 = L_28;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:424>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = V_4;
+		NullCheck(L_29);
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_30;
+		L_30 = Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837(L_29, (bool)1, Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837_RuntimeMethod_var);
+		V_6 = L_30;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:425>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31 = V_5;
+		NullCheck(L_31);
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_32;
+		L_32 = Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837(L_31, (bool)1, Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837_RuntimeMethod_var);
+		V_7 = L_32;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:427>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:428>
+		uint64_t L_33 = V_1;
+		bool L_34;
+		L_34 = MSDKUtility_GetKnownJointName_m0B19DBF84C87460E1DB4CEF78FFD6022B083D4D1(L_33, 1, 3, (&V_8), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:429>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:430>
+		uint64_t L_35 = V_1;
+		bool L_36;
+		L_36 = MSDKUtility_GetKnownJointName_m0B19DBF84C87460E1DB4CEF78FFD6022B083D4D1(L_35, 1, 2, (&V_9), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:431>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_37 = (ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE*)il2cpp_codegen_object_new(ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE_il2cpp_TypeInfo_var);
+		ArmIKData__ctor_mD4CEA8D0488FE2B047F87AB448CE870866A38165(L_37, NULL);
+		__this->____leftArmIKData = L_37;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____leftArmIKData), (void*)L_37);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:432>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_38 = (ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE*)il2cpp_codegen_object_new(ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE_il2cpp_TypeInfo_var);
+		ArmIKData__ctor_mD4CEA8D0488FE2B047F87AB448CE870866A38165(L_38, NULL);
+		__this->____rightArmIKData = L_38;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____rightArmIKData), (void*)L_38);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:434>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:435>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_39 = ___0_retargeter;
+		NullCheck(L_39);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40;
+		L_40 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_39, NULL);
+		String_t* L_41 = V_8;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
+		L_42 = OVRExtensions_FindChildRecursive_m5633F7F37E170C66A576F57D0FF34E99BFC2E9A1(L_40, L_41, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43 = V_4;
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_44;
+		L_44 = HandSkeletalProcessor_FindTransformsDownChain_m731969AF5D5AC0CCF674E962AB9B36A62D0C89F9(__this, L_42, L_43, NULL);
+		V_10 = L_44;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:436>
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_45 = V_10;
+		NullCheck(L_45);
+		List_1_Reverse_mBFAFF0525A15BEE8D9047F24C691E9C05D4FAAF4(L_45, List_1_Reverse_mBFAFF0525A15BEE8D9047F24C691E9C05D4FAAF4_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:439>
+		uint64_t L_46 = V_1;
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_47 = V_10;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_48 = __this->____leftArmIKData;
+		HandSkeletalProcessor_InitializeArmJointIndices_m7ECBE3AB5BA4D18B84F140C01DFC9AF355EA9E3E(__this, L_46, L_47, L_48, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:440>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_49 = __this->____leftArmIKData;
+		NullCheck(L_49);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_50 = L_49->___ArmJointIndicesReversed;
+		NullCheck(L_50);
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_m390B3F48332F46CE76AB45491A60ACDCCF521AAE((bool)((!(((uint32_t)(((RuntimeArray*)L_50)->max_length)) <= ((uint32_t)0)))? 1 : 0), _stringLiteralF21A3C274D91C57F9E953BCF59603CF72AA09175, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:442>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:443>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_51 = ___0_retargeter;
+		NullCheck(L_51);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_52;
+		L_52 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_51, NULL);
+		String_t* L_53 = V_9;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_54;
+		L_54 = OVRExtensions_FindChildRecursive_m5633F7F37E170C66A576F57D0FF34E99BFC2E9A1(L_52, L_53, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_55 = V_5;
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_56;
+		L_56 = HandSkeletalProcessor_FindTransformsDownChain_m731969AF5D5AC0CCF674E962AB9B36A62D0C89F9(__this, L_54, L_55, NULL);
+		V_10 = L_56;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:444>
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_57 = V_10;
+		NullCheck(L_57);
+		List_1_Reverse_mBFAFF0525A15BEE8D9047F24C691E9C05D4FAAF4(L_57, List_1_Reverse_mBFAFF0525A15BEE8D9047F24C691E9C05D4FAAF4_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:445>
+		uint64_t L_58 = V_1;
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_59 = V_10;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_60 = __this->____rightArmIKData;
+		HandSkeletalProcessor_InitializeArmJointIndices_m7ECBE3AB5BA4D18B84F140C01DFC9AF355EA9E3E(__this, L_58, L_59, L_60, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:446>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_61 = __this->____rightArmIKData;
+		NullCheck(L_61);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_62 = L_61->___ArmJointIndicesReversed;
+		NullCheck(L_62);
+		Assert_IsTrue_m390B3F48332F46CE76AB45491A60ACDCCF521AAE((bool)((!(((uint32_t)(((RuntimeArray*)L_62)->max_length)) <= ((uint32_t)0)))? 1 : 0), _stringLiteralF21A3C274D91C57F9E953BCF59603CF72AA09175, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:448>
+		List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* L_63 = (List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10*)il2cpp_codegen_object_new(List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10_il2cpp_TypeInfo_var);
+		List_1__ctor_m6502F1C29DD2682D6B383565B1CE0317256DF0D0(L_63, List_1__ctor_m6502F1C29DD2682D6B383565B1CE0317256DF0D0_RuntimeMethod_var);
+		V_11 = L_63;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:449>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:450>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:451>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:452>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_64 = V_6;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_65 = __this->____leftHandJoints;
+		HandSkeletalProcessor_FillJointMappings_mBFBD01F2D8E8B8EB3DBD6CD55C83F0527E8C1823(__this, L_64, L_65, (&V_11), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:453>
+		uint64_t L_66 = V_1;
+		List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* L_67 = V_11;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_68 = __this->____leftArmIKData;
+		HandSkeletalProcessor_InitializeTargetToCustomHandAssociation_m8719B6D1FA6F0ECABFE92D7231C1F3E2DA3F1CB5(__this, L_66, L_67, L_68, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:454>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_69 = __this->____leftArmIKData;
+		if (!L_69)
+		{
+			goto IL_01cd;
+		}
+	}
+	{
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_70 = __this->____leftArmIKData;
+		NullCheck(L_70);
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_71 = L_70->___TargetToCustomHand;
+		NullCheck(L_71);
+		G_B11_0 = ((!(((uint32_t)(((RuntimeArray*)L_71)->max_length)) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_01ce;
+	}
+
+IL_01cd:
+	{
+		G_B11_0 = 0;
+	}
+
+IL_01ce:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)G_B11_0, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:456>
+		List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* L_72 = V_11;
+		NullCheck(L_72);
+		List_1_Clear_mA673C9345062B236D8BA0A2E5A7E2318EDF9DAD9_inline(L_72, List_1_Clear_mA673C9345062B236D8BA0A2E5A7E2318EDF9DAD9_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:457>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:458>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:459>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:460>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_73 = V_7;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_74 = __this->____rightHandJoints;
+		HandSkeletalProcessor_FillJointMappings_mBFBD01F2D8E8B8EB3DBD6CD55C83F0527E8C1823(__this, L_73, L_74, (&V_11), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:461>
+		uint64_t L_75 = V_1;
+		List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* L_76 = V_11;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_77 = __this->____rightArmIKData;
+		HandSkeletalProcessor_InitializeTargetToCustomHandAssociation_m8719B6D1FA6F0ECABFE92D7231C1F3E2DA3F1CB5(__this, L_75, L_76, L_77, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:462>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_78 = __this->____rightArmIKData;
+		if (!L_78)
+		{
+			goto IL_0216;
+		}
+	}
+	{
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_79 = __this->____rightArmIKData;
+		NullCheck(L_79);
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_80 = L_79->___TargetToCustomHand;
+		NullCheck(L_80);
+		G_B14_0 = ((!(((uint32_t)(((RuntimeArray*)L_80)->max_length)) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_0217;
+	}
+
+IL_0216:
+	{
+		G_B14_0 = 0;
+	}
+
+IL_0217:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Assert_tDC16963451AC4364803739B73A4477ADCB365863_il2cpp_TypeInfo_var);
+		Assert_IsTrue_mE42C53B7220324D1FBAFB7AE48A7D8DD7796A663((bool)G_B14_0, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:464>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:465>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:466>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:467>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:468>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:469>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_81 = __this->____leftArmIKData;
+		NullCheck(L_81);
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_82 = L_81->___TargetToCustomHand;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_83 = __this->____leftArmIKData;
+		NullCheck(L_83);
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* L_84 = (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*)(&L_83->___CustomHandPoses);
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_85 = __this->____leftArmIKData;
+		NullCheck(L_85);
+		TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4* L_86 = (TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4*)(&L_85->___CustomHandTransforms);
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_87 = __this->____leftArmIKData;
+		NullCheck(L_87);
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_88 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&L_87->___TargetIndices);
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_89 = __this->____leftArmIKData;
+		NullCheck(L_89);
+		GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB* L_90 = (GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB*)(&L_89->___GetCustomHandPosesJob);
+		HandSkeletalProcessor_SetupJob_m7A1A6C7F1FEA07F0106EF93051DC799A90F641F0(__this, L_82, L_84, L_86, L_88, L_90, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:470>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:471>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:472>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:473>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:474>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:475>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_91 = __this->____rightArmIKData;
+		NullCheck(L_91);
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_92 = L_91->___TargetToCustomHand;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_93 = __this->____rightArmIKData;
+		NullCheck(L_93);
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* L_94 = (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*)(&L_93->___CustomHandPoses);
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_95 = __this->____rightArmIKData;
+		NullCheck(L_95);
+		TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4* L_96 = (TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4*)(&L_95->___CustomHandTransforms);
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_97 = __this->____rightArmIKData;
+		NullCheck(L_97);
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_98 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&L_97->___TargetIndices);
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_99 = __this->____rightArmIKData;
+		NullCheck(L_99);
+		GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB* L_100 = (GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB*)(&L_99->___GetCustomHandPosesJob);
+		HandSkeletalProcessor_SetupJob_m7A1A6C7F1FEA07F0106EF93051DC799A90F641F0(__this, L_92, L_94, L_96, L_98, L_100, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:476>
+		return;
+	}
+}
+// Method Definition Index: 123622
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_Destroy_m0C4ED1963E1466BFED25BE6747E0A3EB6F37BEC8 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* G_B2_0 = NULL;
+	ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* G_B1_0 = NULL;
+	ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* G_B5_0 = NULL;
+	ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* G_B4_0 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:481>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_0 = __this->____leftArmIKData;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_1 = L_0;
+		if (L_1)
+		{
+			G_B2_0 = L_1;
+			goto IL_000d;
+		}
+		G_B1_0 = L_1;
+	}
+	{
+		goto IL_0013;
+	}
+
+IL_000d:
+	{
+		NullCheck(G_B2_0);
+		ArmIKData_CleanUp_m834AA835D7A1EEFF401050E8EA62E330ACADBF91(G_B2_0, NULL);
+	}
+
+IL_0013:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:482>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_2 = __this->____rightArmIKData;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_3 = L_2;
+		if (L_3)
+		{
+			G_B5_0 = L_3;
+			goto IL_001f;
+		}
+		G_B4_0 = L_3;
+	}
+	{
+		goto IL_0025;
+	}
+
+IL_001f:
+	{
+		NullCheck(G_B5_0);
+		ArmIKData_CleanUp_m834AA835D7A1EEFF401050E8EA62E330ACADBF91(G_B5_0, NULL);
+	}
+
+IL_0025:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:483>
+		return;
+	}
+}
+// Method Definition Index: 123623
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_UpdatePose_m7D587123D684D49998B3778D0F18C335B033F863 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_pose, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:488>
+		return;
+	}
+}
+// Method Definition Index: 123624
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_LateUpdatePose_m8CF8C8CFBCA3B066DEDC0905418F62A2FA9AF891 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_currentPose, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPoseLocal, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SkeletonUtilities_t583D4C09F4CCD8A4A4BE33022C14FEFE49C5C977_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:495>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:496>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:497>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:498>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:499>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_0 = __this->____retargeter;
+		NullCheck(L_0);
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_1;
+		L_1 = CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline(L_0, NULL);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_2 = ___1_targetPoseLocal;
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_3 = __this->____retargeter;
+		NullCheck(L_3);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_3, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2((&L_6), L_5, Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_7 = __this->____retargeter;
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_7, NULL);
+		NullCheck(L_8);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
+		L_9 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_8, NULL);
+		Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25 L_10;
+		memset((&L_10), 0, sizeof(L_10));
+		Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A((&L_10), L_9, Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(SkeletonUtilities_t583D4C09F4CCD8A4A4BE33022C14FEFE49C5C977_il2cpp_TypeInfo_var);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_11;
+		L_11 = SkeletonUtilities_ComputeWorldPoses_mC9358FFB91AEE2BD4B11F38AF25F44B4E8DA9AA4(L_1, L_2, L_6, L_10, NULL);
+		V_0 = L_11;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:501>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
+		L_12 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		V_1 = L_12;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:502>
+		bool L_13 = __this->____useRetargetedHandRotation;
+		V_2 = L_13;
+		bool L_14 = V_2;
+		if (!L_14)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:506>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:507>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_15 = __this->____leftHandJoints;
+		NullCheck(L_15);
+		int32_t L_16 = 0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_18 = __this->____leftArmIKData;
+		NullCheck(L_18);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = L_18->___ArmJointIndicesReversed;
+		NullCheck(L_19);
+		int32_t L_20 = 0;
+		int32_t L_21 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_22;
+		L_22 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_0))->___m_Buffer, L_21);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_23 = L_22.___Orientation;
+		NullCheck(L_17);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_17, L_23, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:508>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:509>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_24 = __this->____rightHandJoints;
+		NullCheck(L_24);
+		int32_t L_25 = 0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_27 = __this->____rightArmIKData;
+		NullCheck(L_27);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_28 = L_27->___ArmJointIndicesReversed;
+		NullCheck(L_28);
+		int32_t L_29 = 0;
+		int32_t L_30 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_31;
+		L_31 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_0))->___m_Buffer, L_30);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = L_31.___Orientation;
+		NullCheck(L_26);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_26, L_32, NULL);
+		goto IL_00f1;
+	}
+
+IL_009f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:513>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:514>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_33 = ___1_targetPoseLocal;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_34 = (*(NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)L_33);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_35 = V_0;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_36 = __this->____leftHandJoints;
+		NullCheck(L_36);
+		int32_t L_37 = 0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = (L_36)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		NullCheck(L_38);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_39;
+		L_39 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_38, NULL);
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_40 = __this->____leftArmIKData;
+		NullCheck(L_40);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_41 = L_40->___ArmJointIndicesReversed;
+		NullCheck(L_41);
+		int32_t L_42 = 0;
+		int32_t L_43 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+		HandSkeletalProcessor_SetJointRotationToTarget_mED8CE15CAE79B19234BAF243CB25BC88576A102E(__this, L_34, L_35, L_39, L_43, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:515>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:516>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_44 = ___1_targetPoseLocal;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_45 = (*(NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)L_44);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_46 = V_0;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_47 = __this->____rightHandJoints;
+		NullCheck(L_47);
+		int32_t L_48 = 0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_49 = (L_47)->GetAt(static_cast<il2cpp_array_size_t>(L_48));
+		NullCheck(L_49);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50;
+		L_50 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_49, NULL);
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_51 = __this->____rightArmIKData;
+		NullCheck(L_51);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_52 = L_51->___ArmJointIndicesReversed;
+		NullCheck(L_52);
+		int32_t L_53 = 0;
+		int32_t L_54 = (L_52)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		HandSkeletalProcessor_SetJointRotationToTarget_mED8CE15CAE79B19234BAF243CB25BC88576A102E(__this, L_45, L_46, L_50, L_54, NULL);
+	}
+
+IL_00f1:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:518>
+		NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032((&V_0), NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:520>
+		bool L_55 = __this->____runSerial;
+		V_3 = L_55;
+		bool L_56 = V_3;
+		if (!L_56)
+		{
+			goto IL_011a;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:522>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_57 = ___1_targetPoseLocal;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_58 = (*(NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)L_57);
+		float L_59 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		HandSkeletalProcessor_FixLocalFingerPosesSerial_m8E5CEE711F311C61EAE9A04AF307A77A2C8FE508(__this, L_58, L_59, NULL);
+		goto IL_012f;
+	}
+
+IL_011a:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:526>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_60 = ___1_targetPoseLocal;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_61 = (*(NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)L_60);
+		float L_62 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		HandSkeletalProcessor_FixLocalFingerPosesJobs_m46B6422F77DBD974DFD337CACF3E1EA675565B4B(__this, L_61, L_62, NULL);
+	}
+
+IL_012f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:529>
+		int32_t L_63 = __this->____algorithm;
+		V_4 = (bool)((((int32_t)L_63) == ((int32_t)1))? 1 : 0);
+		bool L_64 = V_4;
+		if (!L_64)
+		{
+			goto IL_0174;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:531>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_65 = __this->____leftArmIKData;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_66 = __this->____leftHandJoints;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_67 = ___1_targetPoseLocal;
+		float L_68 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		HandSkeletalProcessor_RunCCDOnSkeletalData_m79F4B5FC1EE667393464DDBB6D2E0D7E28F9AFCB(__this, L_65, L_66, L_67, L_68, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:532>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_69 = __this->____rightArmIKData;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_70 = __this->____rightHandJoints;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_71 = ___1_targetPoseLocal;
+		float L_72 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		HandSkeletalProcessor_RunCCDOnSkeletalData_m79F4B5FC1EE667393464DDBB6D2E0D7E28F9AFCB(__this, L_69, L_70, L_71, L_72, NULL);
+	}
+
+IL_0174:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:534>
+		return;
+	}
+}
+// Method Definition Index: 123625
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_SetJointRotationToTarget_mED8CE15CAE79B19234BAF243CB25BC88576A102E (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_targetPoseLocal, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___1_targetPoseWorld, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_targetRotationWorld, int32_t ___3_armJointIndex, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:541>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->____parentJointIndicesTarget;
+		int32_t L_1 = ___3_armJointIndex;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		int32_t L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_0 = L_3;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:542>
+		int32_t L_4 = V_0;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_5;
+		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___1_targetPoseWorld))->___m_Buffer, L_4);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = L_5.___Orientation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7;
+		L_7 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_6, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = ___2_targetRotationWorld;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
+		L_9 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_7, L_8, NULL);
+		V_1 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:543>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:544>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:545>
+		int32_t L_10 = ___3_armJointIndex;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_11 = V_1;
+		int32_t L_12 = ___3_armJointIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_13;
+		L_13 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___0_targetPoseLocal))->___m_Buffer, L_12);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = L_13.___Position;
+		int32_t L_15 = ___3_armJointIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_16;
+		L_16 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___0_targetPoseLocal))->___m_Buffer, L_15);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = L_16.___Scale;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		NativeTransform__ctor_mDA63D7AB12228914E5B4AA3DA4F92390277D1347((&L_18), L_11, L_14, L_17, NULL);
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___0_targetPoseLocal))->___m_Buffer, L_10, (L_18));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:546>
+		return;
+	}
+}
+// Method Definition Index: 123626
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* HandSkeletalProcessor_FindTransformsDownChain_m731969AF5D5AC0CCF674E962AB9B36A62D0C89F9 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_startingTransform, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_endTransform, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* V_0 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
+	bool V_2 = false;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* V_3 = NULL;
+	int32_t G_B5_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:550>
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_0 = (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*)il2cpp_codegen_object_new(List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_il2cpp_TypeInfo_var);
+		List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268(L_0, List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:551>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = ___0_startingTransform;
+		V_1 = L_1;
+		goto IL_001d;
+	}
+
+IL_000b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:554>
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_2 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = V_1;
+		NullCheck(L_2);
+		List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_inline(L_2, L_3, List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:555>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = V_1;
+		NullCheck(L_4);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_4, 0, NULL);
+		V_1 = L_5;
+	}
+
+IL_001d:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:552>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = V_1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = ___1_endTransform;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, L_9, NULL);
+		G_B5_0 = ((int32_t)(L_10));
+		goto IL_0030;
+	}
+
+IL_002f:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_0030:
+	{
+		V_2 = (bool)G_B5_0;
+		bool L_11 = V_2;
+		if (L_11)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:558>
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_12 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = ___1_endTransform;
+		NullCheck(L_12);
+		List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_inline(L_12, L_13, List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:559>
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_14 = V_0;
+		V_3 = L_14;
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:560>
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_15 = V_3;
+		return L_15;
+	}
+}
+// Method Definition Index: 123627
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_InitializeArmJointIndices_m7ECBE3AB5BA4D18B84F140C01DFC9AF355EA9E3E (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, uint64_t ___0_pluginHandle, List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___1_armBones, ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* ___2_armIkData, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m9BF6C1C74CD711998DC8FAE5D6B8083586F5CFB5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mBAA697FE341E389C86536D9444A3E4AC02109E87_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mCBBD283BB42C56D73B7C4194020EC95292B36129_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m01FCD3FC513065087F7E312BC9DE2D1C3FF655E5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral240CBD9DF61071551A4CC6C010BA10976793ECB1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50DC7EA4962AA8B5E20F5F961628FD5455BA0857);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* V_0 = NULL;
+	Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_2 = NULL;
+	String_t* V_3 = NULL;
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:564>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_0 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_0, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:565>
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_1 = ___1_armBones;
+		NullCheck(L_1);
+		Enumerator_t519AE1DAA64E517296768BEA2E732ED47F76A91D L_2;
+		L_2 = List_1_GetEnumerator_m01FCD3FC513065087F7E312BC9DE2D1C3FF655E5(L_1, List_1_GetEnumerator_m01FCD3FC513065087F7E312BC9DE2D1C3FF655E5_RuntimeMethod_var);
+		V_1 = L_2;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0065:
+			{
+				Enumerator_Dispose_m9BF6C1C74CD711998DC8FAE5D6B8083586F5CFB5((&V_1), Enumerator_Dispose_m9BF6C1C74CD711998DC8FAE5D6B8083586F5CFB5_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_005a_1;
+			}
+
+IL_0011_1:
+			{
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:565>
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+				L_3 = Enumerator_get_Current_mCBBD283BB42C56D73B7C4194020EC95292B36129_inline((&V_1), Enumerator_get_Current_mCBBD283BB42C56D73B7C4194020EC95292B36129_RuntimeMethod_var);
+				V_2 = L_3;
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:567>
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = V_2;
+				NullCheck(L_4);
+				String_t* L_5;
+				L_5 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_4, NULL);
+				V_3 = L_5;
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:568>
+				uint64_t L_6 = ___0_pluginHandle;
+				String_t* L_7 = V_3;
+				bool L_8;
+				L_8 = MSDKUtility_GetJointIndex_mF1FA498EEAFE3A44A94E6A6A1DF0A04F2791EC36(L_6, 1, L_7, (&V_4), NULL);
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:569>
+				int32_t L_9 = V_4;
+				V_5 = (bool)((((int32_t)L_9) < ((int32_t)0))? 1 : 0);
+				bool L_10 = V_5;
+				if (!L_10)
+				{
+					goto IL_0050_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:571>
+				String_t* L_11 = V_3;
+				String_t* L_12;
+				L_12 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral50DC7EA4962AA8B5E20F5F961628FD5455BA0857, L_11, _stringLiteral240CBD9DF61071551A4CC6C010BA10976793ECB1, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_12, NULL);
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:572>
+				goto IL_005a_1;
+			}
+
+IL_0050_1:
+			{
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:575>
+				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_13 = V_0;
+				int32_t L_14 = V_4;
+				NullCheck(L_13);
+				List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_13, L_14, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+			}
+
+IL_005a_1:
+			{
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:565>
+				bool L_15;
+				L_15 = Enumerator_MoveNext_mBAA697FE341E389C86536D9444A3E4AC02109E87((&V_1), Enumerator_MoveNext_mBAA697FE341E389C86536D9444A3E4AC02109E87_RuntimeMethod_var);
+				if (L_15)
+				{
+					goto IL_0011_1;
+				}
+			}
+			{
+				goto IL_0074;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0074:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:578>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_16 = ___2_armIkData;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_17 = V_0;
+		NullCheck(L_17);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_18;
+		L_18 = List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA(L_17, List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
+		NullCheck(L_16);
+		L_16->___ArmJointIndicesReversed = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&L_16->___ArmJointIndicesReversed), (void*)L_18);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:579>
+		return;
+	}
+}
+// Method Definition Index: 123628
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_FillJointMappings_mBFBD01F2D8E8B8EB3DBD6CD55C83F0527E8C1823 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_characterBonesHand, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___1_customHandBones, List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10** ___2_mappedCharacterDataBones, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m3151BF67C010FC809DC9FB763BA0E3BF6B27E950_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Tuple_2__ctor_mA05CE69762F62419AD54A7941390F8E69A1BE398_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE0C46BB9BCAEE8617DFE8694EB9A0435DD9D41AD);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_2 = NULL;
+	Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* V_3 = NULL;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* V_4 = NULL;
+	int32_t V_5 = 0;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_6 = NULL;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:585>
+		V_0 = 1;
+		goto IL_0081;
+	}
+
+IL_0005:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:587>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = ___1_customHandBones;
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		V_1 = L_3;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:588>
+		V_2 = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:590>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_4 = ___0_characterBonesHand;
+		V_4 = L_4;
+		V_5 = 0;
+		goto IL_0042;
+	}
+
+IL_0015:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:590>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_5 = V_4;
+		int32_t L_6 = V_5;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		V_6 = L_8;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:592>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = V_6;
+		NullCheck(L_9);
+		String_t* L_10;
+		L_10 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_9, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = V_1;
+		NullCheck(L_11);
+		String_t* L_12;
+		L_12 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_11, NULL);
+		bool L_13;
+		L_13 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_10, L_12, NULL);
+		V_7 = L_13;
+		bool L_14 = V_7;
+		if (!L_14)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:594>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = V_6;
+		V_2 = L_15;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:595>
+		goto IL_004a;
+	}
+
+IL_003b:
+	{
+		int32_t L_16 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:590>
+		int32_t L_17 = V_5;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_18 = V_4;
+		NullCheck(L_18);
+		if ((((int32_t)L_17) < ((int32_t)((int32_t)(((RuntimeArray*)L_18)->max_length)))))
+		{
+			goto IL_0015;
+		}
+	}
+
+IL_004a:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:599>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_20;
+		L_20 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_8 = L_20;
+		bool L_21 = V_8;
+		if (!L_21)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:601>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22 = V_1;
+		String_t* L_23;
+		L_23 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralE0C46BB9BCAEE8617DFE8694EB9A0435DD9D41AD, L_22, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_23, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:602>
+		goto IL_007d;
+	}
+
+IL_006b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:605>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = V_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = V_1;
+		Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* L_26 = (Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D*)il2cpp_codegen_object_new(Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D_il2cpp_TypeInfo_var);
+		Tuple_2__ctor_mA05CE69762F62419AD54A7941390F8E69A1BE398(L_26, L_24, L_25, Tuple_2__ctor_mA05CE69762F62419AD54A7941390F8E69A1BE398_RuntimeMethod_var);
+		V_3 = L_26;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:606>
+		List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10** L_27 = ___2_mappedCharacterDataBones;
+		List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* L_28 = *((List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10**)L_27);
+		Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* L_29 = V_3;
+		NullCheck(L_28);
+		List_1_Add_m3151BF67C010FC809DC9FB763BA0E3BF6B27E950_inline(L_28, L_29, List_1_Add_m3151BF67C010FC809DC9FB763BA0E3BF6B27E950_RuntimeMethod_var);
+	}
+
+IL_007d:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:585>
+		int32_t L_30 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_30, 1));
+	}
+
+IL_0081:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:585>
+		int32_t L_31 = V_0;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_32 = ___1_customHandBones;
+		NullCheck(L_32);
+		V_9 = (bool)((((int32_t)L_31) < ((int32_t)((int32_t)(((RuntimeArray*)L_32)->max_length))))? 1 : 0);
+		bool L_33 = V_9;
+		if (L_33)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:608>
+		return;
+	}
+}
+// Method Definition Index: 123629
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_InitializeTargetToCustomHandAssociation_m8719B6D1FA6F0ECABFE92D7231C1F3E2DA3F1CB5 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, uint64_t ___0_pluginHandle, List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* ___1_targetToCustomHandTuples, ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* ___2_armIkData, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m4C7472698DA2D5D1127049CF9B058D4C8409E559_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m9B7900F0C982A9DC75543B8F4CFBEC4CB1FD7603_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mA4F2E7228E54D3358C2D19355B1CC74D4C90043A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m987C18A8716CD144EAB56D6FFFFC8CAB09B6F974_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_mBD20BA7C8B31434FBCFBBE469C013C18CFE8A5B7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_ToArray_m5B91500384BF0E304C4E899D29B1F215FA52721E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m2974BC8CB4B4AF46B92B897CACF3712312D0F775_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Tuple_2_get_Item1_m4F2F0466D7D6D137CCEE4091DD5BBA9ADB3C54E2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Tuple_2_get_Item2_mB7B341B2FC8B2C556F60894DA0C43CCC8F6E24E1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2EF2881902FFC8C1FF38921948340F0B6E305D2E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5DF1ED5C4A7E490818417C801D35C4D65B028DDC);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7* V_0 = NULL;
+	Enumerator_tA7A280A9EF4005662A95711DC2BD15EEA6B91E47 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* V_2 = NULL;
+	String_t* V_3 = NULL;
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:613>
+		List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7* L_0 = (List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7*)il2cpp_codegen_object_new(List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7_il2cpp_TypeInfo_var);
+		List_1__ctor_m2974BC8CB4B4AF46B92B897CACF3712312D0F775(L_0, List_1__ctor_m2974BC8CB4B4AF46B92B897CACF3712312D0F775_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:614>
+		List_1_t6B0DAACCAA7DD19D11A025B6DE7432FF8ADBAE10* L_1 = ___1_targetToCustomHandTuples;
+		NullCheck(L_1);
+		Enumerator_tA7A280A9EF4005662A95711DC2BD15EEA6B91E47 L_2;
+		L_2 = List_1_GetEnumerator_mBD20BA7C8B31434FBCFBBE469C013C18CFE8A5B7(L_1, List_1_GetEnumerator_mBD20BA7C8B31434FBCFBBE469C013C18CFE8A5B7_RuntimeMethod_var);
+		V_1 = L_2;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0081:
+			{
+				Enumerator_Dispose_m4C7472698DA2D5D1127049CF9B058D4C8409E559((&V_1), Enumerator_Dispose_m4C7472698DA2D5D1127049CF9B058D4C8409E559_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0076_1;
+			}
+
+IL_0011_1:
+			{
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:614>
+				Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* L_3;
+				L_3 = Enumerator_get_Current_mA4F2E7228E54D3358C2D19355B1CC74D4C90043A_inline((&V_1), Enumerator_get_Current_mA4F2E7228E54D3358C2D19355B1CC74D4C90043A_RuntimeMethod_var);
+				V_2 = L_3;
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:616>
+				Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* L_4 = V_2;
+				NullCheck(L_4);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+				L_5 = Tuple_2_get_Item1_m4F2F0466D7D6D137CCEE4091DD5BBA9ADB3C54E2_inline(L_4, Tuple_2_get_Item1_m4F2F0466D7D6D137CCEE4091DD5BBA9ADB3C54E2_RuntimeMethod_var);
+				NullCheck(L_5);
+				String_t* L_6;
+				L_6 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_5, NULL);
+				V_3 = L_6;
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:617>
+				uint64_t L_7 = ___0_pluginHandle;
+				String_t* L_8 = V_3;
+				bool L_9;
+				L_9 = MSDKUtility_GetJointIndex_mF1FA498EEAFE3A44A94E6A6A1DF0A04F2791EC36(L_7, 1, L_8, (&V_4), NULL);
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:618>
+				int32_t L_10 = V_4;
+				V_5 = (bool)((((int32_t)L_10) == ((int32_t)(-1)))? 1 : 0);
+				bool L_11 = V_5;
+				if (!L_11)
+				{
+					goto IL_0055_1;
+				}
+			}
+			{
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:620>
+				String_t* L_12 = V_3;
+				String_t* L_13;
+				L_13 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral5DF1ED5C4A7E490818417C801D35C4D65B028DDC, L_12, _stringLiteral2EF2881902FFC8C1FF38921948340F0B6E305D2E, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_13, NULL);
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:621>
+				goto IL_0076_1;
+			}
+
+IL_0055_1:
+			{
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:624>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:625>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:626>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:627>
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:628>
+				List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7* L_14 = V_0;
+				TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* L_15 = (TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D*)il2cpp_codegen_object_new(TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D_il2cpp_TypeInfo_var);
+				TargetToCustomHandAssociation__ctor_m440B6EA9233E5D67E741AE69934B43FAF97EF41C(L_15, NULL);
+				TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* L_16 = L_15;
+				int32_t L_17 = V_4;
+				NullCheck(L_16);
+				L_16->___TargetIndex = L_17;
+				TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* L_18 = L_16;
+				Tuple_2_tDC0BEC2C3C1DDCB7FDAF9DEFAE9A6D148559244D* L_19 = V_2;
+				NullCheck(L_19);
+				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
+				L_20 = Tuple_2_get_Item2_mB7B341B2FC8B2C556F60894DA0C43CCC8F6E24E1_inline(L_19, Tuple_2_get_Item2_mB7B341B2FC8B2C556F60894DA0C43CCC8F6E24E1_RuntimeMethod_var);
+				NullCheck(L_18);
+				L_18->___CustomHandTransform = L_20;
+				Il2CppCodeGenWriteBarrier((void**)(&L_18->___CustomHandTransform), (void*)L_20);
+				NullCheck(L_14);
+				List_1_Add_m987C18A8716CD144EAB56D6FFFFC8CAB09B6F974_inline(L_14, L_18, List_1_Add_m987C18A8716CD144EAB56D6FFFFC8CAB09B6F974_RuntimeMethod_var);
+			}
+
+IL_0076_1:
+			{
+				//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:614>
+				bool L_21;
+				L_21 = Enumerator_MoveNext_m9B7900F0C982A9DC75543B8F4CFBEC4CB1FD7603((&V_1), Enumerator_MoveNext_m9B7900F0C982A9DC75543B8F4CFBEC4CB1FD7603_RuntimeMethod_var);
+				if (L_21)
+				{
+					goto IL_0011_1;
+				}
+			}
+			{
+				goto IL_0090;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0090:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:631>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_22 = ___2_armIkData;
+		List_1_t3A8007D724E00ACF58B9C33B24551CA82DCFD9A7* L_23 = V_0;
+		NullCheck(L_23);
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_24;
+		L_24 = List_1_ToArray_m5B91500384BF0E304C4E899D29B1F215FA52721E(L_23, List_1_ToArray_m5B91500384BF0E304C4E899D29B1F215FA52721E_RuntimeMethod_var);
+		NullCheck(L_22);
+		L_22->___TargetToCustomHand = L_24;
+		Il2CppCodeGenWriteBarrier((void**)(&L_22->___TargetToCustomHand), (void*)L_24);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:632>
+		return;
+	}
+}
+// Method Definition Index: 123630
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_SetupJob_m7A1A6C7F1FEA07F0106EF93051DC799A90F641F0 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* ___0_targetToCustomHand, NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* ___1_customHandPoses, TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4* ___2_customHandTransforms, NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* ___3_targetIndicesArray, GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB* ___4_getPosesJob, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_ToArray_m5925CCD2844741E30EB14EDD03DD79F169BBFA80_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_mCA71AA13DF1339BF7AA14DBB1A9EA4C6C3B2DD7B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* V_0 = NULL;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:642>
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_0 = ___3_targetIndicesArray;
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_1 = ___0_targetToCustomHand;
+		NullCheck(L_1);
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D((&L_2), ((int32_t)(((RuntimeArray*)L_1)->max_length)), 4, 1, NativeArray_1__ctor_mB7BB23924A114599D399A5EC6C00B2B6407CF66D_RuntimeMethod_var);
+		*(NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)L_0 = L_2;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:643>
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_3 = (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*)il2cpp_codegen_object_new(List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_il2cpp_TypeInfo_var);
+		List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268(L_3, List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268_RuntimeMethod_var);
+		V_0 = L_3;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:644>
+		V_1 = 0;
+		goto IL_0042;
+	}
+
+IL_001c:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:646>
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_4 = ___3_targetIndicesArray;
+		int32_t L_5 = V_1;
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_6 = ___0_targetToCustomHand;
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_9);
+		int32_t L_10 = L_9->___TargetIndex;
+		IL2CPP_NATIVEARRAY_SET_ITEM(int32_t, (L_4)->___m_Buffer, L_5, (L_10));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:647>
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_11 = V_0;
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_12 = ___0_targetToCustomHand;
+		int32_t L_13 = V_1;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		NullCheck(L_15);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = L_15->___CustomHandTransform;
+		NullCheck(L_11);
+		List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_inline(L_11, L_16, List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:644>
+		int32_t L_17 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_17, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:644>
+		int32_t L_18 = V_1;
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_19 = ___0_targetToCustomHand;
+		NullCheck(L_19);
+		V_2 = (bool)((((int32_t)L_18) < ((int32_t)((int32_t)(((RuntimeArray*)L_19)->max_length))))? 1 : 0);
+		bool L_20 = V_2;
+		if (L_20)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:651>
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* L_21 = ___1_customHandPoses;
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_22 = ___0_targetToCustomHand;
+		NullCheck(L_22);
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		NativeArray_1__ctor_mCA71AA13DF1339BF7AA14DBB1A9EA4C6C3B2DD7B((&L_23), ((int32_t)(((RuntimeArray*)L_22)->max_length)), 4, 1, NativeArray_1__ctor_mCA71AA13DF1339BF7AA14DBB1A9EA4C6C3B2DD7B_RuntimeMethod_var);
+		*(NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*)L_21 = L_23;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:652>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:653>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:654>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:655>
+		GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB* L_24 = ___4_getPosesJob;
+		il2cpp_codegen_initobj((&V_3), sizeof(GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB));
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* L_25 = ___1_customHandPoses;
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 L_26 = (*(NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*)L_25);
+		(&V_3)->___Poses = L_26;
+		GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB L_27 = V_3;
+		*(GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB*)L_24 = L_27;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:656>
+		TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4* L_28 = ___2_customHandTransforms;
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_29 = V_0;
+		NullCheck(L_29);
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_30;
+		L_30 = List_1_ToArray_m5925CCD2844741E30EB14EDD03DD79F169BBFA80(L_29, List_1_ToArray_m5925CCD2844741E30EB14EDD03DD79F169BBFA80_RuntimeMethod_var);
+		TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4 L_31;
+		memset((&L_31), 0, sizeof(L_31));
+		TransformAccessArray__ctor_m3F03FA9FCE967291261CF8C120432E66F7C931C5((&L_31), L_30, (-1), NULL);
+		*(TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4*)L_28 = L_31;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:657>
+		return;
+	}
+}
+// Method Definition Index: 123631
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_RunCCDOnSkeletalData_m79F4B5FC1EE667393464DDBB6D2E0D7E28F9AFCB (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* ___0_armIKData, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___1_customHandJoints, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___2_targetSkeletonPoseLocal, float ___3_weight, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SkeletonUtilities_t583D4C09F4CCD8A4A4BE33022C14FEFE49C5C977_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B996FAAB4D8C6FBC4110B9DE9C45E4C79796143);
+		s_Il2CppMethodInitialized = true;
+	}
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	bool V_15 = false;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_18;
+	memset((&V_18), 0, sizeof(V_18));
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_19;
+	memset((&V_19), 0, sizeof(V_19));
+	bool V_20 = false;
+	int32_t G_B3_0 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B11_0;
+	memset((&G_B11_0), 0, sizeof(G_B11_0));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:665>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_0 = ___0_armIKData;
+		NullCheck(L_0);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = L_0->___ArmJointIndicesReversed;
+		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:666>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = V_0;
+		NullCheck(L_2);
+		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_2)->max_length)), 1));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:667>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = __this->____parentJointIndicesTarget;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = V_0;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		int32_t L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		NullCheck(L_3);
+		int32_t L_8 = L_7;
+		int32_t L_9 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_2 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:668>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = V_0;
+		NullCheck(L_10);
+		int32_t L_11 = 0;
+		int32_t L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		V_3 = L_12;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:669>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = __this->____parentJointIndicesTarget;
+		int32_t L_14 = V_3;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		int32_t L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		V_4 = L_16;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:671>
+		int32_t L_17 = V_2;
+		if ((((int32_t)L_17) == ((int32_t)(-1))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		int32_t L_18 = V_4;
+		G_B3_0 = ((((int32_t)L_18) == ((int32_t)(-1)))? 1 : 0);
+		goto IL_0033;
+	}
+
+IL_0032:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0033:
+	{
+		V_15 = (bool)G_B3_0;
+		bool L_19 = V_15;
+		if (!L_19)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:673>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral9B996FAAB4D8C6FBC4110B9DE9C45E4C79796143, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:674>
+		goto IL_0229;
+	}
+
+IL_004a:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:678>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:679>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:680>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:681>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:682>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_20 = __this->____retargeter;
+		NullCheck(L_20);
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_21;
+		L_21 = CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline(L_20, NULL);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_22 = ___2_targetSkeletonPoseLocal;
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_23 = __this->____retargeter;
+		NullCheck(L_23);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
+		L_24 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_23, NULL);
+		NullCheck(L_24);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
+		L_25 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_24, NULL);
+		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_26;
+		memset((&L_26), 0, sizeof(L_26));
+		Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2((&L_26), L_25, Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_27 = __this->____retargeter;
+		NullCheck(L_27);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
+		L_28 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_27, NULL);
+		NullCheck(L_28);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29;
+		L_29 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_28, NULL);
+		Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25 L_30;
+		memset((&L_30), 0, sizeof(L_30));
+		Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A((&L_30), L_29, Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(SkeletonUtilities_t583D4C09F4CCD8A4A4BE33022C14FEFE49C5C977_il2cpp_TypeInfo_var);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_31;
+		L_31 = SkeletonUtilities_ComputeWorldPoses_mC9358FFB91AEE2BD4B11F38AF25F44B4E8DA9AA4(L_21, L_22, L_26, L_30, NULL);
+		V_5 = L_31;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:683>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:684>
+		int32_t L_32 = V_2;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_33;
+		L_33 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_5))->___m_Buffer, L_32);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = L_33.___Position;
+		int32_t L_35 = V_2;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_36;
+		L_36 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_5))->___m_Buffer, L_35);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_37 = L_36.___Orientation;
+		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&V_6), L_34, L_37, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:685>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_38 = ___1_customHandJoints;
+		NullCheck(L_38);
+		int32_t L_39 = 0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40 = (L_38)->GetAt(static_cast<il2cpp_array_size_t>(L_39));
+		NullCheck(L_40);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		L_41 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_40, NULL);
+		V_7 = L_41;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:686>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:687>
+		int32_t L_42 = V_3;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_43;
+		L_43 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_5))->___m_Buffer, L_42);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = L_43.___Position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_7;
+		float L_46 = ___3_weight;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47;
+		L_47 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_44, L_45, L_46, NULL);
+		V_8 = L_47;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:690>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_48 = V_0;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_49 = ___2_targetSkeletonPoseLocal;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_50;
+		L_50 = HandSkeletalProcessor_GetIKChainEndFirst_m2A1E625234C36394EC2F36B2A6FE0CFF7802972A(__this, L_48, L_49, NULL);
+		V_9 = L_50;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:693>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:694>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:695>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:696>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:697>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:698>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_51 = V_6;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_52 = V_9;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = V_8;
+		float L_54 = __this->____ikTolerance;
+		int32_t L_55 = __this->____ikIterations;
+		bool L_56;
+		L_56 = IKUtilities_SolveCCDIKLocalNativeArray_m060B6B5CBF26BA8B53DB4068CB28F75B1051BADD(L_51, L_52, L_53, L_54, ((float)L_55), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:702>
+		int32_t L_57 = V_3;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_58;
+		L_58 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_5))->___m_Buffer, L_57);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_59 = L_58.___Orientation;
+		V_10 = L_59;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:703>
+		V_16 = 0;
+		goto IL_014b;
+	}
+
+IL_0101:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:706>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_60 = V_0;
+		int32_t L_61 = V_16;
+		NullCheck(L_60);
+		int32_t L_62 = L_61;
+		int32_t L_63 = (L_60)->GetAt(static_cast<il2cpp_array_size_t>(L_62));
+		V_17 = L_63;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:707>
+		int32_t L_64 = V_16;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_65;
+		L_65 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_9))->___m_Buffer, L_64);
+		V_18 = L_65;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:708>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_66 = ___2_targetSkeletonPoseLocal;
+		int32_t L_67 = V_17;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_68;
+		L_68 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_66)->___m_Buffer, L_67);
+		V_19 = L_68;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:709>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:710>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_69 = V_19;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_70 = L_69.___Orientation;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_71 = V_18;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_72 = L_71.___Orientation;
+		float L_73 = ___3_weight;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_74;
+		L_74 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15(L_70, L_72, L_73, NULL);
+		(&V_19)->___Orientation = L_74;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:711>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_75 = ___2_targetSkeletonPoseLocal;
+		int32_t L_76 = V_17;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_77 = V_19;
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_75)->___m_Buffer, L_76, (L_77));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:703>
+		int32_t L_78 = V_16;
+		V_16 = ((int32_t)il2cpp_codegen_add(L_78, 1));
+	}
+
+IL_014b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:703>
+		int32_t L_79 = V_16;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_80 = V_0;
+		NullCheck(L_80);
+		V_20 = (bool)((((int32_t)L_79) < ((int32_t)((int32_t)(((RuntimeArray*)L_80)->max_length))))? 1 : 0);
+		bool L_81 = V_20;
+		if (L_81)
+		{
+			goto IL_0101;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:716>
+		NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032((&V_5), NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:717>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:718>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:719>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:720>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:721>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_82 = __this->____retargeter;
+		NullCheck(L_82);
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_83;
+		L_83 = CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline(L_82, NULL);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_84 = ___2_targetSkeletonPoseLocal;
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_85 = __this->____retargeter;
+		NullCheck(L_85);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_86;
+		L_86 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_85, NULL);
+		NullCheck(L_86);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_87;
+		L_87 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_86, NULL);
+		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_88;
+		memset((&L_88), 0, sizeof(L_88));
+		Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2((&L_88), L_87, Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_89 = __this->____retargeter;
+		NullCheck(L_89);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_90;
+		L_90 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_89, NULL);
+		NullCheck(L_90);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_91;
+		L_91 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_90, NULL);
+		Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25 L_92;
+		memset((&L_92), 0, sizeof(L_92));
+		Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A((&L_92), L_91, Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(SkeletonUtilities_t583D4C09F4CCD8A4A4BE33022C14FEFE49C5C977_il2cpp_TypeInfo_var);
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_93;
+		L_93 = SkeletonUtilities_ComputeWorldPoses_mC9358FFB91AEE2BD4B11F38AF25F44B4E8DA9AA4(L_83, L_84, L_88, L_92, NULL);
+		V_5 = L_93;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:723>
+		int32_t L_94 = V_3;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_95;
+		L_95 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_5))->___m_Buffer, L_94);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_96 = L_95.___Position;
+		V_11 = L_96;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:724>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:725>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:726>
+		int32_t L_97 = V_4;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_98 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_99 = V_11;
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_100 = __this->____retargeter;
+		NullCheck(L_100);
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_101;
+		L_101 = CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline(L_100, NULL);
+		NullCheck(L_101);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_102;
+		L_102 = SkeletonRetargeter_get_RootScale_m1DC800C718D14E8F5DFAA3EB2CA277C4C7CD305C(L_101, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_103;
+		L_103 = HandSkeletalProcessor_GetTargetRelativeToEffectorParent_mDE9A4CF8ECA10B1283873D08CC9ACE382A6788EA(__this, L_97, L_98, L_99, L_102, NULL);
+		V_12 = L_103;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:731>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:732>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:733>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:734>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:735>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:736>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:737>
+		bool L_104 = __this->____limitStretch;
+		if (L_104)
+		{
+			goto IL_01f0;
+		}
+	}
+	{
+		int32_t L_105 = V_4;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_106 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_107 = V_8;
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_108 = __this->____retargeter;
+		NullCheck(L_108);
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_109;
+		L_109 = CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline(L_108, NULL);
+		NullCheck(L_109);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_110;
+		L_110 = SkeletonRetargeter_get_RootScale_m1DC800C718D14E8F5DFAA3EB2CA277C4C7CD305C(L_109, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_111;
+		L_111 = HandSkeletalProcessor_GetTargetRelativeToEffectorParent_mDE9A4CF8ECA10B1283873D08CC9ACE382A6788EA(__this, L_105, L_106, L_107, L_110, NULL);
+		G_B11_0 = L_111;
+		goto IL_01f2;
+	}
+
+IL_01f0:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_112 = V_12;
+		G_B11_0 = L_112;
+	}
+
+IL_01f2:
+	{
+		V_13 = G_B11_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:739>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:740>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:741>
+		int32_t L_113 = V_4;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_114;
+		L_114 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_5))->___m_Buffer, L_113);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_115 = L_114.___Orientation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_116;
+		L_116 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_115, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_117 = V_10;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_118;
+		L_118 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_116, L_117, NULL);
+		V_14 = L_118;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:742>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:743>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:744>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:745>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_119 = ___2_targetSkeletonPoseLocal;
+		int32_t L_120 = V_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_121 = V_14;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_122 = V_13;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_123;
+		memset((&L_123), 0, sizeof(L_123));
+		NativeTransform__ctor_mCDA3BB298187AFBE12F8B1F0027980CB65CBE200((&L_123), L_121, L_122, NULL);
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_119)->___m_Buffer, L_120, (L_123));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:746>
+		NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032((&V_5), NativeArray_1_Dispose_mD96DC3E4C47005AB224CA46590B336EF17DEF032_RuntimeMethod_var);
+	}
+
+IL_0229:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:747>
+		return;
+	}
+}
+// Method Definition Index: 123632
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 HandSkeletalProcessor_GetIKChainEndFirst_m2A1E625234C36394EC2F36B2A6FE0CFF7802972A (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_ikChainReversed, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPoseLocal, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_m018651076DF9934BB5F9C88A179C94132F8CAD72_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	bool V_3 = false;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:753>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:754>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:755>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:756>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = ___0_ikChainReversed;
+		NullCheck(L_0);
+		NativeArray_1__ctor_m018651076DF9934BB5F9C88A179C94132F8CAD72((&V_0), ((int32_t)(((RuntimeArray*)L_0)->max_length)), 2, 0, NativeArray_1__ctor_m018651076DF9934BB5F9C88A179C94132F8CAD72_RuntimeMethod_var);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:757>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = ___0_ikChainReversed;
+		NullCheck(L_1);
+		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_1)->max_length)), 1));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:758>
+		V_2 = 0;
+		goto IL_002f;
+	}
+
+IL_0017:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:760>
+		int32_t L_2 = V_2;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_3 = ___1_targetPoseLocal;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = ___0_ikChainReversed;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		int32_t L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_8;
+		L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_3)->___m_Buffer, L_7);
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_0))->___m_Buffer, L_2, (L_8));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:758>
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_002f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:758>
+		int32_t L_10 = V_2;
+		int32_t L_11 = V_1;
+		V_3 = (bool)((((int32_t)((((int32_t)L_10) > ((int32_t)L_11))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_12 = V_3;
+		if (L_12)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:763>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_13 = V_0;
+		V_4 = L_13;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:764>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_14 = V_4;
+		return L_14;
+	}
+}
+// Method Definition Index: 123633
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_FixLocalFingerPosesSerial_m8E5CEE711F311C61EAE9A04AF307A77A2C8FE508 (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_targetPoseLocal, float ___1_weight, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* V_1 = NULL;
+	int32_t V_2 = 0;
+	TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* V_3 = NULL;
+	TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* V_4 = NULL;
+	int32_t V_5 = 0;
+	TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* V_6 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:768>
+		bool L_0 = __this->____matchFingers;
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:770>
+		goto IL_0088;
+	}
+
+IL_0011:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:773>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_2 = __this->____leftArmIKData;
+		NullCheck(L_2);
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_3 = L_2->___TargetToCustomHand;
+		V_1 = L_3;
+		V_2 = 0;
+		goto IL_0041;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:773>
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_4 = V_1;
+		int32_t L_5 = V_2;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_3 = L_7;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:775>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_8 = ___0_targetPoseLocal;
+		TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* L_9 = V_3;
+		NullCheck(L_9);
+		int32_t L_10 = L_9->___TargetIndex;
+		TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* L_11 = V_3;
+		NullCheck(L_11);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = L_11->___CustomHandTransform;
+		float L_13 = ___1_weight;
+		HandSkeletalProcessor_SetLocalPositionAndRotation_mC449335A9C9B8302DD342743244AFE461E1CF9FC(__this, L_8, L_10, L_12, L_13, NULL);
+		int32_t L_14 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+	}
+
+IL_0041:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:773>
+		int32_t L_15 = V_2;
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_16 = V_1;
+		NullCheck(L_16);
+		if ((((int32_t)L_15) < ((int32_t)((int32_t)(((RuntimeArray*)L_16)->max_length)))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:778>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_17 = __this->____rightArmIKData;
+		NullCheck(L_17);
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_18 = L_17->___TargetToCustomHand;
+		V_4 = L_18;
+		V_5 = 0;
+		goto IL_0080;
+	}
+
+IL_005a:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:778>
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_19 = V_4;
+		int32_t L_20 = V_5;
+		NullCheck(L_19);
+		int32_t L_21 = L_20;
+		TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		V_6 = L_22;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:780>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_23 = ___0_targetPoseLocal;
+		TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* L_24 = V_6;
+		NullCheck(L_24);
+		int32_t L_25 = L_24->___TargetIndex;
+		TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* L_26 = V_6;
+		NullCheck(L_26);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = L_26->___CustomHandTransform;
+		float L_28 = ___1_weight;
+		HandSkeletalProcessor_SetLocalPositionAndRotation_mC449335A9C9B8302DD342743244AFE461E1CF9FC(__this, L_23, L_25, L_27, L_28, NULL);
+		int32_t L_29 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_29, 1));
+	}
+
+IL_0080:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:778>
+		int32_t L_30 = V_5;
+		TargetToCustomHandAssociationU5BU5D_tBD6BE52C75FA1A5E8C1BF32C993A1B5C41909C02* L_31 = V_4;
+		NullCheck(L_31);
+		if ((((int32_t)L_30) < ((int32_t)((int32_t)(((RuntimeArray*)L_31)->max_length)))))
+		{
+			goto IL_005a;
+		}
+	}
+
+IL_0088:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:782>
+		return;
+	}
+}
+// Method Definition Index: 123634
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 HandSkeletalProcessor_GetTargetRelativeToEffectorParent_mDE9A4CF8ECA10B1283873D08CC9ACE382A6788EA (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, int32_t ___0_endEffectorParentIndex, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___1_targetWorldPose, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_targetPositionWorldLerp, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_rootScale, const RuntimeMethod* method) 
+{
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:787>
+		int32_t L_0 = ___0_endEffectorParentIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_1;
+		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___1_targetWorldPose))->___m_Buffer, L_0);
+		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:788>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:789>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_2 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = L_2.___Orientation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
+		L_4 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_3, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___2_targetPositionWorldLerp;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_6 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = L_6.___Position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_5, L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_4, L_8, NULL);
+		V_1 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:790>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:791>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___3_rootScale;
+		float L_12 = L_11.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___3_rootScale;
+		float L_14 = L_13.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = ___3_rootScale;
+		float L_16 = L_15.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_17), ((float)((1.0f)/L_12)), ((float)((1.0f)/L_14)), ((float)((1.0f)/L_16)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Vector3_Scale_m7C3CD199271902D5C00CBF35CD230DEB62B68CAE_inline(L_10, L_17, NULL);
+		V_2 = L_18;
+		goto IL_005c;
+	}
+
+IL_005c:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:792>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_2;
+		return L_19;
+	}
+}
+// Method Definition Index: 123635
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_SetLocalPositionAndRotation_mC449335A9C9B8302DD342743244AFE461E1CF9FC (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_targetPoseLocal, int32_t ___1_targetSkeletonIndex, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_customHandBone, float ___3_weight, const RuntimeMethod* method) 
+{
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:800>
+		int32_t L_0 = ___1_targetSkeletonIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_1;
+		L_1 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___0_targetPoseLocal))->___m_Buffer, L_0);
+		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:801>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_2 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2.___Position;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___2_customHandBone;
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_4, NULL);
+		float L_6 = ___3_weight;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_3, L_5, L_6, NULL);
+		V_1 = L_7;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:802>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_8 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = L_8.___Orientation;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = ___2_customHandBone;
+		NullCheck(L_10);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_11;
+		L_11 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_10, NULL);
+		float L_12 = ___3_weight;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
+		L_13 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15(L_9, L_11, L_12, NULL);
+		V_2 = L_13;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:803>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:804>
+		int32_t L_14 = ___1_targetSkeletonIndex;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_1;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_17 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = L_17.___Scale;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		NativeTransform__ctor_mDA63D7AB12228914E5B4AA3DA4F92390277D1347((&L_19), L_15, L_16, L_18, NULL);
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___0_targetPoseLocal))->___m_Buffer, L_14, (L_19));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:805>
+		return;
+	}
+}
+// Method Definition Index: 123636
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor_FixLocalFingerPosesJobs_m46B6422F77DBD974DFD337CACF3E1EA675565B4B (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_currentPose, float ___1_weight, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IJobExtensions_Schedule_TisWriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F_mF6D1C29476912B2346F242BD8CFF60C1B6EF61B4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IJobParallelForTransformExtensions_ScheduleReadOnly_TisGetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB_m0EE5817A60792D7AB35824FD7327EAB71FA9412D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	bool V_6 = false;
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:809>
+		bool L_0 = __this->____matchFingers;
+		V_6 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_6;
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:811>
+		goto IL_00f6;
+	}
+
+IL_0016:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:814>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:815>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_2 = __this->____leftArmIKData;
+		NullCheck(L_2);
+		GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB L_3 = L_2->___GetCustomHandPosesJob;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_4 = __this->____leftArmIKData;
+		NullCheck(L_4);
+		TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4 L_5 = L_4->___CustomHandTransforms;
+		il2cpp_codegen_initobj((&V_7), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_6 = V_7;
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_7;
+		L_7 = IJobParallelForTransformExtensions_ScheduleReadOnly_TisGetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB_m0EE5817A60792D7AB35824FD7327EAB71FA9412D(L_3, L_5, ((int32_t)32), L_6, IJobParallelForTransformExtensions_ScheduleReadOnly_TisGetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB_m0EE5817A60792D7AB35824FD7327EAB71FA9412D_RuntimeMethod_var);
+		V_0 = L_7;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:816>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:817>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:818>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:819>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:820>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:821>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:822>
+		il2cpp_codegen_initobj((&V_8), sizeof(WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F));
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_8 = __this->____leftArmIKData;
+		NullCheck(L_8);
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 L_9 = L_8->___CustomHandPoses;
+		(&V_8)->___CustomHandPoses = L_9;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_10 = __this->____leftArmIKData;
+		NullCheck(L_10);
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_11 = L_10->___TargetIndices;
+		(&V_8)->___TargetIndices = L_11;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_12 = ___0_currentPose;
+		(&V_8)->___OutputPoses = L_12;
+		float L_13 = ___1_weight;
+		(&V_8)->___Weight = L_13;
+		WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F L_14 = V_8;
+		V_1 = L_14;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:823>
+		WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F L_15 = V_1;
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_16 = V_0;
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_17;
+		L_17 = IJobExtensions_Schedule_TisWriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F_mF6D1C29476912B2346F242BD8CFF60C1B6EF61B4(L_15, L_16, IJobExtensions_Schedule_TisWriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F_mF6D1C29476912B2346F242BD8CFF60C1B6EF61B4_RuntimeMethod_var);
+		V_2 = L_17;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:825>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:826>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:827>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:828>
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_18 = __this->____rightArmIKData;
+		NullCheck(L_18);
+		GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB L_19 = L_18->___GetCustomHandPosesJob;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_20 = __this->____rightArmIKData;
+		NullCheck(L_20);
+		TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4 L_21 = L_20->___CustomHandTransforms;
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_22 = V_2;
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_23;
+		L_23 = IJobParallelForTransformExtensions_ScheduleReadOnly_TisGetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB_m0EE5817A60792D7AB35824FD7327EAB71FA9412D(L_19, L_21, ((int32_t)32), L_22, IJobParallelForTransformExtensions_ScheduleReadOnly_TisGetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB_m0EE5817A60792D7AB35824FD7327EAB71FA9412D_RuntimeMethod_var);
+		V_3 = L_23;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:829>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:830>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:831>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:832>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:833>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:834>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:835>
+		il2cpp_codegen_initobj((&V_8), sizeof(WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F));
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_24 = __this->____rightArmIKData;
+		NullCheck(L_24);
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 L_25 = L_24->___CustomHandPoses;
+		(&V_8)->___CustomHandPoses = L_25;
+		ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* L_26 = __this->____rightArmIKData;
+		NullCheck(L_26);
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C L_27 = L_26->___TargetIndices;
+		(&V_8)->___TargetIndices = L_27;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_28 = ___0_currentPose;
+		(&V_8)->___OutputPoses = L_28;
+		float L_29 = ___1_weight;
+		(&V_8)->___Weight = L_29;
+		WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F L_30 = V_8;
+		V_4 = L_30;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:836>
+		WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F L_31 = V_4;
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_32 = V_3;
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_33;
+		L_33 = IJobExtensions_Schedule_TisWriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F_mF6D1C29476912B2346F242BD8CFF60C1B6EF61B4(L_31, L_32, IJobExtensions_Schedule_TisWriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F_mF6D1C29476912B2346F242BD8CFF60C1B6EF61B4_RuntimeMethod_var);
+		V_5 = L_33;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:838>
+		JobHandle_Complete_mDCED35A125AAB37EDDAB2E31C805B4904B614A4A((&V_5), NULL);
+	}
+
+IL_00f6:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:839>
+		return;
+	}
+}
+// Method Definition Index: 123637
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandSkeletalProcessor__ctor_m87BF6B47C83E5E965DAC4A1DB5D981551664C49E (HandSkeletalProcessor_tB0E1C8BF539A0DB2EBAF8889AC62398893B0A64C* __this, const RuntimeMethod* method) 
+{
+	{
+		TargetProcessor__ctor_m7A34D70B43FEFB1D20A3B61E4899D52FDC9B7DE4(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123638
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void GetCustomHandLocalPosesJob_Execute_m2BDD259FEA2D6FA94CE788C681C6B45DD31FE675 (GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, TransformAccess_tF0D55E1C5B6B29B618E8A129AB633E2F1100D580 ___1_transform, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:37>
+		bool L_0;
+		L_0 = TransformAccess_get_isValid_mE291D1524BBEBBF8FB07BEB6954F1612C9EF6E89((&___1_transform), NULL);
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:39>
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* L_2 = (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*)(&__this->___Poses);
+		int32_t L_3 = ___0_index;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = TransformAccess_get_localPosition_m966B091D10A9D50533F14B1064C8B7B5473BEA42((&___1_transform), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
+		L_5 = TransformAccess_get_localRotation_mCD20FB3CC27A40749964DFD08DBEEBAD14C0CFA0((&___1_transform), NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_6), L_4, L_5, NULL);
+		IL2CPP_NATIVEARRAY_SET_ITEM(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, (L_2)->___m_Buffer, L_3, (L_6));
+	}
+
+IL_002e:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:41>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void GetCustomHandLocalPosesJob_Execute_m2BDD259FEA2D6FA94CE788C681C6B45DD31FE675_AdjustorThunk (RuntimeObject* IL2CPP_PARAMETER_RESTRICT __this, int32_t ___0_index, TransformAccess_tF0D55E1C5B6B29B618E8A129AB633E2F1100D580 ___1_transform, const RuntimeMethod* method)
+{
+	GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<GetCustomHandLocalPosesJob_tB9A93D2F0F3E3362FF51B9BD11F37E51D4E784EB*>(__this + _offset);
+	GetCustomHandLocalPosesJob_Execute_m2BDD259FEA2D6FA94CE788C681C6B45DD31FE675(_thisAdjusted, ___0_index, ___1_transform, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123639
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void WriteCharacterHandLocalPosesJob_Execute_mDF5543E9E8CFB5C9B115A8C9C8C3C0F3F9F082E4 (WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	bool V_6 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:76>
+		V_0 = 0;
+		goto IL_0080;
+	}
+
+IL_0005:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:78>
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* L_0 = (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*)(&__this->___CustomHandPoses);
+		int32_t L_1 = V_0;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2;
+		L_2 = IL2CPP_NATIVEARRAY_GET_ITEM(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971, (L_0)->___m_Buffer, L_1);
+		V_1 = L_2;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:79>
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_3 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___TargetIndices);
+		int32_t L_4 = V_0;
+		int32_t L_5;
+		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(int32_t, (L_3)->___m_Buffer, L_4);
+		V_2 = L_5;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:80>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_6 = (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)(&__this->___OutputPoses);
+		int32_t L_7 = V_2;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_8;
+		L_8 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_6)->___m_Buffer, L_7);
+		V_3 = L_8;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:81>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_9 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = L_9.___Position;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_11 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = L_11.___position;
+		float L_13 = __this->___Weight;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_10, L_12, L_13, NULL);
+		V_4 = L_14;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:82>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_15 = V_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = L_15.___Orientation;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_17 = V_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = L_17.___rotation;
+		float L_19 = __this->___Weight;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20;
+		L_20 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15(L_16, L_18, L_19, NULL);
+		V_5 = L_20;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:83>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_21 = (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)(&__this->___OutputPoses);
+		int32_t L_22 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_23 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_4;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_25 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = L_25.___Scale;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		NativeTransform__ctor_mDA63D7AB12228914E5B4AA3DA4F92390277D1347((&L_27), L_23, L_24, L_26, NULL);
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_21)->___m_Buffer, L_22, (L_27));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:76>
+		int32_t L_28 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_28, 1));
+	}
+
+IL_0080:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:76>
+		int32_t L_29 = V_0;
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* L_30 = (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*)(&__this->___CustomHandPoses);
+		int32_t L_31;
+		L_31 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_30)->___m_Length);
+		V_6 = (bool)((((int32_t)L_29) < ((int32_t)L_31))? 1 : 0);
+		bool L_32 = V_6;
+		if (L_32)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:85>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void WriteCharacterHandLocalPosesJob_Execute_mDF5543E9E8CFB5C9B115A8C9C8C3C0F3F9F082E4_AdjustorThunk (RuntimeObject* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method)
+{
+	WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<WriteCharacterHandLocalPosesJob_tBF5C50EA6D1ADA313AEAE155AEC10D650AB8D36F*>(__this + _offset);
+	WriteCharacterHandLocalPosesJob_Execute_mDF5543E9E8CFB5C9B115A8C9C8C3C0F3F9F082E4(_thisAdjusted, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123640
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TargetToCustomHandAssociation__ctor_m440B6EA9233E5D67E741AE69934B43FAF97EF41C (TargetToCustomHandAssociation_t27540BB20BB6FFA4AAC1FC794CC0D13B3353E22D* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123641
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmIKData_CleanUp_m834AA835D7A1EEFF401050E8EA62E330ACADBF91 (ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1_get_IsCreated_mD24A174276905BA38E8992234D3A387A1BDF2E97_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:147>
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* L_0 = (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*)(&__this->___CustomHandPoses);
+		bool L_1;
+		L_1 = NativeArray_1_get_IsCreated_mD24A174276905BA38E8992234D3A387A1BDF2E97_inline(L_0, NativeArray_1_get_IsCreated_mD24A174276905BA38E8992234D3A387A1BDF2E97_RuntimeMethod_var);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:149>
+		NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* L_3 = (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347*)(&__this->___CustomHandPoses);
+		NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6(L_3, NativeArray_1_Dispose_m02B53BA57A6C99724A5DE5A834F98AC80577A5E6_RuntimeMethod_var);
+	}
+
+IL_001e:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:152>
+		TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4* L_4 = (TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4*)(&__this->___CustomHandTransforms);
+		bool L_5;
+		L_5 = TransformAccessArray_get_isCreated_m27A01F9644D14864AAF311A87959DF8705A0B142(L_4, NULL);
+		V_1 = L_5;
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:154>
+		TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4* L_7 = (TransformAccessArray_t104EDE5BB3DC7E294332BB1D2AA508CAEDEE83D4*)(&__this->___CustomHandTransforms);
+		TransformAccessArray_Dispose_mC0775DCFFE41173544615D7031AC028D653C4186(L_7, NULL);
+	}
+
+IL_003b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:157>
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_8 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___TargetIndices);
+		bool L_9;
+		L_9 = NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_inline(L_8, NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_RuntimeMethod_var);
+		V_2 = L_9;
+		bool L_10 = V_2;
+		if (!L_10)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:159>
+		NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* L_11 = (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C*)(&__this->___TargetIndices);
+		NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E(L_11, NativeArray_1_Dispose_m05C674E687B921C37722A6A1FF938FD56574642E_RuntimeMethod_var);
+	}
+
+IL_0058:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HandSkeletalProcessor.cs:161>
+		return;
+	}
+}
+// Method Definition Index: 123642
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArmIKData__ctor_mD4CEA8D0488FE2B047F87AB448CE870866A38165 (ArmIKData_tF309D1B4FED0E534EC1E0E938A5F32B0A0513FBE* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123643
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningSkeletalProcessor_ShowHipPinningObject_m2B46FE80A63394C2AFAD2A5A9F4E8F95C548F04A (HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:151>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____hipPinningObject;
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		NullCheck(L_1);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_1, L_2, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:152>
+		return;
+	}
+}
+// Method Definition Index: 123644
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningSkeletalProcessor_HideHipPinningObject_mDB47009CE22300DC942FB130A5488D247F737E30 (HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:159>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->____hipPinningObject;
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_1);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_1, L_2, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:160>
+		return;
+	}
+}
+// Method Definition Index: 123645
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningSkeletalProcessor_CalibrateHipPinningObjectPosition_m306E7319992F1C5BF708D7A0F1CD28BD1150AA79 (HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_mask, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B2_0 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B1_0 = NULL;
+	float G_B3_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B3_1 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B5_0 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B4_0 = NULL;
+	float G_B6_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B6_1 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B8_0 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B7_0 = NULL;
+	float G_B9_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* G_B9_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:168>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____hipsTransform;
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_mask;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Vector3_Scale_m7C3CD199271902D5C00CBF35CD230DEB62B68CAE_inline(L_1, L_2, NULL);
+		V_0 = L_3;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:169>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:170>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:171>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_mask;
+		float L_5 = L_4.___x;
+		bool L_6;
+		L_6 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline(L_5, (0.0f), NULL);
+		if (L_6)
+		{
+			G_B2_0 = (&V_0);
+			goto IL_002f;
+		}
+		G_B1_0 = (&V_0);
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		float L_8 = L_7.___x;
+		G_B3_0 = L_8;
+		G_B3_1 = G_B1_0;
+		goto IL_0044;
+	}
+
+IL_002f:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->____hipPinningObject;
+		NullCheck(L_9);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_9, NULL);
+		NullCheck(L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_10, NULL);
+		float L_12 = L_11.___x;
+		G_B3_0 = L_12;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0044:
+	{
+		G_B3_1->___x = G_B3_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:172>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:173>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:174>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_mask;
+		float L_14 = L_13.___y;
+		bool L_15;
+		L_15 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline(L_14, (0.0f), NULL);
+		if (L_15)
+		{
+			G_B5_0 = (&V_0);
+			goto IL_0065;
+		}
+		G_B4_0 = (&V_0);
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_0;
+		float L_17 = L_16.___y;
+		G_B6_0 = L_17;
+		G_B6_1 = G_B4_0;
+		goto IL_007a;
+	}
+
+IL_0065:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->____hipPinningObject;
+		NullCheck(L_18);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
+		L_19 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_18, NULL);
+		NullCheck(L_19);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_19, NULL);
+		float L_21 = L_20.___y;
+		G_B6_0 = L_21;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_007a:
+	{
+		G_B6_1->___y = G_B6_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:175>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:176>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:177>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = ___0_mask;
+		float L_23 = L_22.___z;
+		bool L_24;
+		L_24 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline(L_23, (0.0f), NULL);
+		if (L_24)
+		{
+			G_B8_0 = (&V_0);
+			goto IL_009b;
+		}
+		G_B7_0 = (&V_0);
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_0;
+		float L_26 = L_25.___z;
+		G_B9_0 = L_26;
+		G_B9_1 = G_B7_0;
+		goto IL_00b0;
+	}
+
+IL_009b:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = __this->____hipPinningObject;
+		NullCheck(L_27);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
+		L_28 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_27, NULL);
+		NullCheck(L_28);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_28, NULL);
+		float L_30 = L_29.___z;
+		G_B9_0 = L_30;
+		G_B9_1 = G_B8_0;
+	}
+
+IL_00b0:
+	{
+		G_B9_1->___z = G_B9_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:178>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = __this->____hipPinningObject;
+		NullCheck(L_31);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32;
+		L_32 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_31, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_0;
+		NullCheck(L_32);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_32, L_33, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:179>
+		return;
+	}
+}
+// Method Definition Index: 123646
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningSkeletalProcessor_Initialize_m46767C95BFBE9155C485507D981596D8E3216D15 (HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_retargeter, const RuntimeMethod* method) 
+{
+	uint64_t V_0 = 0;
+	int32_t V_1 = 0;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:184>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_0 = ___0_retargeter;
+		NullCheck(L_0);
+		uint64_t L_1;
+		L_1 = CharacterRetargeter_get_RetargetingHandle_mEEE86C51359EC442E2947FC308BFF5A0E7E19FCB(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:185>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:186>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:187>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_2 = ___0_retargeter;
+		NullCheck(L_2);
+		uint64_t L_3;
+		L_3 = CharacterRetargeter_get_RetargetingHandle_mEEE86C51359EC442E2947FC308BFF5A0E7E19FCB(L_2, NULL);
+		bool L_4;
+		L_4 = MSDKUtility_GetJointIndexByKnownJointType_m456D0764FC8044D8971A511E6E647F0DE6159856(L_3, 1, 0, (&V_1), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:188>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:189>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:190>
+		uint64_t L_5 = V_0;
+		int32_t* L_6 = (int32_t*)(&__this->____hipsJointIndex);
+		bool L_7;
+		L_7 = MSDKUtility_GetJointIndexByKnownJointType_m456D0764FC8044D8971A511E6E647F0DE6159856(L_5, 1, 1, L_6, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:191>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:193>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:194>
+		uint64_t L_8 = V_0;
+		bool L_9;
+		L_9 = MSDKUtility_GetSkeletonTPose_mEB00F62F8BE628CECC7EB522E63116A18E83FA84(L_8, 1, 3, 0, (&V_2), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:195>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:196>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:197>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:198>
+		uint64_t L_10 = V_0;
+		bool L_11;
+		L_11 = MSDKUtility_GetSkeletonTPose_mEB00F62F8BE628CECC7EB522E63116A18E83FA84(L_10, 1, 3, 1, (&V_3), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:200>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_12 = ___0_retargeter;
+		__this->____retargeter = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____retargeter), (void*)L_12);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:201>
+		int32_t L_13 = __this->____hipsJointIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_14;
+		L_14 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_2))->___m_Buffer, L_13);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = L_14.___Orientation;
+		__this->____initialHipRotation = L_15;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:202>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_16 = ___0_retargeter;
+		NullCheck(L_16);
+		JointPairU5BU5D_t497D50D5A83F1CF02B5650B119ED2977C0131C9E* L_17;
+		L_17 = CharacterRetargeterConfig_get_JointPairs_m26419DBAD2EAAA3E9759B8106B21FB7B768E1242_inline(L_16, NULL);
+		int32_t L_18 = V_1;
+		NullCheck(L_17);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = ((L_17)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_18)))->___Joint;
+		__this->____rootTransform = L_19;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____rootTransform), (void*)L_19);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:203>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_20 = ___0_retargeter;
+		NullCheck(L_20);
+		JointPairU5BU5D_t497D50D5A83F1CF02B5650B119ED2977C0131C9E* L_21;
+		L_21 = CharacterRetargeterConfig_get_JointPairs_m26419DBAD2EAAA3E9759B8106B21FB7B768E1242_inline(L_20, NULL);
+		int32_t L_22 = __this->____hipsJointIndex;
+		NullCheck(L_21);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = ((L_21)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_22)))->___Joint;
+		__this->____hipsTransform = L_23;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____hipsTransform), (void*)L_23);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:204>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_24 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____leftData);
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_25 = ___0_retargeter;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_26 = V_3;
+		HipPinningData_Initialize_mB65CDF271343C91484870B65DE11E9BCE9A1AC73(L_24, L_25, L_26, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:205>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_27 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____rightData);
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_28 = ___0_retargeter;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_29 = V_3;
+		HipPinningData_Initialize_mB65CDF271343C91484870B65DE11E9BCE9A1AC73(L_27, L_28, L_29, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:206>
+		return;
+	}
+}
+// Method Definition Index: 123647
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningSkeletalProcessor_Destroy_mC080485160AC721F2D1F7653D5A07CD8BF85E2C8 (HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:211>
+		return;
+	}
+}
+// Method Definition Index: 123648
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningSkeletalProcessor_UpdatePose_mF41B38DFD1A2236A74F9F1A51D9AA94F4AC7C90C (HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_pose, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:216>
+		return;
+	}
+}
+// Method Definition Index: 123649
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningSkeletalProcessor_LateUpdatePose_mC3C76679E1D16201A9B32EAF4B46C7E38C91319A (HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_currentPose, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IJobExtensions_Schedule_TisHipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902_mD3FC83CE3C2AB0D956F022BB8452FB6DAE0404BA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	int32_t V_8 = 0;
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	bool V_11 = false;
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	bool V_16 = false;
+	bool V_17 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:226>
+		float L_0 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		V_3 = (bool)((((int32_t)((!(((float)L_0) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_3;
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:228>
+		__this->____previouslyActive = (bool)0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:229>
+		goto IL_0286;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:233>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = __this->____initialHipRotation;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->____hipsTransform;
+		NullCheck(L_3);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
+		L_4 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_3, NULL);
+		HipPinningSkeletalProcessor_UpdateHipPinningObjectRotation_mA7677C745A5209BFAEE82250742F6A3C2D96FCDA(__this, L_2, L_4, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:234>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->____rootTransform;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->____targetHips;
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_5, L_7, NULL);
+		V_0 = L_8;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:237>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:238>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:239>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_9 = ___1_targetPose;
+		int32_t L_10 = __this->____rootJointIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_11;
+		L_11 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_9)->___m_Buffer, L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = L_11.___Position;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_13 = ___1_targetPose;
+		int32_t L_14 = __this->____rootJointIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_15;
+		L_15 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_13)->___m_Buffer, L_14);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = L_15.___Orientation;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_17 = ___1_targetPose;
+		int32_t L_18 = __this->____hipsJointIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_19;
+		L_19 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_17)->___m_Buffer, L_18);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = L_19.___Position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_16, L_20, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_12, L_21, NULL);
+		V_1 = L_22;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:240>
+		bool L_23 = __this->____previouslyActive;
+		V_5 = L_23;
+		bool L_24 = V_5;
+		V_4 = L_24;
+		bool L_25 = V_4;
+		if (L_25)
+		{
+			goto IL_00a1;
+		}
+	}
+	{
+		goto IL_00c8;
+	}
+
+IL_00a1:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:242>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = __this->____initialHipPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = V_1;
+		float L_28;
+		L_28 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_26, L_27, NULL);
+		float L_29 = __this->____hipPinningThreshold;
+		if ((((float)L_28) > ((float)L_29)))
+		{
+			goto IL_00b7;
+		}
+	}
+	{
+		goto IL_00e4;
+	}
+
+IL_00b7:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:243>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_30 = __this->___OnExitHipPinningArea;
+		NullCheck(L_30);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_30, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:244>
+		goto IL_0286;
+	}
+
+IL_00c8:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:246>
+		__this->____previouslyActive = (bool)1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:247>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = V_1;
+		__this->____initialHipPosition = L_31;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:248>
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_32 = __this->___OnEnterHipPinningArea;
+		NullCheck(L_32);
+		Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline(L_32, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:249>
+		goto IL_00e4;
+	}
+
+IL_00e4:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:252>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:253>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:254>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:255>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:256>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:257>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:258>
+		il2cpp_codegen_initobj((&V_6), sizeof(HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902));
+		float L_33 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		(&V_6)->___Weight = L_33;
+		int32_t L_34 = __this->____hipsJointIndex;
+		(&V_6)->___HipsIndex = L_34;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_0;
+		(&V_6)->___TargetPosition = L_35;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_36 = ___1_targetPose;
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_37 = (*(NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)L_36);
+		(&V_6)->___TargetPose = L_37;
+		HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902 L_38 = V_6;
+		V_2 = L_38;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:259>
+		HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902 L_39 = V_2;
+		il2cpp_codegen_initobj((&V_7), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_40 = V_7;
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_41;
+		L_41 = IJobExtensions_Schedule_TisHipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902_mD3FC83CE3C2AB0D956F022BB8452FB6DAE0404BA(L_39, L_40, IJobExtensions_Schedule_TisHipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902_mD3FC83CE3C2AB0D956F022BB8452FB6DAE0404BA_RuntimeMethod_var);
+		V_7 = L_41;
+		JobHandle_Complete_mDCED35A125AAB37EDDAB2E31C805B4904B614A4A((&V_7), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:262>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_42 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____leftData);
+		HipPinningData_Solve_m24A512C063E5A9830D533C3D707830C8F4DCB6B2(L_42, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:263>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_43 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____rightData);
+		HipPinningData_Solve_m24A512C063E5A9830D533C3D707830C8F4DCB6B2(L_43, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:264>
+		V_8 = 0;
+		goto IL_01d1;
+	}
+
+IL_0155:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:266>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_44 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____leftData);
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_45 = L_44->___LegIndexes;
+		int32_t L_46 = V_8;
+		NullCheck(L_45);
+		int32_t L_47 = L_46;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_48 = (L_45)->GetAt(static_cast<il2cpp_array_size_t>(L_47));
+		V_9 = L_48;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:267>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_49 = ___1_targetPose;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_50 = V_9;
+		int32_t L_51;
+		L_51 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_50, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_52;
+		L_52 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_49)->___m_Buffer, L_51);
+		V_10 = L_52;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:268>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_53 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____leftData);
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_54 = L_53->___LegBones;
+		int32_t L_55 = V_8;
+		NullCheck(L_54);
+		int32_t L_56 = L_55;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_57 = (L_54)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
+		NullCheck(L_57);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58;
+		L_58 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_57, NULL);
+		(&V_10)->___Orientation = L_58;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:269>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_59 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____leftData);
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_60 = L_59->___LegBones;
+		int32_t L_61 = V_8;
+		NullCheck(L_60);
+		int32_t L_62 = L_61;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_63 = (L_60)->GetAt(static_cast<il2cpp_array_size_t>(L_62));
+		NullCheck(L_63);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64;
+		L_64 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_63, NULL);
+		(&V_10)->___Position = L_64;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:270>
+		int32_t L_65 = V_8;
+		V_11 = (bool)((((int32_t)L_65) == ((int32_t)0))? 1 : 0);
+		bool L_66 = V_11;
+		if (!L_66)
+		{
+			goto IL_01ba;
+		}
+	}
+	{
+	}
+
+IL_01ba:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:274>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_67 = ___1_targetPose;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_68 = V_9;
+		int32_t L_69;
+		L_69 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_68, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_70 = V_10;
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_67)->___m_Buffer, L_69, (L_70));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:264>
+		int32_t L_71 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_71, 1));
+	}
+
+IL_01d1:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:264>
+		int32_t L_72 = V_8;
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_73 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____leftData);
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_74 = L_73->___LegIndexes;
+		NullCheck(L_74);
+		V_12 = (bool)((((int32_t)L_72) < ((int32_t)((int32_t)(((RuntimeArray*)L_74)->max_length))))? 1 : 0);
+		bool L_75 = V_12;
+		if (L_75)
+		{
+			goto IL_0155;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:277>
+		V_13 = 0;
+		goto IL_026c;
+	}
+
+IL_01f0:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:279>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_76 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____rightData);
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_77 = L_76->___LegIndexes;
+		int32_t L_78 = V_13;
+		NullCheck(L_77);
+		int32_t L_79 = L_78;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_80 = (L_77)->GetAt(static_cast<il2cpp_array_size_t>(L_79));
+		V_14 = L_80;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:280>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_81 = ___1_targetPose;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_82 = V_14;
+		int32_t L_83;
+		L_83 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_82, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_84;
+		L_84 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_81)->___m_Buffer, L_83);
+		V_15 = L_84;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:281>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_85 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____rightData);
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_86 = L_85->___LegBones;
+		int32_t L_87 = V_13;
+		NullCheck(L_86);
+		int32_t L_88 = L_87;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_89 = (L_86)->GetAt(static_cast<il2cpp_array_size_t>(L_88));
+		NullCheck(L_89);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_90;
+		L_90 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_89, NULL);
+		(&V_15)->___Orientation = L_90;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:282>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_91 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____rightData);
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_92 = L_91->___LegBones;
+		int32_t L_93 = V_13;
+		NullCheck(L_92);
+		int32_t L_94 = L_93;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_95 = (L_92)->GetAt(static_cast<il2cpp_array_size_t>(L_94));
+		NullCheck(L_95);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_96;
+		L_96 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_95, NULL);
+		(&V_15)->___Position = L_96;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:283>
+		int32_t L_97 = V_13;
+		V_16 = (bool)((((int32_t)L_97) == ((int32_t)0))? 1 : 0);
+		bool L_98 = V_16;
+		if (!L_98)
+		{
+			goto IL_0255;
+		}
+	}
+	{
+	}
+
+IL_0255:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:287>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_99 = ___1_targetPose;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_100 = V_14;
+		int32_t L_101;
+		L_101 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_100, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_102 = V_15;
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_99)->___m_Buffer, L_101, (L_102));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:277>
+		int32_t L_103 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_103, 1));
+	}
+
+IL_026c:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:277>
+		int32_t L_104 = V_13;
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_105 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____rightData);
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_106 = L_105->___LegIndexes;
+		NullCheck(L_106);
+		V_17 = (bool)((((int32_t)L_104) < ((int32_t)((int32_t)(((RuntimeArray*)L_106)->max_length))))? 1 : 0);
+		bool L_107 = V_17;
+		if (L_107)
+		{
+			goto IL_01f0;
+		}
+	}
+
+IL_0286:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:289>
+		return;
+	}
+}
+// Method Definition Index: 123650
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningSkeletalProcessor_UpdateHipPinningObjectRotation_mA7677C745A5209BFAEE82250742F6A3C2D96FCDA (HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_initialHipRotation, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_currentHipRotation, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:294>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_initialHipRotation;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_0, L_1, NULL);
+		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:295>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___1_currentHipRotation;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_3, L_4, NULL);
+		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:298>
+		(&V_0)->___y = (0.0f);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:299>
+		(&V_1)->___y = (0.0f);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:301>
+		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline((&V_0), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:302>
+		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline((&V_1), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:305>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		float L_9;
+		L_9 = Vector3_SignedAngle_m76C77F9D7BAF5969FA5B7500ED2D5FF9F9FA4153_inline(L_6, L_7, L_8, NULL);
+		V_2 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:306>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->____hipPinningTargetParent;
+		NullCheck(L_10);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_10, NULL);
+		float L_12 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14;
+		L_14 = Quaternion_AngleAxis_mF37022977B297E63AA70D69EA1C4C922FF22CC80(L_12, L_13, NULL);
+		NullCheck(L_11);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_11, L_14, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:307>
+		return;
+	}
+}
+// Method Definition Index: 123651
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningSkeletalProcessor__ctor_m04BB1523E35B0A07AA7BA5B6603A615D09DA04F9 (HipPinningSkeletalProcessor_tF6BFBF44A30DAC5180E5D4976FBDCFA7A70709A5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:120>
+		__this->____hipPinningThreshold = (0.0500000007f);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:132>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_0 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____leftData);
+		il2cpp_codegen_initobj(L_0, sizeof(HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:135>
+		HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* L_1 = (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*)(&__this->____rightData);
+		il2cpp_codegen_initobj(L_1, sizeof(HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705));
+		TargetProcessor__ctor_m7A34D70B43FEFB1D20A3B61E4899D52FDC9B7DE4(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshal_pinvoke(const HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705& unmarshaled, HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705____TargetFoot_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___TargetFootException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705____TargetFoot_FieldInfo_var, HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___TargetFootException, NULL);
+}
+IL2CPP_EXTERN_C void HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshal_pinvoke_back(const HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshaled_pinvoke& marshaled, HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705____TargetFoot_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___TargetFootException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705____TargetFoot_FieldInfo_var, HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___TargetFootException, NULL);
+}
+IL2CPP_EXTERN_C void HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshal_pinvoke_cleanup(HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshal_com(const HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705& unmarshaled, HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705____TargetFoot_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___TargetFootException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705____TargetFoot_FieldInfo_var, HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___TargetFootException, NULL);
+}
+IL2CPP_EXTERN_C void HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshal_com_back(const HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshaled_com& marshaled, HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705____TargetFoot_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___TargetFootException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705____TargetFoot_FieldInfo_var, HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___TargetFootException, NULL);
+}
+IL2CPP_EXTERN_C void HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshal_com_cleanup(HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705_marshaled_com& marshaled)
+{
+}
+// Method Definition Index: 123652
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningData_Initialize_mB65CDF271343C91484870B65DE11E9BCE9A1AC73 (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_characterRetargeter, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___1_localTPose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	bool V_6 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:44>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_0 = __this->___LegIndexes;
+		NullCheck(L_0);
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_1 = (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24*)(TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24*)SZArrayNew(TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_0)->max_length)));
+		__this->___LegBones = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LegBones), (void*)L_1);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:45>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_2 = __this->___LegIndexes;
+		NullCheck(L_2);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)));
+		__this->___LegLengths = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___LegLengths), (void*)L_3);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:46>
+		V_0 = 0;
+		goto IL_007e;
+	}
+
+IL_002b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:48>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_4 = __this->___LegIndexes;
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_1 = L_7;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:49>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_8 = __this->___LegBones;
+		int32_t L_9 = V_0;
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_10 = ___0_characterRetargeter;
+		NullCheck(L_10);
+		JointPairU5BU5D_t497D50D5A83F1CF02B5650B119ED2977C0131C9E* L_11;
+		L_11 = CharacterRetargeterConfig_get_JointPairs_m26419DBAD2EAAA3E9759B8106B21FB7B768E1242_inline(L_10, NULL);
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_12 = V_1;
+		int32_t L_13;
+		L_13 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_12, NULL);
+		NullCheck(L_11);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = ((L_11)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_13)))->___Joint;
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_14);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(L_9), (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)L_14);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:50>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_15 = __this->___LegLengths;
+		int32_t L_16 = V_0;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_17 = V_1;
+		int32_t L_18;
+		L_18 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_17, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_19;
+		L_19 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___1_localTPose))->___m_Buffer, L_18);
+		V_2 = L_19;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_20 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&(&V_2)->___Position);
+		float L_21;
+		L_21 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline(L_20, NULL);
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(L_16), (float)L_21);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:46>
+		int32_t L_22 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_22, 1));
+	}
+
+IL_007e:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:46>
+		int32_t L_23 = V_0;
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_24 = __this->___LegIndexes;
+		NullCheck(L_24);
+		V_3 = (bool)((((int32_t)L_23) < ((int32_t)((int32_t)(((RuntimeArray*)L_24)->max_length))))? 1 : 0);
+		bool L_25 = V_3;
+		if (L_25)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:53>
+		V_4 = 0;
+		goto IL_00ce;
+	}
+
+IL_0092:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:55>
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_26 = __this->___LegIndexes;
+		int32_t L_27 = V_4;
+		NullCheck(L_26);
+		int32_t L_28 = L_27;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		int32_t L_30;
+		L_30 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_29, NULL);
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_31 = __this->___MidLegIndex;
+		int32_t L_32;
+		L_32 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_31, NULL);
+		V_5 = (bool)((((int32_t)((((int32_t)L_30) == ((int32_t)L_32))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_33 = V_5;
+		if (!L_33)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:57>
+		goto IL_00c8;
+	}
+
+IL_00be:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:60>
+		int32_t L_34 = V_4;
+		__this->____localMidLegIndex = L_34;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:61>
+		goto IL_00e0;
+	}
+
+IL_00c8:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:53>
+		int32_t L_35 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_35, 1));
+	}
+
+IL_00ce:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:53>
+		int32_t L_36 = V_4;
+		TargetJointIndexU5BU5D_tDC5583ECEBC2C6753E1E769F0BB4C379199E6746* L_37 = __this->___LegIndexes;
+		NullCheck(L_37);
+		V_6 = (bool)((((int32_t)L_36) < ((int32_t)((int32_t)(((RuntimeArray*)L_37)->max_length))))? 1 : 0);
+		bool L_38 = V_6;
+		if (L_38)
+		{
+			goto IL_0092;
+		}
+	}
+
+IL_00e0:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:63>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void HipPinningData_Initialize_mB65CDF271343C91484870B65DE11E9BCE9A1AC73_AdjustorThunk (RuntimeObject* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_characterRetargeter, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___1_localTPose, const RuntimeMethod* method)
+{
+	HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*>(__this + _offset);
+	HipPinningData_Initialize_mB65CDF271343C91484870B65DE11E9BCE9A1AC73(_thisAdjusted, ___0_characterRetargeter, ___1_localTPose, method);
+}
+// Method Definition Index: 123653
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HipPinningData_Solve_m24A512C063E5A9830D533C3D707830C8F4DCB6B2 (HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	bool V_3 = false;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_4 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_5 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	bool V_8 = false;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:67>
+		V_0 = 0;
+		goto IL_003b;
+	}
+
+IL_0005:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:69>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = __this->___LegBones;
+		int32_t L_1 = V_0;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_4 = __this->___LegBones;
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_7, NULL);
+		V_1 = L_8;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_1), NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_10 = __this->___LegLengths;
+		int32_t L_11 = V_0;
+		NullCheck(L_10);
+		int32_t L_12 = L_11;
+		float L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_9, L_13, NULL);
+		NullCheck(L_3);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_3, L_14, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:67>
+		int32_t L_15 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_15, 1));
+	}
+
+IL_003b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:67>
+		int32_t L_16 = V_0;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_17 = __this->___LegBones;
+		NullCheck(L_17);
+		V_2 = (bool)((((int32_t)L_16) < ((int32_t)((int32_t)(((RuntimeArray*)L_17)->max_length))))? 1 : 0);
+		bool L_18 = V_2;
+		if (L_18)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:72>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = __this->___TargetHint;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_20;
+		L_20 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_3 = L_20;
+		bool L_21 = V_3;
+		if (!L_21)
+		{
+			goto IL_00f6;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:75>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_22 = __this->___LegBones;
+		int32_t L_23 = __this->____localMidLegIndex;
+		NullCheck(L_22);
+		int32_t L_24 = L_23;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		V_4 = L_25;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:76>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_26 = __this->___LegBones;
+		int32_t L_27 = __this->____localMidLegIndex;
+		NullCheck(L_26);
+		int32_t L_28 = ((int32_t)il2cpp_codegen_add(L_27, 1));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		V_5 = L_29;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:79>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30 = V_4;
+		NullCheck(L_30);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_30, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_32 = V_5;
+		NullCheck(L_32);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_32, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_31, L_33, NULL);
+		V_1 = L_34;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+		L_35 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_1), NULL);
+		V_6 = L_35;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:80>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36 = __this->___TargetHint;
+		NullCheck(L_36);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_36, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38 = V_5;
+		NullCheck(L_38);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_38, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
+		L_40 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_37, L_39, NULL);
+		V_1 = L_40;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		L_41 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_1), NULL);
+		V_7 = L_41;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:82>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_7;
+		float L_44;
+		L_44 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_42, L_43, NULL);
+		V_8 = (bool)((((float)L_44) < ((float)(0.999000013f)))? 1 : 0);
+		bool L_45 = V_8;
+		if (!L_45)
+		{
+			goto IL_00f5;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:84>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_7;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48;
+		L_48 = Quaternion_FromToRotation_mCB3100F93637E72455388B901C36EF8A25DFDB9A(L_46, L_47, NULL);
+		V_9 = L_48;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:85>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_49 = V_5;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50 = V_9;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_51 = V_5;
+		NullCheck(L_51);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_52;
+		L_52 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_51, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_53;
+		L_53 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_50, L_52, NULL);
+		NullCheck(L_49);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_49, L_53, NULL);
+	}
+
+IL_00f5:
+	{
+	}
+
+IL_00f6:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:89>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_54 = __this->___LegBones;
+		NullCheck(L_54);
+		int32_t L_55 = 0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_56 = (L_54)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_57 = __this->___TargetFoot;
+		NullCheck(L_57);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58;
+		L_58 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_57, NULL);
+		NullCheck(L_56);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_56, L_58, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:90>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_59 = __this->___LegBones;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_60 = __this->___TargetFoot;
+		NullCheck(L_60);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
+		L_61 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_60, NULL);
+		bool L_62;
+		L_62 = IKUtilities_SolveCCDIK_m7B3E85EF919F323202D7303B0E8595E3D9D8AE2A(L_59, L_61, (0.00999999978f), (5.0f), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:91>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void HipPinningData_Solve_m24A512C063E5A9830D533C3D707830C8F4DCB6B2_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<HipPinningData_t601153EB18725C09EAE3D4043C96D3F0C080B705*>(__this + _offset);
+	HipPinningData_Solve_m24A512C063E5A9830D533C3D707830C8F4DCB6B2(_thisAdjusted, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123654
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void HipPinningJob_Execute_mEC177E59C8EF67F449E226C4F7CA6E7A469251AB (HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
+{
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:109>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_0 = (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)(&__this->___TargetPose);
+		int32_t L_1 = __this->___HipsIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_2;
+		L_2 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_0)->___m_Buffer, L_1);
+		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:110>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_3 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3.___Position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = __this->___TargetPosition;
+		float L_6 = __this->___Weight;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_4, L_5, L_6, NULL);
+		(&V_0)->___Position = L_7;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:111>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_8 = (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4*)(&__this->___TargetPose);
+		int32_t L_9 = __this->___HipsIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_10 = V_0;
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_8)->___m_Buffer, L_9, (L_10));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/HipPinningSkeletalProcessor.cs:112>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void HipPinningJob_Execute_mEC177E59C8EF67F449E226C4F7CA6E7A469251AB_AdjustorThunk (RuntimeObject* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method)
+{
+	HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<HipPinningJob_tB304A169B7D4628E56ED40BFFCFDCBA9CF3DA902*>(__this + _offset);
+	HipPinningJob_Execute_mEC177E59C8EF67F449E226C4F7CA6E7A469251AB(_thisAdjusted, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123655
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LocomotionSkeletalProcessor_get_LocomotionEventHandler_m045F659337D8565CAF05738BE9973FAC8E0ACB32 (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:21>
+		RuntimeObject* L_0 = __this->____locomotionEventHandler;
+		return L_0;
+	}
+}
+// Method Definition Index: 123656
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor_set_LocomotionEventHandler_m4C58D2926D0FFA57A36D9EA69D3493CB87D37F6A (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:22>
+		RuntimeObject* L_0 = ___0_value;
+		__this->____locomotionEventHandler = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____locomotionEventHandler), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123657
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* LocomotionSkeletalProcessor_get_CameraRig_m923E2C8DFE2C8C934FB176B4FAF2CE11E49CA6AF (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:31>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->____cameraRig;
+		return L_0;
+	}
+}
+// Method Definition Index: 123658
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor_set_CameraRig_m2B8D34E02DBBF84032266B96E0AECCF509BD08A5 (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:32>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_value;
+		__this->____cameraRig = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____cameraRig), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123659
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* LocomotionSkeletalProcessor_get_Animator_mE601D7ACA2173BF68D1783BCA0CAD46F8B162D19 (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:40>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->____animator;
+		return L_0;
+	}
+}
+// Method Definition Index: 123660
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor_set_Animator_mF27CC6CCACAB3C95932EFDA0ACC97E5FCF6F597D (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:41>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = ___0_value;
+		__this->____animator = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____animator), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123661
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LocomotionSkeletalProcessor_get_AnimatorVerticalParam_mD74023AB6386AF7A639BFC6F0368BD8502C26B92 (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:46>
+		String_t* L_0 = __this->____animatorVerticalParam;
+		return L_0;
+	}
+}
+// Method Definition Index: 123662
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor_set_AnimatorVerticalParam_mC2F0410A8C0D081F2E075C043BFBF9C89BB1D191 (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:47>
+		String_t* L_0 = ___0_value;
+		__this->____animatorVerticalParam = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____animatorVerticalParam), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123663
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* LocomotionSkeletalProcessor_get_AnimatorHorizontalParam_m488EC62379AD1AEE503C69B18CEC205AF08038BA (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:52>
+		String_t* L_0 = __this->____animatorVerticalParam;
+		return L_0;
+	}
+}
+// Method Definition Index: 123664
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor_set_AnimatorHorizontalParam_m53B4AC3EB2309402ACDB4627B4B0B626442390A9 (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:53>
+		String_t* L_0 = ___0_value;
+		__this->____animatorVerticalParam = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____animatorVerticalParam), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 123665
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LocomotionSkeletalProcessor_get_AnimationSpeed_m8B01EB92D6490221F108ABDC942953A626532547 (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:58>
+		float L_0 = __this->____animationSpeed;
+		return L_0;
+	}
+}
+// Method Definition Index: 123666
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor_set_AnimationSpeed_mE20B6C10898AFFEA3D745E3B51AF6EBFBF60B449 (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:59>
+		float L_0 = ___0_value;
+		__this->____animationSpeed = L_0;
+		return;
+	}
+}
+// Method Definition Index: 123667
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor_Initialize_mAA3998C2647B651898FDEF09A7A7B3DFACE186F1 (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_retargeter, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CharacterRetargeter_GetTargetProcessor_TisAnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D_m3C90E7B408FFB2B8A9EBABBB99C25D5DB023140D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LocomotionSkeletalProcessor_OnWhenLocomotionEventHandled_m6C6CFEF407F71C790E252FAF3B2F0F709197DEEA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:97>
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_0 = __this->____locomotionEventHandlerObject;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:99>
+		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_3 = __this->____locomotionEventHandlerObject;
+		__this->____locomotionEventHandler = ((RuntimeObject*)Castclass((RuntimeObject*)L_3, ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____locomotionEventHandler), (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_3, ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9_il2cpp_TypeInfo_var)));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:100>
+		RuntimeObject* L_4 = __this->____locomotionEventHandler;
+		Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC* L_5 = (Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC*)il2cpp_codegen_object_new(Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC_il2cpp_TypeInfo_var);
+		Action_2__ctor_mACCF66E6123363194544D2A59FB5D27047C15FD8(L_5, __this, (intptr_t)((void*)LocomotionSkeletalProcessor_OnWhenLocomotionEventHandled_m6C6CFEF407F71C790E252FAF3B2F0F709197DEEA_RuntimeMethod_var), NULL);
+		NullCheck(L_4);
+		InterfaceActionInvoker1< Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC* >::Invoke(1, ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9_il2cpp_TypeInfo_var, L_4, L_5);
+	}
+
+IL_003c:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:103>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_6 = ___0_retargeter;
+		NullCheck(L_6);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_6, NULL);
+		__this->____characterRetargeter = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____characterRetargeter), (void*)L_7);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:104>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_8 = __this->____animator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_1 = L_9;
+		bool L_10 = V_1;
+		if (!L_10)
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:106>
+		goto IL_0087;
+	}
+
+IL_005b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:108>
+		String_t* L_11 = __this->____animatorVerticalParam;
+		int32_t L_12;
+		L_12 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(L_11, NULL);
+		((LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_StaticFields*)il2cpp_codegen_static_fields_for(LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_il2cpp_TypeInfo_var))->____verticalHash = L_12;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:109>
+		String_t* L_13 = __this->____animatorHorizontalParam;
+		int32_t L_14;
+		L_14 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(L_13, NULL);
+		((LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_StaticFields*)il2cpp_codegen_static_fields_for(LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_il2cpp_TypeInfo_var))->____horizontalHash = L_14;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:110>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_15 = ___0_retargeter;
+		NullCheck(L_15);
+		AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* L_16;
+		L_16 = CharacterRetargeter_GetTargetProcessor_TisAnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D_m3C90E7B408FFB2B8A9EBABBB99C25D5DB023140D(L_15, CharacterRetargeter_GetTargetProcessor_TisAnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D_m3C90E7B408FFB2B8A9EBABBB99C25D5DB023140D_RuntimeMethod_var);
+		__this->____animProcessor = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____animProcessor), (void*)L_16);
+	}
+
+IL_0087:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:111>
+		return;
+	}
+}
+// Method Definition Index: 123668
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor_Destroy_mC9FFDA075DB6AFBB7197B366A311D52D35031A7D (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LocomotionSkeletalProcessor_OnWhenLocomotionEventHandled_m6C6CFEF407F71C790E252FAF3B2F0F709197DEEA_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:119>
+		RuntimeObject* L_0 = __this->____locomotionEventHandler;
+		V_0 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:121>
+		RuntimeObject* L_2 = __this->____locomotionEventHandler;
+		Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC* L_3 = (Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC*)il2cpp_codegen_object_new(Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC_il2cpp_TypeInfo_var);
+		Action_2__ctor_mACCF66E6123363194544D2A59FB5D27047C15FD8(L_3, __this, (intptr_t)((void*)LocomotionSkeletalProcessor_OnWhenLocomotionEventHandled_m6C6CFEF407F71C790E252FAF3B2F0F709197DEEA_RuntimeMethod_var), NULL);
+		NullCheck(L_2);
+		InterfaceActionInvoker1< Action_2_tE92FD8AC8577E1A02B03E7FCC8A9C058877A95EC* >::Invoke(2, ILocomotionEventHandler_tDC92754347963FABC92C720E6A5EE8256A8286A9_il2cpp_TypeInfo_var, L_2, L_3);
+	}
+
+IL_0028:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:124>
+		return;
+	}
+}
+// Method Definition Index: 123669
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor_UpdatePose_mD1A9EE0D5DE004823ACC5CE8EEF04C1FD8A56EB5 (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_pose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	bool V_3 = false;
+	bool V_4 = false;
+	bool V_5 = false;
+	bool V_6 = false;
+	int32_t G_B5_0 = 0;
+	int32_t G_B10_0 = 0;
+	int32_t G_B15_0 = 0;
+	AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* G_B19_0 = NULL;
+	AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* G_B18_0 = NULL;
+	float G_B20_0 = 0.0f;
+	AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* G_B20_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:132>
+		float L_0 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		V_3 = (bool)((((int32_t)((!(((float)L_0) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_3;
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:134>
+		goto IL_01b7;
+	}
+
+IL_001b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:137>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->____cameraRig;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		V_0 = L_3;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:138>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->____cameraRig;
+		NullCheck(L_4);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
+		L_5 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_4, NULL);
+		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:139>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->____characterRetargeter;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7 = V_1;
+		NullCheck(L_6);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_6, L_7, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:140>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->____characterRetargeter;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		NullCheck(L_8);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_8, L_9, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:142>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = __this->____velocity;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		float L_12 = __this->____animationSpeed;
+		float L_13;
+		L_13 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline(L_10, L_11, ((float)il2cpp_codegen_multiply(L_12, L_13)), NULL);
+		__this->____velocity = L_14;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:143>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:144>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:145>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = __this->____rotationalVelocity;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16;
+		L_16 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		float L_17 = __this->____animationSpeed;
+		float L_18;
+		L_18 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19;
+		L_19 = Quaternion_RotateTowards_m50EF9D609C80CD423CDA856EA3481DE2004633A3_inline(L_15, L_16, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply((360.0f), L_17)), L_18)), NULL);
+		__this->____rotationalVelocity = L_19;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:147>
+		AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* L_20 = __this->____animProcessor;
+		if (!L_20)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_21 = __this->____animator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_21, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		G_B5_0 = ((int32_t)(L_22));
+		goto IL_00ae;
+	}
+
+IL_00ad:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_00ae:
+	{
+		V_4 = (bool)G_B5_0;
+		bool L_23 = V_4;
+		if (!L_23)
+		{
+			goto IL_00ba;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:149>
+		goto IL_01b7;
+	}
+
+IL_00ba:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:151>
+		AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* L_24 = __this->____animProcessor;
+		NullCheck(L_24);
+		float L_25;
+		L_25 = TargetProcessor_get_Weight_m4A7A06AC5A45C9069F17B94E1EABD3771B64D6FC_inline(L_24, NULL);
+		V_2 = L_25;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:152>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_26 = __this->____animator;
+		NullCheck(L_26);
+		bool L_27;
+		L_27 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(L_26, NULL);
+		if (L_27)
+		{
+			goto IL_00dd;
+		}
+	}
+	{
+		float L_28 = V_2;
+		G_B10_0 = ((((float)L_28) > ((float)(0.0f)))? 1 : 0);
+		goto IL_00de;
+	}
+
+IL_00dd:
+	{
+		G_B10_0 = 0;
+	}
+
+IL_00de:
+	{
+		V_5 = (bool)G_B10_0;
+		bool L_29 = V_5;
+		if (!L_29)
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:154>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_30 = __this->____animator;
+		NullCheck(L_30);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_30, (bool)1, NULL);
+	}
+
+IL_00f3:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:156>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_31 = __this->____animator;
+		NullCheck(L_31);
+		bool L_32;
+		L_32 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(L_31, NULL);
+		if (!L_32)
+		{
+			goto IL_010d;
+		}
+	}
+	{
+		float L_33 = V_2;
+		G_B15_0 = ((((int32_t)((!(((float)L_33) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_010e;
+	}
+
+IL_010d:
+	{
+		G_B15_0 = 0;
+	}
+
+IL_010e:
+	{
+		V_6 = (bool)G_B15_0;
+		bool L_34 = V_6;
+		if (!L_34)
+		{
+			goto IL_0123;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:158>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_35 = __this->____animator;
+		NullCheck(L_35);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_35, (bool)0, NULL);
+	}
+
+IL_0123:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:160>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_36 = __this->____animator;
+		int32_t L_37 = ((LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_StaticFields*)il2cpp_codegen_static_fields_for(LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_il2cpp_TypeInfo_var))->____horizontalHash;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_38 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____velocity);
+		float L_39 = L_38->___x;
+		float L_40 = __this->____animationSpeed;
+		NullCheck(L_36);
+		Animator_SetFloat_m2CDA219BBAB214F4069C9844780EBCE6CCF579F5(L_36, L_37, ((float)il2cpp_codegen_multiply(L_39, L_40)), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:161>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_41 = __this->____animator;
+		int32_t L_42 = ((LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_StaticFields*)il2cpp_codegen_static_fields_for(LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8_il2cpp_TypeInfo_var))->____verticalHash;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_43 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____velocity);
+		float L_44 = L_43->___z;
+		float L_45 = __this->____animationSpeed;
+		NullCheck(L_41);
+		Animator_SetFloat_m2CDA219BBAB214F4069C9844780EBCE6CCF579F5(L_41, L_42, ((float)il2cpp_codegen_multiply(L_44, L_45)), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:162>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:163>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:164>
+		AnimationSkeletalProcessor_t77A033410699E447516A973EAC43BA9C90C8577D* L_46 = __this->____animProcessor;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_47 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->____velocity);
+		float L_48;
+		L_48 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline(L_47, NULL);
+		if ((((float)L_48) > ((float)(0.0f))))
+		{
+			G_B19_0 = L_46;
+			goto IL_019a;
+		}
+		G_B18_0 = L_46;
+	}
+	{
+		float L_49 = V_2;
+		float L_50;
+		L_50 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_51 = __this->____animationSpeed;
+		float L_52;
+		L_52 = Mathf_MoveTowards_m69751B5EC50D8E7127D4BB2C8D908E38808AF45D_inline(L_49, (0.0f), ((float)il2cpp_codegen_multiply(L_50, L_51)), NULL);
+		G_B20_0 = L_52;
+		G_B20_1 = G_B18_0;
+		goto IL_01b1;
+	}
+
+IL_019a:
+	{
+		float L_53 = V_2;
+		float L_54;
+		L_54 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_55 = __this->____animationSpeed;
+		float L_56;
+		L_56 = Mathf_MoveTowards_m69751B5EC50D8E7127D4BB2C8D908E38808AF45D_inline(L_53, (1.0f), ((float)il2cpp_codegen_multiply(L_54, L_55)), NULL);
+		G_B20_0 = L_56;
+		G_B20_1 = G_B19_0;
+	}
+
+IL_01b1:
+	{
+		NullCheck(G_B20_1);
+		TargetProcessor_set_Weight_mDAE70E3A4BE77C664837F04683E61D468C254574_inline(G_B20_1, G_B20_0, NULL);
+	}
+
+IL_01b7:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:165>
+		return;
+	}
+}
+// Method Definition Index: 123670
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor_LateUpdatePose_m2C445B5A91E9B63E4AFBF1C59E73D993DB83E405 (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_currentPose, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPose, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:175>
+		return;
+	}
+}
+// Method Definition Index: 123671
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor_OnWhenLocomotionEventHandled_m6C6CFEF407F71C790E252FAF3B2F0F709197DEEA (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, LocomotionEvent_tECDD51A234545203F40F068C91D2745873285642 ___0_locomotionEvent, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___1_pose, const RuntimeMethod* method) 
+{
+	LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* G_B2_0 = NULL;
+	LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* G_B1_0 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* G_B3_1 = NULL;
+	LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* G_B5_0 = NULL;
+	LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* G_B4_0 = NULL;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 G_B6_0;
+	memset((&G_B6_0), 0, sizeof(G_B6_0));
+	LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* G_B6_1 = NULL;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:180>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:181>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:182>
+		int32_t L_0;
+		L_0 = LocomotionEvent_get_Translation_m30955E2197430BDBD58E8E13F4AB5389A0CC914D_inline((&___0_locomotionEvent), NULL);
+		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
+		{
+			G_B2_0 = __this;
+			goto IL_0013;
+		}
+		G_B1_0 = __this;
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		G_B3_0 = L_1;
+		G_B3_1 = G_B1_0;
+		goto IL_0024;
+	}
+
+IL_0013:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->____characterRetargeter;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_3 = ___1_pose;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = L_3.___position;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_InverseTransformDirection_m69C077B881A98B08C7F231EFC49429C906FBC575(L_2, L_4, NULL);
+		G_B3_0 = L_5;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0024:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->____velocity = G_B3_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:183>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:184>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:185>
+		int32_t L_6;
+		L_6 = LocomotionEvent_get_Rotation_m17D423D1279F818504AB3E3F0CA0ECE99CC1D82C_inline((&___0_locomotionEvent), NULL);
+		if ((!(((uint32_t)L_6) == ((uint32_t)2))))
+		{
+			G_B5_0 = __this;
+			goto IL_003b;
+		}
+		G_B4_0 = __this;
+	}
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7;
+		L_7 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		G_B6_0 = L_7;
+		G_B6_1 = G_B4_0;
+		goto IL_0041;
+	}
+
+IL_003b:
+	{
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_8 = ___1_pose;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = L_8.___rotation;
+		G_B6_0 = L_9;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_0041:
+	{
+		NullCheck(G_B6_1);
+		G_B6_1->____rotationalVelocity = G_B6_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/LocomotionSkeletalProcessor.cs:186>
+		return;
+	}
+}
+// Method Definition Index: 123672
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LocomotionSkeletalProcessor__ctor_mB62B1450F29B4996DC3D4E0A8AF03F8FCEA58F8E (LocomotionSkeletalProcessor_t60FDA8D8522E0C91A3D5F6C3782F126D0E5792A8* __this, const RuntimeMethod* method) 
+{
+	{
+		TargetProcessor__ctor_m7A34D70B43FEFB1D20A3B61E4899D52FDC9B7DE4(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123673
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TwistSkeletalProcessor_Initialize_m0AFD61904FAD8A160D5D5EB337066102D0E0D427 (TwistSkeletalProcessor_t7DE24125E85EAAD40734573C30C9B5FB3AEFB34E* __this, CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* ___0_retargeter, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	uint64_t V_0 = 0;
+	NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	bool V_5 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:45>
+		CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* L_0 = ___0_retargeter;
+		NullCheck(L_0);
+		uint64_t L_1;
+		L_1 = CharacterRetargeter_get_RetargetingHandle_mEEE86C51359EC442E2947FC308BFF5A0E7E19FCB(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:46>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:47>
+		uint64_t L_2 = V_0;
+		bool L_3;
+		L_3 = MSDKUtility_GetSkeletonTPose_mEB00F62F8BE628CECC7EB522E63116A18E83FA84(L_2, 1, 3, 0, (&V_1), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:48>
+		int32_t L_4 = __this->____sourceIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_5;
+		L_5 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_1))->___m_Buffer, L_4);
+		V_2 = L_5;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:49>
+		TwistDataU5BU5D_tAFE9CFD167CE0E25D98576337E4A2815F0557791* L_6 = __this->____targetData;
+		NullCheck(L_6);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_7 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_6)->max_length)));
+		__this->____segmentEndUpAxis = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____segmentEndUpAxis), (void*)L_7);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:50>
+		V_3 = 0;
+		goto IL_007d;
+	}
+
+IL_0039:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:52>
+		TwistDataU5BU5D_tAFE9CFD167CE0E25D98576337E4A2815F0557791* L_8 = __this->____targetData;
+		int32_t L_9 = V_3;
+		NullCheck(L_8);
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_10 = ((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->___Index;
+		int32_t L_11;
+		L_11 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_10, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_12;
+		L_12 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&V_1))->___m_Buffer, L_11);
+		V_4 = L_12;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:53>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_13 = __this->____segmentEndUpAxis;
+		int32_t L_14 = V_3;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_15 = V_2;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_16 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = __this->____twistUpAxis;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = MSDKUtilityHelper_TransformVector_mA15252A542ECE487FC31345F38EAE7C182577015(L_16, L_17, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = MSDKUtilityHelper_InverseTransformVector_m6E11E89AA8C31230A739DE0C0677776E7E7AFA43(L_15, L_18, NULL);
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_14), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_19);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:50>
+		int32_t L_20 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+	}
+
+IL_007d:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:50>
+		int32_t L_21 = V_3;
+		TwistDataU5BU5D_tAFE9CFD167CE0E25D98576337E4A2815F0557791* L_22 = __this->____targetData;
+		NullCheck(L_22);
+		V_5 = (bool)((((int32_t)L_21) < ((int32_t)((int32_t)(((RuntimeArray*)L_22)->max_length))))? 1 : 0);
+		bool L_23 = V_5;
+		if (L_23)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:56>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:57>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = __this->____twistForwardAxis;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = __this->____twistUpAxis;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26;
+		L_26 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307(L_24, L_25, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_27;
+		L_27 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_26, NULL);
+		__this->____twistLocalRotationAxisOffset = L_27;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 123674
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TwistSkeletalProcessor_Destroy_m8CF87CEBB57D1525CD32891520CF20FA095D2CAE (TwistSkeletalProcessor_t7DE24125E85EAAD40734573C30C9B5FB3AEFB34E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:65>
+		return;
+	}
+}
+// Method Definition Index: 123675
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TwistSkeletalProcessor_UpdatePose_m3835F258DD36391B3441F5EDE7A6D4706B12A204 (TwistSkeletalProcessor_t7DE24125E85EAAD40734573C30C9B5FB3AEFB34E* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_pose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	float V_7 = 0.0f;
+	bool V_8 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	bool V_10 = false;
+	int32_t G_B8_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:73>
+		float L_0 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		V_0 = (bool)((((int32_t)((!(((float)L_0) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:75>
+		goto IL_0148;
+	}
+
+IL_001b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:78>
+		V_1 = 0;
+		goto IL_0134;
+	}
+
+IL_0022:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:80>
+		TwistDataU5BU5D_tAFE9CFD167CE0E25D98576337E4A2815F0557791* L_2 = __this->____targetData;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_2 = L_5;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:81>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_6 = ___0_pose;
+		TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A L_7 = V_2;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_8 = L_7.___Index;
+		int32_t L_9;
+		L_9 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_8, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_10;
+		L_10 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_6)->___m_Buffer, L_9);
+		V_3 = L_10;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:82>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_11 = ___0_pose;
+		int32_t L_12 = __this->____sourceIndex;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_13;
+		L_13 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_11)->___m_Buffer, L_12);
+		V_4 = L_13;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:83>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_14 = __this->____segmentEndUpAxis;
+		int32_t L_15 = V_1;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		V_5 = L_17;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:84>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_18 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = L_18.___Position;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_20 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = L_20.___Position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_19, L_21, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_22, (2.0f), NULL);
+		V_6 = L_23;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:85>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_6;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_25 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = MSDKUtilityHelper_TransformVector_mA15252A542ECE487FC31345F38EAE7C182577015(L_25, L_26, NULL);
+		float L_28;
+		L_28 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_24, L_27, NULL);
+		V_7 = L_28;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:88>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:89>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:90>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:91>
+		float L_29;
+		L_29 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_6), NULL);
+		float L_30 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
+		if ((((float)L_29) <= ((float)L_30)))
+		{
+			goto IL_00d8;
+		}
+	}
+	{
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_31 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = MSDKUtilityHelper_TransformVector_mA15252A542ECE487FC31345F38EAE7C182577015(L_31, L_32, NULL);
+		V_9 = L_33;
+		float L_34;
+		L_34 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_9), NULL);
+		float L_35 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
+		if ((((float)L_34) <= ((float)L_35)))
+		{
+			goto IL_00d8;
+		}
+	}
+	{
+		float L_36 = V_7;
+		float L_37 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
+		if ((((float)L_36) >= ((float)((float)il2cpp_codegen_subtract((1.0f), L_37)))))
+		{
+			goto IL_00d8;
+		}
+	}
+	{
+		float L_38 = V_7;
+		float L_39 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
+		G_B8_0 = ((((int32_t)((!(((float)L_38) <= ((float)((float)il2cpp_codegen_add((-1.0f), L_39)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_00d9;
+	}
+
+IL_00d8:
+	{
+		G_B8_0 = 1;
+	}
+
+IL_00d9:
+	{
+		V_8 = (bool)G_B8_0;
+		bool L_40 = V_8;
+		if (!L_40)
+		{
+			goto IL_00e2;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:93>
+		goto IL_0148;
+	}
+
+IL_00e2:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:97>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:98>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:99>
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_41 = V_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42 = L_41.___Orientation;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_6;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_44 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46;
+		L_46 = MSDKUtilityHelper_TransformVector_mA15252A542ECE487FC31345F38EAE7C182577015(L_44, L_45, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_47;
+		L_47 = Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307(L_43, L_46, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48 = __this->____twistLocalRotationAxisOffset;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_49;
+		L_49 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_47, L_48, NULL);
+		float L_50 = ((TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5*)__this)->____weight;
+		TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A L_51 = V_2;
+		float L_52 = L_51.___Weight;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_53;
+		L_53 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15(L_42, L_49, ((float)il2cpp_codegen_multiply(L_50, L_52)), NULL);
+		(&V_3)->___Orientation = L_53;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:100>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* L_54 = ___0_pose;
+		TwistData_tB7481B6A9470B3967FBB2B302AC7CE08DF01DA3A L_55 = V_2;
+		TargetJointIndex_tEF280575C4A5DA21BF7193E71824593EF2855DA2 L_56 = L_55.___Index;
+		int32_t L_57;
+		L_57 = TargetJointIndex_op_Implicit_mDB31F362E5F4C37373FCCDCDC609EC8AF69262C6(L_56, NULL);
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_58 = V_3;
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, (L_54)->___m_Buffer, L_57, (L_58));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:78>
+		int32_t L_59 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_59, 1));
+	}
+
+IL_0134:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:78>
+		int32_t L_60 = V_1;
+		TwistDataU5BU5D_tAFE9CFD167CE0E25D98576337E4A2815F0557791* L_61 = __this->____targetData;
+		NullCheck(L_61);
+		V_10 = (bool)((((int32_t)L_60) < ((int32_t)((int32_t)(((RuntimeArray*)L_61)->max_length))))? 1 : 0);
+		bool L_62 = V_10;
+		if (L_62)
+		{
+			goto IL_0022;
+		}
+	}
+
+IL_0148:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:102>
+		return;
+	}
+}
+// Method Definition Index: 123676
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TwistSkeletalProcessor_LateUpdatePose_m2D31068D41D22CFA8B6C48114C883BB9C53C3670 (TwistSkeletalProcessor_t7DE24125E85EAAD40734573C30C9B5FB3AEFB34E* __this, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___0_currentPose, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4* ___1_targetPose, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessors/TwistSkeletalProcessor.cs:111>
+		return;
+	}
+}
+// Method Definition Index: 123677
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TwistSkeletalProcessor__ctor_m69AB77679F0A68FB626F74DCEF0F9D6840B3FEDB (TwistSkeletalProcessor_t7DE24125E85EAAD40734573C30C9B5FB3AEFB34E* __this, const RuntimeMethod* method) 
+{
+	{
+		TargetProcessor__ctor_m7A34D70B43FEFB1D20A3B61E4899D52FDC9B7DE4(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 123678
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IKUtilities_SolveFABRIK_m4B547F77FB747A37FF5E8BFD4A0AB51FC59D3E0B (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_joints, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_distanceToNextJoint, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_target, float ___3_targetTolerance, int32_t ___4_maxIterations, bool ___5_solveRotations, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3B776819585123418C9C64C1771A80DBA1AB0B96);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	bool V_4 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:41>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = ___0_joints;
+		NullCheck(L_0);
+		V_2 = (bool)((((int32_t)((int32_t)(((RuntimeArray*)L_0)->max_length))) < ((int32_t)3))? 1 : 0);
+		bool L_1 = V_2;
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:43>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral3B776819585123418C9C64C1771A80DBA1AB0B96, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:44>
+		V_3 = (bool)0;
+		goto IL_008a;
+	}
+
+IL_001b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:47>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_2 = ___0_joints;
+		NullCheck(L_2);
+		V_0 = ((int32_t)(((RuntimeArray*)L_2)->max_length));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:48>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:49>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___2_target;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_4 = ___0_joints;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = ___1_distanceToNextJoint;
+		bool L_6;
+		L_6 = IKUtilities_IsTargetUnreachable_m52147AD1E2565D4A347F9DFEE6E2444992575704(L_3, L_4, L_5, NULL);
+		V_1 = L_6;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:51>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:52>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_7 = ___0_joints;
+		IKUtilities_CachePoses_m149BAEAB7B9C2F754F56256C4E48490D06F0022F(L_7, (&((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedOldPoses), (&((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedFabrikPoses), (&((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____fabrikRotChanges), NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:53>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:54>
+		bool L_8 = V_1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = ___1_distanceToNextJoint;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___2_target;
+		float L_11 = ___3_targetTolerance;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_12 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedFabrikPoses;
+		int32_t L_13 = ___4_maxIterations;
+		IKUtilities_RunFABRIK_m72931B4A66AA55E3464B74BFB1ABF41A0425E487(L_8, L_9, L_10, L_11, L_12, L_13, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:55>
+		bool L_14 = ___5_solveRotations;
+		V_4 = L_14;
+		bool L_15 = V_4;
+		if (!L_15)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:57>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_16 = ___0_joints;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_17 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedOldPoses;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_18 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedFabrikPoses;
+		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_19 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____fabrikRotChanges;
+		IKUtilities_FixJointRotations_m3CE34137CDF9C82FCDCB3D26356DD82889621DD9(L_16, L_17, L_18, L_19, NULL);
+		goto IL_007f;
+	}
+
+IL_0071:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:61>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_20 = ___0_joints;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_21 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedFabrikPoses;
+		IKUtilities_WritePosesToJoints_m4C6DCAD2416380BB62DA89A3085385FA233650A3(L_20, L_21, NULL);
+	}
+
+IL_007f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:63>
+		float L_22 = ___3_targetTolerance;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = ___2_target;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_24 = ___0_joints;
+		bool L_25;
+		L_25 = IKUtilities_WasFABRIKSuccessful_mA1A8874A39E0FCF745FCE0A1CF8C344DA67F096C(L_22, L_23, L_24, NULL);
+		V_3 = L_25;
+		goto IL_008a;
+	}
+
+IL_008a:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:64>
+		bool L_26 = V_3;
+		return L_26;
+	}
+}
+// Method Definition Index: 123679
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IKUtilities_IsTargetUnreachable_m52147AD1E2565D4A347F9DFEE6E2444992575704 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_target, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___1_joints, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___2_distanceToNextJoint, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_3 = NULL;
+	int32_t V_4 = 0;
+	float V_5 = 0.0f;
+	bool V_6 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:69>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_target;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_1 = ___1_joints;
+		NullCheck(L_1);
+		int32_t L_2 = 0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_0, L_4, NULL);
+		V_2 = L_5;
+		float L_6;
+		L_6 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_2), NULL);
+		V_0 = L_6;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:70>
+		V_1 = (0.0f);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:71>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = ___2_distanceToNextJoint;
+		V_3 = L_7;
+		V_4 = 0;
+		goto IL_0039;
+	}
+
+IL_0026:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:71>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = V_3;
+		int32_t L_9 = V_4;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		float L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		V_5 = L_11;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:73>
+		float L_12 = V_1;
+		float L_13 = V_5;
+		V_1 = ((float)il2cpp_codegen_add(L_12, L_13));
+		int32_t L_14 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+	}
+
+IL_0039:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:71>
+		int32_t L_15 = V_4;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_16 = V_3;
+		NullCheck(L_16);
+		if ((((int32_t)L_15) < ((int32_t)((int32_t)(((RuntimeArray*)L_16)->max_length)))))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:75>
+		float L_17 = V_0;
+		float L_18 = V_1;
+		V_6 = (bool)((((float)L_17) > ((float)L_18))? 1 : 0);
+		goto IL_0048;
+	}
+
+IL_0048:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:76>
+		bool L_19 = V_6;
+		return L_19;
+	}
+}
+// Method Definition Index: 123680
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKUtilities_CachePoses_m149BAEAB7B9C2F754F56256C4E48490D06F0022F (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_joints, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB** ___1_cachedPoses, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB** ___2_finalPoses, QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7** ___3_rotationalChanges, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_3 = NULL;
+	bool V_4 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:81>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = ___0_joints;
+		NullCheck(L_0);
+		V_0 = ((int32_t)(((RuntimeArray*)L_0)->max_length));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:82>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB** L_1 = ___1_cachedPoses;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_2 = *((PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB**)L_1);
+		if (!L_2)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB** L_3 = ___1_cachedPoses;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_4 = *((PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB**)L_3);
+		NullCheck(L_4);
+		int32_t L_5 = V_0;
+		G_B3_0 = ((((int32_t)((((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))) == ((int32_t)L_5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0016;
+	}
+
+IL_0015:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0016:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:84>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB** L_7 = ___1_cachedPoses;
+		int32_t L_8 = V_0;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_9 = (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)SZArrayNew(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var, (uint32_t)L_8);
+		*((RuntimeObject**)L_7) = (RuntimeObject*)L_9;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_7, (void*)(RuntimeObject*)L_9);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:85>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB** L_10 = ___2_finalPoses;
+		int32_t L_11 = V_0;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_12 = (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)SZArrayNew(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var, (uint32_t)L_11);
+		*((RuntimeObject**)L_10) = (RuntimeObject*)L_12;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_10, (void*)(RuntimeObject*)L_12);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:86>
+		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7** L_13 = ___3_rotationalChanges;
+		int32_t L_14 = V_0;
+		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_15 = (QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7*)(QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7*)SZArrayNew(QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7_il2cpp_TypeInfo_var, (uint32_t)L_14);
+		*((RuntimeObject**)L_13) = (RuntimeObject*)L_15;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_13, (void*)(RuntimeObject*)L_15);
+	}
+
+IL_0034:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:88>
+		V_2 = 0;
+		goto IL_0078;
+	}
+
+IL_0038:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:90>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_16 = ___0_joints;
+		int32_t L_17 = V_2;
+		NullCheck(L_16);
+		int32_t L_18 = L_17;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		V_3 = L_19;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:91>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB** L_20 = ___1_cachedPoses;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_21 = *((PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB**)L_20);
+		int32_t L_22 = V_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = V_3;
+		NullCheck(L_23);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24;
+		L_24 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_23, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = V_3;
+		NullCheck(L_25);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26;
+		L_26 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_25, NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_27), L_24, L_26, NULL);
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(L_22), (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971)L_27);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:92>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB** L_28 = ___2_finalPoses;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_29 = *((PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB**)L_28);
+		int32_t L_30 = V_2;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB** L_31 = ___1_cachedPoses;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_32 = *((PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB**)L_31);
+		int32_t L_33 = V_2;
+		NullCheck(L_32);
+		int32_t L_34 = L_33;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		NullCheck(L_29);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(L_30), (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971)L_35);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:93>
+		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7** L_36 = ___3_rotationalChanges;
+		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_37 = *((QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7**)L_36);
+		int32_t L_38 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_39;
+		L_39 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_37);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(L_38), (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974)L_39);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:88>
+		int32_t L_40 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_40, 1));
+	}
+
+IL_0078:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:88>
+		int32_t L_41 = V_2;
+		int32_t L_42 = V_0;
+		V_4 = (bool)((((int32_t)L_41) < ((int32_t)L_42))? 1 : 0);
+		bool L_43 = V_4;
+		if (L_43)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:95>
+		return;
+	}
+}
+// Method Definition Index: 123681
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKUtilities_RunFABRIK_m72931B4A66AA55E3464B74BFB1ABF41A0425E487 (bool ___0_targetIsUnreachable, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_distanceToNextJoint, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_target, float ___3_targetTolerance, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___4_fabrikPoses, int32_t ___5_maxIterations, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	bool V_7 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	float V_9 = 0.0f;
+	float V_10 = 0.0f;
+	int32_t V_11 = 0;
+	int32_t V_12 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	float V_16 = 0.0f;
+	float V_17 = 0.0f;
+	bool V_18 = false;
+	int32_t V_19 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_20;
+	memset((&V_20), 0, sizeof(V_20));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_21;
+	memset((&V_21), 0, sizeof(V_21));
+	float V_22 = 0.0f;
+	float V_23 = 0.0f;
+	bool V_24 = false;
+	bool V_25 = false;
+	int32_t G_B16_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:105>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_0 = ___4_fabrikPoses;
+		NullCheck(L_0);
+		V_0 = ((int32_t)(((RuntimeArray*)L_0)->max_length));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:106>
+		bool L_1 = ___0_targetIsUnreachable;
+		V_1 = L_1;
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:108>
+		V_2 = 0;
+		goto IL_0056;
+	}
+
+IL_0010:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:110>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_3 = ___4_fabrikPoses;
+		int32_t L_4 = V_2;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_4)))->___position;
+		V_3 = L_5;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:112>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___2_target;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_6, L_7, NULL);
+		V_6 = L_8;
+		float L_9;
+		L_9 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_6), NULL);
+		V_4 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:113>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:114>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_10 = ___1_distanceToNextJoint;
+		int32_t L_11 = V_2;
+		NullCheck(L_10);
+		int32_t L_12 = L_11;
+		float L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		float L_14 = V_4;
+		V_5 = ((float)(L_13/L_14));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:116>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:117>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:118>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_15 = ___4_fabrikPoses;
+		int32_t L_16 = V_2;
+		NullCheck(L_15);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___2_target;
+		float L_19 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_17, L_18, L_19, NULL);
+		((L_15)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_16, 1)))))->___position = L_20;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:108>
+		int32_t L_21 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+	}
+
+IL_0056:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:108>
+		int32_t L_22 = V_2;
+		int32_t L_23 = V_0;
+		V_7 = (bool)((((int32_t)L_22) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_23, 1))))? 1 : 0);
+		bool L_24 = V_7;
+		if (L_24)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		goto IL_0207;
+	}
+
+IL_0068:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:125>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_25 = ___4_fabrikPoses;
+		NullCheck(L_25);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = ((L_25)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___position;
+		V_8 = L_26;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:126>
+		float L_27 = ___3_targetTolerance;
+		float L_28 = ___3_targetTolerance;
+		V_9 = ((float)il2cpp_codegen_multiply(L_27, L_28));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:127>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_29 = ___4_fabrikPoses;
+		int32_t L_30 = V_0;
+		NullCheck(L_29);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = ((L_29)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_30, 1)))))->___position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = ___2_target;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_31, L_32, NULL);
+		V_6 = L_33;
+		float L_34;
+		L_34 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_6), NULL);
+		V_10 = L_34;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:128>
+		V_11 = 0;
+		goto IL_01ee;
+	}
+
+IL_00a5:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:135>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_35 = ___4_fabrikPoses;
+		int32_t L_36 = V_0;
+		NullCheck(L_35);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = ___2_target;
+		((L_35)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_36, 1)))))->___position = L_37;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:136>
+		int32_t L_38 = V_0;
+		V_12 = ((int32_t)il2cpp_codegen_subtract(L_38, 2));
+		goto IL_0133;
+	}
+
+IL_00bd:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:138>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_39 = ___4_fabrikPoses;
+		int32_t L_40 = V_12;
+		NullCheck(L_39);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = ((L_39)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_40, 1)))))->___position;
+		V_13 = L_41;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:139>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_13;
+		V_14 = L_42;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:140>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_43 = ___4_fabrikPoses;
+		int32_t L_44 = V_12;
+		NullCheck(L_43);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = ((L_43)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_44)))->___position;
+		V_15 = L_45;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:141>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:142>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = V_15;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_13;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48;
+		L_48 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_46, L_47, NULL);
+		V_6 = L_48;
+		float L_49;
+		L_49 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_6), NULL);
+		V_16 = L_49;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:144>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_50 = ___1_distanceToNextJoint;
+		int32_t L_51 = V_12;
+		NullCheck(L_50);
+		int32_t L_52 = L_51;
+		float L_53 = (L_50)->GetAt(static_cast<il2cpp_array_size_t>(L_52));
+		float L_54 = V_16;
+		V_17 = ((float)(L_53/L_54));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:148>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:149>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_55 = ___4_fabrikPoses;
+		int32_t L_56 = V_12;
+		NullCheck(L_55);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57 = V_13;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58 = V_15;
+		float L_59 = V_17;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_60;
+		L_60 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_57, L_58, L_59, NULL);
+		((L_55)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_56)))->___position = L_60;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:150>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_61 = ___4_fabrikPoses;
+		int32_t L_62 = V_12;
+		NullCheck(L_61);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63 = V_14;
+		((L_61)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_62, 1)))))->___position = L_63;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:136>
+		int32_t L_64 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_subtract(L_64, 1));
+	}
+
+IL_0133:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:136>
+		int32_t L_65 = V_12;
+		V_18 = (bool)((((int32_t)((((int32_t)L_65) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_66 = V_18;
+		if (L_66)
+		{
+			goto IL_00bd;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:156>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_67 = ___4_fabrikPoses;
+		NullCheck(L_67);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_68 = V_8;
+		((L_67)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))->___position = L_68;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:157>
+		V_19 = 0;
+		goto IL_01ba;
+	}
+
+IL_0158:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:159>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_69 = ___4_fabrikPoses;
+		int32_t L_70 = V_19;
+		NullCheck(L_69);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71 = ((L_69)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_70, 1)))))->___position;
+		V_20 = L_71;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:160>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_72 = ___4_fabrikPoses;
+		int32_t L_73 = V_19;
+		NullCheck(L_72);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_74 = ((L_72)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_73)))->___position;
+		V_21 = L_74;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:161>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:162>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75 = V_20;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76 = V_21;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77;
+		L_77 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_75, L_76, NULL);
+		V_6 = L_77;
+		float L_78;
+		L_78 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_6), NULL);
+		V_22 = L_78;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:163>
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_79 = ___1_distanceToNextJoint;
+		int32_t L_80 = V_19;
+		NullCheck(L_79);
+		int32_t L_81 = L_80;
+		float L_82 = (L_79)->GetAt(static_cast<il2cpp_array_size_t>(L_81));
+		float L_83 = V_22;
+		V_23 = ((float)(L_82/L_83));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:167>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:168>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_84 = ___4_fabrikPoses;
+		int32_t L_85 = V_19;
+		NullCheck(L_84);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_86 = V_21;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_87 = V_20;
+		float L_88 = V_23;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89;
+		L_89 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_86, L_87, L_88, NULL);
+		((L_84)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_85, 1)))))->___position = L_89;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:157>
+		int32_t L_90 = V_19;
+		V_19 = ((int32_t)il2cpp_codegen_add(L_90, 1));
+	}
+
+IL_01ba:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:157>
+		int32_t L_91 = V_19;
+		int32_t L_92 = V_0;
+		V_24 = (bool)((((int32_t)L_91) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_92, 1))))? 1 : 0);
+		bool L_93 = V_24;
+		if (L_93)
+		{
+			goto IL_0158;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:170>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_94 = ___4_fabrikPoses;
+		int32_t L_95 = V_0;
+		NullCheck(L_94);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_96 = ((L_94)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(L_95, 1)))))->___position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97 = ___2_target;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_98;
+		L_98 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_96, L_97, NULL);
+		V_6 = L_98;
+		float L_99;
+		L_99 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_6), NULL);
+		V_10 = L_99;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:171>
+		int32_t L_100 = V_11;
+		V_11 = ((int32_t)il2cpp_codegen_add(L_100, 1));
+	}
+
+IL_01ee:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:129>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:130>
+		float L_101 = V_10;
+		float L_102 = V_9;
+		if ((!(((float)L_101) > ((float)L_102))))
+		{
+			goto IL_01fc;
+		}
+	}
+	{
+		int32_t L_103 = V_11;
+		int32_t L_104 = ___5_maxIterations;
+		G_B16_0 = ((((int32_t)L_103) < ((int32_t)L_104))? 1 : 0);
+		goto IL_01fd;
+	}
+
+IL_01fc:
+	{
+		G_B16_0 = 0;
+	}
+
+IL_01fd:
+	{
+		V_25 = (bool)G_B16_0;
+		bool L_105 = V_25;
+		if (L_105)
+		{
+			goto IL_00a5;
+		}
+	}
+	{
+	}
+
+IL_0207:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:174>
+		return;
+	}
+}
+// Method Definition Index: 123682
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IKUtilities_WasFABRIKSuccessful_mA1A8874A39E0FCF745FCE0A1CF8C344DA67F096C (float ___0_targetTolerance, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_target, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___2_joints, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	float V_2 = 0.0f;
+	bool V_3 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	bool V_5 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:179>
+		float L_0 = ___0_targetTolerance;
+		float L_1 = ___0_targetTolerance;
+		V_0 = ((float)il2cpp_codegen_multiply(L_0, L_1));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:180>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_2 = ___2_joints;
+		NullCheck(L_2);
+		V_1 = ((int32_t)(((RuntimeArray*)L_2)->max_length));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:181>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_3 = ___2_joints;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = ((int32_t)il2cpp_codegen_subtract(L_4, 1));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___1_target;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_7, L_8, NULL);
+		V_4 = L_9;
+		float L_10;
+		L_10 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_4), NULL);
+		V_2 = L_10;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:182>
+		float L_11 = V_2;
+		float L_12 = V_0;
+		V_3 = (bool)((((float)L_11) < ((float)L_12))? 1 : 0);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:183>
+		bool L_13 = V_3;
+		V_5 = L_13;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:184>
+		bool L_14 = V_5;
+		return L_14;
+	}
+}
+// Method Definition Index: 123683
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKUtilities_WritePosesToJoints_m4C6DCAD2416380BB62DA89A3085385FA233650A3 (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_joints, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___1_cachedFabrikPoses, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	bool V_2 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:189>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = ___0_joints;
+		NullCheck(L_0);
+		V_0 = ((int32_t)(((RuntimeArray*)L_0)->max_length));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:190>
+		V_1 = 0;
+		goto IL_0030;
+	}
+
+IL_0009:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:192>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:193>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_1 = ___0_joints;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_5 = ___1_cachedFabrikPoses;
+		int32_t L_6 = V_1;
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6)))->___position;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_8 = ___1_cachedFabrikPoses;
+		int32_t L_9 = V_1;
+		NullCheck(L_8);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ((L_8)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_9)))->___rotation;
+		NullCheck(L_4);
+		Transform_SetPositionAndRotation_m418859BF59086EEAA084FFD6F258A43FAB408F5A(L_4, L_7, L_10, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:190>
+		int32_t L_11 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+	}
+
+IL_0030:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:190>
+		int32_t L_12 = V_1;
+		int32_t L_13 = V_0;
+		V_2 = (bool)((((int32_t)L_12) < ((int32_t)L_13))? 1 : 0);
+		bool L_14 = V_2;
+		if (L_14)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:195>
+		return;
+	}
+}
+// Method Definition Index: 123684
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKUtilities_FixJointRotations_m3CE34137CDF9C82FCDCB3D26356DD82889621DD9 (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_joints, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___1_oldPoses, PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___2_cachedFABRIKPoses, QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* ___3_rotationDeltas, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	bool V_6 = false;
+	int32_t V_7 = 0;
+	bool V_8 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:200>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_0 = ___1_oldPoses;
+		NullCheck(L_0);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_0)->max_length)), 1));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:203>
+		V_1 = 0;
+		goto IL_005d;
+	}
+
+IL_000b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:205>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_1 = ___1_oldPoses;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ((L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_2)))->___position;
+		V_2 = L_3;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:206>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_4 = ___1_oldPoses;
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_5, 1)))))->___position;
+		V_3 = L_6;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:208>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_7 = ___2_cachedFABRIKPoses;
+		int32_t L_8 = V_1;
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ((L_7)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_8)))->___position;
+		V_4 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:209>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_10 = ___2_cachedFABRIKPoses;
+		int32_t L_11 = V_1;
+		NullCheck(L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = ((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_11, 1)))))->___position;
+		V_5 = L_12;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:212>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:213>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:214>
+		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_13 = ___3_rotationDeltas;
+		int32_t L_14 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_5;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19;
+		L_19 = IKUtilities_GetRotationChange_m7480E25B7FB40919C90888E60D36C5339984D143(L_15, L_16, L_17, L_18, NULL);
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_14), (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974)L_19);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:203>
+		int32_t L_20 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+	}
+
+IL_005d:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:203>
+		int32_t L_21 = V_1;
+		int32_t L_22 = V_0;
+		V_6 = (bool)((((int32_t)L_21) < ((int32_t)L_22))? 1 : 0);
+		bool L_23 = V_6;
+		if (L_23)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:216>
+		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_24 = ___3_rotationDeltas;
+		int32_t L_25 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26;
+		L_26 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_24);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(L_25), (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974)L_26);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:219>
+		V_7 = 0;
+		goto IL_00bb;
+	}
+
+IL_0078:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:221>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_27 = ___0_joints;
+		int32_t L_28 = V_7;
+		NullCheck(L_27);
+		int32_t L_29 = L_28;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_31 = ___2_cachedFABRIKPoses;
+		int32_t L_32 = V_7;
+		NullCheck(L_31);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = ((L_31)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_32)))->___position;
+		NullCheck(L_30);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_30, L_33, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:222>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_34 = ___0_joints;
+		int32_t L_35 = V_7;
+		NullCheck(L_34);
+		int32_t L_36 = L_35;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
+		QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* L_38 = ___3_rotationDeltas;
+		int32_t L_39 = V_7;
+		NullCheck(L_38);
+		int32_t L_40 = L_39;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_41 = (L_38)->GetAt(static_cast<il2cpp_array_size_t>(L_40));
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_42 = ___2_cachedFABRIKPoses;
+		int32_t L_43 = V_7;
+		NullCheck(L_42);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = ((L_42)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_43)))->___rotation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_45;
+		L_45 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_41, L_44, NULL);
+		NullCheck(L_37);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_37, L_45, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:219>
+		int32_t L_46 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_46, 1));
+	}
+
+IL_00bb:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:219>
+		int32_t L_47 = V_7;
+		int32_t L_48 = V_0;
+		V_8 = (bool)((((int32_t)((((int32_t)L_47) > ((int32_t)L_48))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_49 = V_8;
+		if (L_49)
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:224>
+		return;
+	}
+}
+// Method Definition Index: 123685
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IKUtilities_SolveCCDIK_m7B3E85EF919F323202D7303B0E8595E3D9D8AE2A (TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___0_bones, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_targetPosition, float ___2_tolerance, float ___3_maxIterations, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1125C39982869BFF7969F89C6B283C58A36150E3);
+		s_Il2CppMethodInitialized = true;
+	}
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	float V_3 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	int32_t V_9 = 0;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_10 = NULL;
+	bool V_11 = false;
+	int32_t V_12 = 0;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_14;
+	memset((&V_14), 0, sizeof(V_14));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_16;
+	memset((&V_16), 0, sizeof(V_16));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_17;
+	memset((&V_17), 0, sizeof(V_17));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_18;
+	memset((&V_18), 0, sizeof(V_18));
+	bool V_19 = false;
+	bool V_20 = false;
+	bool V_21 = false;
+	int32_t G_B5_0 = 0;
+	int32_t G_B20_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:242>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = ___0_bones;
+		NullCheck(L_0);
+		V_6 = (bool)((((int32_t)((int32_t)(((RuntimeArray*)L_0)->max_length))) < ((int32_t)2))? 1 : 0);
+		bool L_1 = V_6;
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:244>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral1125C39982869BFF7969F89C6B283C58A36150E3, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:245>
+		V_7 = (bool)0;
+		goto IL_01eb;
+	}
+
+IL_0021:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:247>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_2 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		if (!L_2)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_3 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		NullCheck(L_3);
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_4 = ___0_bones;
+		NullCheck(L_4);
+		G_B5_0 = ((((int32_t)((((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length))) == ((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_003a;
+	}
+
+IL_0039:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_003a:
+	{
+		V_8 = (bool)G_B5_0;
+		bool L_5 = V_8;
+		if (!L_5)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:249>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_6 = ___0_bones;
+		NullCheck(L_6);
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_7 = (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB*)SZArrayNew(PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_6)->max_length)));
+		((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal), (void*)L_7);
+	}
+
+IL_004f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:251>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_8 = ___0_bones;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_9 = L_8;
+		NullCheck(L_9);
+		NullCheck(L_9);
+		int32_t L_10 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_9)->max_length)), 1));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		NullCheck(L_11);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
+		L_12 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_11, NULL);
+		V_0 = L_12;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:252>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = V_0;
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_13, NULL);
+		V_1 = L_14;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:253>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = V_0;
+		NullCheck(L_15);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16;
+		L_16 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_15, NULL);
+		V_2 = L_16;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:254>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_17 = ___0_bones;
+		NullCheck(L_17);
+		V_9 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_17)->max_length)), 1));
+		goto IL_00b9;
+	}
+
+IL_0073:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:256>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_18 = ___0_bones;
+		int32_t L_19 = V_9;
+		NullCheck(L_18);
+		int32_t L_20 = L_19;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		V_10 = L_21;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:257>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:258>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_22 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		int32_t L_23 = V_9;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = V_0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25 = V_10;
+		NullCheck(L_25);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_25, NULL);
+		NullCheck(L_24);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_24, L_26, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28 = V_0;
+		NullCheck(L_28);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29;
+		L_29 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_28, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30;
+		L_30 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_29, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31 = V_10;
+		NullCheck(L_31);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32;
+		L_32 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_31, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_33;
+		L_33 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_30, L_32, NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_34;
+		memset((&L_34), 0, sizeof(L_34));
+		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_34), L_27, L_33, NULL);
+		NullCheck(L_22);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_23), (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971)L_34);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:259>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = V_10;
+		V_0 = L_35;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:254>
+		int32_t L_36 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_subtract(L_36, 1));
+	}
+
+IL_00b9:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:254>
+		int32_t L_37 = V_9;
+		V_11 = (bool)((((int32_t)((((int32_t)L_37) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_38 = V_11;
+		if (L_38)
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:263>
+		V_3 = ((std::numeric_limits<float>::max)());
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:264>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:265>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_39 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_41 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
+		L_42 = IKUtilities_GetBoneWorldPosition_m7E586BA6E42D63840C82F9F4CFDB8B90627D29E0(L_39, L_40, L_41, 0, NULL);
+		V_4 = L_42;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:266>
+		V_5 = 0;
+		goto IL_01c4;
+	}
+
+IL_00e4:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:269>
+		V_12 = 1;
+		goto IL_01a9;
+	}
+
+IL_00ed:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:271>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_43 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		int32_t L_44 = V_12;
+		NullCheck(L_43);
+		int32_t L_45 = L_44;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_46 = (L_43)->GetAt(static_cast<il2cpp_array_size_t>(L_45));
+		V_13 = L_46;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:272>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_47 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48 = V_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_49 = V_2;
+		int32_t L_50 = V_12;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
+		L_51 = IKUtilities_GetBoneWorldPosition_m7E586BA6E42D63840C82F9F4CFDB8B90627D29E0(L_47, L_48, L_49, L_50, NULL);
+		V_14 = L_51;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:273>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_52 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_53 = V_2;
+		int32_t L_54 = V_12;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_55;
+		L_55 = IKUtilities_GetBoneWorldRotation_mEE1F1A9D42C23309083E1E6247E6C371E2480767(L_52, L_53, L_54, NULL);
+		V_15 = L_55;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:275>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:276>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_57 = V_14;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58 = ___1_targetPosition;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_59;
+		L_59 = IKUtilities_GetBoneDeltaRotationWithEffectorTowardGoal_m832DCC58BB2CA43A002D97EC75E897F8BBF58170(L_56, L_57, L_58, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = V_15;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_61;
+		L_61 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_59, L_60, NULL);
+		V_16 = L_61;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:278>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:279>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:280>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_62 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_63 = V_2;
+		int32_t L_64 = V_12;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_65;
+		L_65 = IKUtilities_GetBoneWorldRotation_mEE1F1A9D42C23309083E1E6247E6C371E2480767(L_62, L_63, ((int32_t)il2cpp_codegen_add(L_64, 1)), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_66;
+		L_66 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_65, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_67 = V_16;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_68;
+		L_68 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_66, L_67, NULL);
+		V_17 = L_68;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:281>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_69 = V_17;
+		(&V_13)->___rotation = L_69;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:282>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_70 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		int32_t L_71 = V_12;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_72 = V_13;
+		NullCheck(L_70);
+		(L_70)->SetAt(static_cast<il2cpp_array_size_t>(L_71), (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971)L_72);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:284>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:285>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_73 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_74 = V_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_75 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76;
+		L_76 = IKUtilities_GetBoneWorldPosition_m7E586BA6E42D63840C82F9F4CFDB8B90627D29E0(L_73, L_74, L_75, 0, NULL);
+		V_4 = L_76;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:287>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78 = ___1_targetPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_79;
+		L_79 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_77, L_78, NULL);
+		V_18 = L_79;
+		float L_80;
+		L_80 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_18), NULL);
+		V_3 = L_80;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:288>
+		float L_81 = V_3;
+		float L_82 = ___2_tolerance;
+		V_19 = (bool)((((int32_t)((!(((float)L_81) <= ((float)L_82)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_83 = V_19;
+		if (!L_83)
+		{
+			goto IL_01a2;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:290>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_84 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_85 = ___0_bones;
+		IKUtilities_ApplyPosesToTransforms_m9E2C834E8A34201B3B3867D38B82C3DCD1047533(L_84, L_85, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:291>
+		V_7 = (bool)1;
+		goto IL_01eb;
+	}
+
+IL_01a2:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:269>
+		int32_t L_86 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_add(L_86, 1));
+	}
+
+IL_01a9:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:269>
+		int32_t L_87 = V_12;
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_88 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		NullCheck(L_88);
+		V_20 = (bool)((((int32_t)L_87) < ((int32_t)((int32_t)(((RuntimeArray*)L_88)->max_length))))? 1 : 0);
+		bool L_89 = V_20;
+		if (L_89)
+		{
+			goto IL_00ed;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:295>
+		int32_t L_90 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_90, 1));
+	}
+
+IL_01c4:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:267>
+		float L_91 = V_3;
+		float L_92 = ___2_tolerance;
+		if ((!(((float)L_91) > ((float)L_92))))
+		{
+			goto IL_01d0;
+		}
+	}
+	{
+		int32_t L_93 = V_5;
+		float L_94 = ___3_maxIterations;
+		G_B20_0 = ((((float)((float)L_93)) < ((float)L_94))? 1 : 0);
+		goto IL_01d1;
+	}
+
+IL_01d0:
+	{
+		G_B20_0 = 0;
+	}
+
+IL_01d1:
+	{
+		V_21 = (bool)G_B20_0;
+		bool L_95 = V_21;
+		if (L_95)
+		{
+			goto IL_00e4;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:297>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_96 = ((IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_StaticFields*)il2cpp_codegen_static_fields_for(IKUtilities_tDA79AD3ADFEC985FF71F2F7C7D359B147892F60F_il2cpp_TypeInfo_var))->____cachedCCdPosesLocal;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_97 = ___0_bones;
+		IKUtilities_ApplyPosesToTransforms_m9E2C834E8A34201B3B3867D38B82C3DCD1047533(L_96, L_97, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:298>
+		V_7 = (bool)0;
+		goto IL_01eb;
+	}
+
+IL_01eb:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:299>
+		bool L_98 = V_7;
+		return L_98;
+	}
+}
+// Method Definition Index: 123686
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IKUtilities_SolveCCDIKLocalNativeArray_m060B6B5CBF26BA8B53DB4068CB28F75B1051BADD (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___0_chainParentWorldSpace, NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___1_bonesLocalSpace, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_targetPositionWorld, float ___3_tolerance, float ___4_maxIterations, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1125C39982869BFF7969F89C6B283C58A36150E3);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	float V_3 = 0.0f;
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	bool V_6 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	int32_t V_8 = 0;
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	int32_t G_B12_0 = 0;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:308>
+		int32_t L_0;
+		L_0 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_bonesLocalSpace))->___m_Length);
+		V_5 = (bool)((((int32_t)L_0) < ((int32_t)2))? 1 : 0);
+		bool L_1 = V_5;
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:310>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral1125C39982869BFF7969F89C6B283C58A36150E3, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:311>
+		V_6 = (bool)0;
+		goto IL_012e;
+	}
+
+IL_0025:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:314>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2 = ___0_chainParentWorldSpace;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = L_2.___position;
+		V_0 = L_3;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:315>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_4 = ___0_chainParentWorldSpace;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5 = L_4.___rotation;
+		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:318>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:319>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_6 = ___1_bonesLocalSpace;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = IKUtilities_GetBoneWorldPosition_m9B19F9836D7928E81802DFE93BFE143E48476ED5(L_6, L_7, L_8, 0, NULL);
+		V_2 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:320>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___2_targetPositionWorld;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_10, L_11, NULL);
+		V_7 = L_12;
+		float L_13;
+		L_13 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_7), NULL);
+		V_3 = L_13;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:321>
+		V_4 = 0;
+		goto IL_0112;
+	}
+
+IL_0056:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:324>
+		V_8 = 1;
+		goto IL_00f7;
+	}
+
+IL_005f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:326>
+		int32_t L_14 = V_8;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_15;
+		L_15 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___1_bonesLocalSpace))->___m_Buffer, L_14);
+		V_9 = L_15;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:327>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_16 = ___1_bonesLocalSpace;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = V_1;
+		int32_t L_19 = V_8;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = IKUtilities_GetBoneWorldPosition_m9B19F9836D7928E81802DFE93BFE143E48476ED5(L_16, L_17, L_18, L_19, NULL);
+		V_10 = L_20;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:328>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_21 = ___1_bonesLocalSpace;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = V_1;
+		int32_t L_23 = V_8;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24;
+		L_24 = IKUtilities_GetBoneWorldRotation_m683ACA61C579D5C04CA1B17B76448787C4CC268F(L_21, L_22, L_23, NULL);
+		V_11 = L_24;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:330>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:331>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = ___2_targetPositionWorld;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28;
+		L_28 = IKUtilities_GetBoneDeltaRotationWithEffectorTowardGoal_m832DCC58BB2CA43A002D97EC75E897F8BBF58170(L_25, L_26, L_27, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29 = V_11;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30;
+		L_30 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_28, L_29, NULL);
+		V_12 = L_30;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:335>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:336>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:337>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_31 = ___1_bonesLocalSpace;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = V_1;
+		int32_t L_33 = V_8;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34;
+		L_34 = IKUtilities_GetBoneWorldRotation_m683ACA61C579D5C04CA1B17B76448787C4CC268F(L_31, L_32, ((int32_t)il2cpp_codegen_add(L_33, 1)), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_35;
+		L_35 = Quaternion_Inverse_mD9C060AC626A7B406F4984AC98F8358DC89EF512(L_34, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = V_12;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_37;
+		L_37 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_35, L_36, NULL);
+		V_13 = L_37;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:338>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = V_13;
+		(&V_9)->___Orientation = L_38;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:340>
+		int32_t L_39 = V_8;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_40 = V_9;
+		IL2CPP_NATIVEARRAY_SET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___1_bonesLocalSpace))->___m_Buffer, L_39, (L_40));
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:342>
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:343>
+		NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 L_41 = ___1_bonesLocalSpace;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_43 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		L_44 = IKUtilities_GetBoneWorldPosition_m9B19F9836D7928E81802DFE93BFE143E48476ED5(L_41, L_42, L_43, 0, NULL);
+		V_2 = L_44;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:346>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46 = ___2_targetPositionWorld;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47;
+		L_47 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_45, L_46, NULL);
+		V_7 = L_47;
+		float L_48;
+		L_48 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_7), NULL);
+		V_3 = L_48;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:347>
+		float L_49 = V_3;
+		float L_50 = ___3_tolerance;
+		V_14 = (bool)((((int32_t)((!(((float)L_49) <= ((float)L_50)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_51 = V_14;
+		if (!L_51)
+		{
+			goto IL_00f0;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:349>
+		V_6 = (bool)1;
+		goto IL_012e;
+	}
+
+IL_00f0:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:324>
+		int32_t L_52 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_52, 1));
+	}
+
+IL_00f7:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:324>
+		int32_t L_53 = V_8;
+		int32_t L_54;
+		L_54 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___1_bonesLocalSpace))->___m_Length);
+		V_15 = (bool)((((int32_t)L_53) < ((int32_t)L_54))? 1 : 0);
+		bool L_55 = V_15;
+		if (L_55)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:353>
+		int32_t L_56 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_56, 1));
+	}
+
+IL_0112:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:322>
+		float L_57 = V_3;
+		float L_58 = ___3_tolerance;
+		if ((!(((float)L_57) > ((float)L_58))))
+		{
+			goto IL_011f;
+		}
+	}
+	{
+		int32_t L_59 = V_4;
+		float L_60 = ___4_maxIterations;
+		G_B12_0 = ((((float)((float)L_59)) < ((float)L_60))? 1 : 0);
+		goto IL_0120;
+	}
+
+IL_011f:
+	{
+		G_B12_0 = 0;
+	}
+
+IL_0120:
+	{
+		V_16 = (bool)G_B12_0;
+		bool L_61 = V_16;
+		if (L_61)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:355>
+		V_6 = (bool)0;
+		goto IL_012e;
+	}
+
+IL_012e:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:356>
+		bool L_62 = V_6;
+		return L_62;
+	}
+}
+// Method Definition Index: 123687
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 IKUtilities_GetRotationChange_m7480E25B7FB40919C90888E60D36C5339984D143 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_oldJointPosition, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_oldJointTargetPosition, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_newJointPosition, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_newTargetPosition, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:370>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_oldJointTargetPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_oldJointPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_0, L_1, NULL);
+		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:371>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___3_newTargetPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___2_newJointPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_3, L_4, NULL);
+		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:372>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
+		L_8 = Quaternion_FromToRotation_mCB3100F93637E72455388B901C36EF8A25DFDB9A(L_6, L_7, NULL);
+		V_2 = L_8;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:373>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 123688
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 IKUtilities_GetBoneDeltaRotationWithEffectorTowardGoal_m832DCC58BB2CA43A002D97EC75E897F8BBF58170 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_effectorPosition, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_bonePosition, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_goalPosition, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:385>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_effectorPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_bonePosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_0, L_1, NULL);
+		V_0 = L_2;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:386>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___2_goalPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_bonePosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_3, L_4, NULL);
+		V_1 = L_5;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:387>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
+		L_8 = Quaternion_FromToRotation_mCB3100F93637E72455388B901C36EF8A25DFDB9A(L_6, L_7, NULL);
+		V_2 = L_8;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:388>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 123689
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 IKUtilities_GetBoneWorldPosition_m7E586BA6E42D63840C82F9F4CFDB8B90627D29E0 (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___0_poses, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rootPosition, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rootRotation, int32_t ___3_boneIndex, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:393>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_rootPosition;
+		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:394>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___2_rootRotation;
+		V_1 = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:395>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_2 = ___0_poses;
+		NullCheck(L_2);
+		V_2 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_2)->max_length)), 1));
+		goto IL_003b;
+	}
+
+IL_000d:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:397>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_3 = ___0_poses;
+		int32_t L_4 = V_2;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_3 = L_6;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:398>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = V_1;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_9 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = L_9.___position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_8, L_10, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_7, L_11, NULL);
+		V_0 = L_12;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:399>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13 = V_1;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_14 = V_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = L_14.___rotation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16;
+		L_16 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_13, L_15, NULL);
+		V_1 = L_16;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:395>
+		int32_t L_17 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_17, 1));
+	}
+
+IL_003b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:395>
+		int32_t L_18 = V_2;
+		int32_t L_19 = ___3_boneIndex;
+		V_4 = (bool)((((int32_t)((((int32_t)L_18) < ((int32_t)L_19))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_20 = V_4;
+		if (L_20)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:402>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_0;
+		V_5 = L_21;
+		goto IL_004d;
+	}
+
+IL_004d:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:403>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_5;
+		return L_22;
+	}
+}
+// Method Definition Index: 123690
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 IKUtilities_GetBoneWorldPosition_m9B19F9836D7928E81802DFE93BFE143E48476ED5 (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_bonesEndEffectorFirst, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rootPosition, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rootRotation, int32_t ___3_boneIndex, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:411>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_rootPosition;
+		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:412>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___2_rootRotation;
+		V_1 = L_1;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:413>
+		int32_t L_2;
+		L_2 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_bonesEndEffectorFirst))->___m_Length);
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
+		goto IL_0040;
+	}
+
+IL_0011:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:415>
+		int32_t L_3 = V_2;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_4;
+		L_4 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___0_bonesEndEffectorFirst))->___m_Buffer, L_3);
+		V_3 = L_4;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:416>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_1;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_7 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = L_7.___Position;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_6, L_8, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_5, L_9, NULL);
+		V_0 = L_10;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:417>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_11 = V_1;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_12 = V_3;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13 = L_12.___Orientation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14;
+		L_14 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_11, L_13, NULL);
+		V_1 = L_14;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:413>
+		int32_t L_15 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_subtract(L_15, 1));
+	}
+
+IL_0040:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:413>
+		int32_t L_16 = V_2;
+		int32_t L_17 = ___3_boneIndex;
+		V_4 = (bool)((((int32_t)((((int32_t)L_16) < ((int32_t)L_17))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_18 = V_4;
+		if (L_18)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:420>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_0;
+		V_5 = L_19;
+		goto IL_0052;
+	}
+
+IL_0052:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:421>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_5;
+		return L_20;
+	}
+}
+// Method Definition Index: 123691
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 IKUtilities_GetBoneWorldRotation_mEE1F1A9D42C23309083E1E6247E6C371E2480767 (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___0_poses, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rootRotation, int32_t ___2_boneIndex, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:428>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___1_rootRotation;
+		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:429>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_1 = ___0_poses;
+		NullCheck(L_1);
+		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_1)->max_length)), 1));
+		goto IL_0026;
+	}
+
+IL_000b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:431>
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_2 = ___0_poses;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_2 = L_5;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:432>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_0;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = L_7.___rotation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
+		L_9 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_6, L_8, NULL);
+		V_0 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:429>
+		int32_t L_10 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_10, 1));
+	}
+
+IL_0026:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:429>
+		int32_t L_11 = V_1;
+		int32_t L_12 = ___2_boneIndex;
+		V_3 = (bool)((((int32_t)((((int32_t)L_11) < ((int32_t)L_12))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_13 = V_3;
+		if (L_13)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:435>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = V_0;
+		V_4 = L_14;
+		goto IL_0036;
+	}
+
+IL_0036:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:436>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = V_4;
+		return L_15;
+	}
+}
+// Method Definition Index: 123692
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 IKUtilities_GetBoneWorldRotation_m683ACA61C579D5C04CA1B17B76448787C4CC268F (NativeArray_1_t7AEE1C5DD121C5B4F51A445C7D5AF75D38483EA4 ___0_bonesEndEffectorFirst, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rootRotation, int32_t ___2_boneIndex, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:443>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___1_rootRotation;
+		V_0 = L_0;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:444>
+		int32_t L_1;
+		L_1 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&___0_bonesEndEffectorFirst))->___m_Length);
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
+		goto IL_002b;
+	}
+
+IL_000f:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:446>
+		int32_t L_2 = V_1;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_3;
+		L_3 = IL2CPP_NATIVEARRAY_GET_ITEM(NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618, ((&___0_bonesEndEffectorFirst))->___m_Buffer, L_2);
+		V_2 = L_3;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:447>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = V_0;
+		NativeTransform_tC40A742C839E792BE0B39C11C60B3060191C8618 L_5 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = L_5.___Orientation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7;
+		L_7 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_4, L_6, NULL);
+		V_0 = L_7;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:444>
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
+	}
+
+IL_002b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:444>
+		int32_t L_9 = V_1;
+		int32_t L_10 = ___2_boneIndex;
+		V_3 = (bool)((((int32_t)((((int32_t)L_9) < ((int32_t)L_10))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_11 = V_3;
+		if (L_11)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:450>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = V_0;
+		V_4 = L_12;
+		goto IL_003b;
+	}
+
+IL_003b:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:451>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13 = V_4;
+		return L_13;
+	}
+}
+// Method Definition Index: 123693
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKUtilities_ApplyPosesToTransforms_m9E2C834E8A34201B3B3867D38B82C3DCD1047533 (PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* ___0_poses, TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___1_bones, const RuntimeMethod* method) 
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
+	int32_t V_1 = 0;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_2 = NULL;
+	bool V_3 = false;
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:455>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_0 = ___1_bones;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_1 = L_0;
+		NullCheck(L_1);
+		NullCheck(L_1);
+		int32_t L_2 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_1)->max_length)), 1));
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		NullCheck(L_3);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_3, NULL);
+		V_0 = L_4;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:456>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_5 = ___1_bones;
+		NullCheck(L_5);
+		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_5)->max_length)), 1));
+		goto IL_0040;
+	}
+
+IL_0016:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:458>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_6 = ___1_bones;
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		V_2 = L_9;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:459>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = V_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = V_0;
+		NullCheck(L_11);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
+		L_12 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_11, NULL);
+		PoseU5BU5D_tFC818445A5F54FE4CD8B53D645FF0AD0E2A133EB* L_13 = ___0_poses;
+		int32_t L_14 = V_1;
+		NullCheck(L_13);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15 = ((L_13)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_14)))->___rotation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16;
+		L_16 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_12, L_15, NULL);
+		NullCheck(L_10);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_10, L_16, NULL);
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:460>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17 = V_2;
+		V_0 = L_17;
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:456>
+		int32_t L_18 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_subtract(L_18, 1));
+	}
+
+IL_0040:
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:456>
+		int32_t L_19 = V_1;
+		V_3 = (bool)((((int32_t)((((int32_t)L_19) < ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_20 = V_3;
+		if (L_20)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/IK/IKUtilities.cs:462>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 76083
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 76075
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
+		float L_5 = L_4.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___x;
+		float L_8 = ___2_t;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_a;
+		float L_10 = L_9.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___1_b;
+		float L_12 = L_11.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_a;
+		float L_14 = L_13.___y;
+		float L_15 = ___2_t;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_a;
+		float L_17 = L_16.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___1_b;
+		float L_19 = L_18.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_a;
+		float L_21 = L_20.___z;
+		float L_22 = ___2_t;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_23), ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8)))), ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15)))), ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22)))), NULL);
+		V_0 = L_23;
+		goto IL_0053;
+	}
+
+IL_0053:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_0;
+		return L_24;
+	}
+}
+// Method Definition Index: 123310
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* CharacterRetargeter_get_SkeletonRetargeter_m12D09B9CC54C0875B336144AE3BD4EC2DC3D0EC5_inline (CharacterRetargeter_t1C941359922B316027DE38BC0BCC4C0249F53533* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/CharacterRetargeter.cs:51>
+		SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* L_0 = __this->____skeletonRetargeter;
+		return L_0;
+	}
+}
+// Method Definition Index: 76145
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
+		float L_1 = L_0.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___0_lhs;
+		float L_5 = L_4.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___1_rhs;
+		float L_7 = L_6.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = ___0_lhs;
+		float L_9 = L_8.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = ___0_lhs;
+		float L_13 = L_12.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = ___1_rhs;
+		float L_15 = L_14.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = ___0_lhs;
+		float L_17 = L_16.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = ___1_rhs;
+		float L_19 = L_18.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = ___0_lhs;
+		float L_21 = L_20.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = ___1_rhs;
+		float L_23 = L_22.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24 = ___0_lhs;
+		float L_25 = L_24.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26 = ___1_rhs;
+		float L_27 = L_26.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = ___0_lhs;
+		float L_29 = L_28.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30 = ___1_rhs;
+		float L_31 = L_30.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = ___0_lhs;
+		float L_33 = L_32.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = ___1_rhs;
+		float L_35 = L_34.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = ___0_lhs;
+		float L_37 = L_36.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = ___1_rhs;
+		float L_39 = L_38.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = ___0_lhs;
+		float L_41 = L_40.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42 = ___1_rhs;
+		float L_43 = L_42.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = ___0_lhs;
+		float L_45 = L_44.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_46 = ___1_rhs;
+		float L_47 = L_46.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48 = ___0_lhs;
+		float L_49 = L_48.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50 = ___1_rhs;
+		float L_51 = L_50.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_52 = ___0_lhs;
+		float L_53 = L_52.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_54 = ___1_rhs;
+		float L_55 = L_54.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56 = ___0_lhs;
+		float L_57 = L_56.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58 = ___1_rhs;
+		float L_59 = L_58.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = ___0_lhs;
+		float L_61 = L_60.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_62 = ___1_rhs;
+		float L_63 = L_62.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_64;
+		memset((&L_64), 0, sizeof(L_64));
+		Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline((&L_64), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_17, L_19)), ((float)il2cpp_codegen_multiply(L_21, L_23)))), ((float)il2cpp_codegen_multiply(L_25, L_27)))), ((float)il2cpp_codegen_multiply(L_29, L_31)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_33, L_35)), ((float)il2cpp_codegen_multiply(L_37, L_39)))), ((float)il2cpp_codegen_multiply(L_41, L_43)))), ((float)il2cpp_codegen_multiply(L_45, L_47)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_49, L_51)), ((float)il2cpp_codegen_multiply(L_53, L_55)))), ((float)il2cpp_codegen_multiply(L_57, L_59)))), ((float)il2cpp_codegen_multiply(L_61, L_63)))), NULL);
+		V_0 = L_64;
+		goto IL_00e5;
+	}
+
+IL_00e5:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_65 = V_0;
+		return L_65;
+	}
+}
+// Method Definition Index: 76118
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 76085
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Scale_m7C3CD199271902D5C00CBF35CD230DEB62B68CAE_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)), ((float)il2cpp_codegen_multiply(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 76108
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 123483
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t SkeletonRetargeter_get_NativeHandle_mF0092281A661115A641BE710D5285E3D392507E1_inline (SkeletonRetargeter_t915EB48FEFE3A7B5774FBCB7A1F4FFC853FAFF5A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/SkeletonRetargeter.cs:107>
+		uint64_t L_0 = __this->____nativeHandle;
+		return L_0;
+	}
+}
+// Method Definition Index: 76144
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 76109
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 76222
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		float L_0 = ___1_b;
+		float L_1 = ___0_a;
+		float L_2;
+		L_2 = fabsf(((float)il2cpp_codegen_subtract(L_0, L_1)));
+		float L_3 = ___0_a;
+		float L_4;
+		L_4 = fabsf(L_3);
+		float L_5 = ___1_b;
+		float L_6;
+		L_6 = fabsf(L_5);
+		float L_7;
+		L_7 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_4, L_6, NULL);
+		float L_8 = ((Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields*)il2cpp_codegen_static_fields_for(Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_il2cpp_TypeInfo_var))->___Epsilon;
+		float L_9;
+		L_9 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(((float)il2cpp_codegen_multiply((9.99999997E-07f), L_7)), ((float)il2cpp_codegen_multiply(L_8, (8.0f))), NULL);
+		V_0 = (bool)((((float)L_2) < ((float)L_9))? 1 : 0);
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		bool L_10 = V_0;
+		return L_10;
+	}
+}
+// Method Definition Index: 123344
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JointPairU5BU5D_t497D50D5A83F1CF02B5650B119ED2977C0131C9E* CharacterRetargeterConfig_get_JointPairs_m26419DBAD2EAAA3E9759B8106B21FB7B768E1242_inline (CharacterRetargeterConfig_tD8FF2B4F325BC140BE821B1083EA466B12F72877* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/CharacterRetargeterConfig.cs:171>
+		JointPairU5BU5D_t497D50D5A83F1CF02B5650B119ED2977C0131C9E* L_0 = __this->____jointPairs;
+		return L_0;
+	}
+}
+// Method Definition Index: 76117
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 76100
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_18;
+		L_18 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))))));
+		V_3 = ((float)L_18);
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		float L_19 = V_3;
+		return L_19;
+	}
+}
+// Method Definition Index: 875
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 76110
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_forward_mAA55A7034304DF8B2152EAD49AE779FC4CA2EB4A_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___forwardVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 76093
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this);
+		float L_1;
+		L_1 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_0, NULL);
+		V_0 = L_1;
+		float L_2 = V_0;
+		V_1 = (bool)((((float)L_2) > ((float)(9.99999975E-06f)))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this);
+		float L_5 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_4, L_5, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this = L_6;
+		goto IL_0038;
+	}
+
+IL_002d:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this = L_7;
+	}
+
+IL_0038:
+	{
+		return;
+	}
+}
+// Method Definition Index: 76112
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 76099
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_SignedAngle_m76C77F9D7BAF5969FA5B7500ED2D5FF9F9FA4153_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_from, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_to, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_axis, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_from;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_to;
+		float L_2;
+		L_2 = Vector3_Angle_mB16906B482814C140FE5BA9D041D2DC11E42A68D_inline(L_0, L_1, NULL);
+		V_0 = L_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_from;
+		float L_4 = L_3.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___1_to;
+		float L_6 = L_5.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = ___0_from;
+		float L_8 = L_7.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___1_to;
+		float L_10 = L_9.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_4, L_6)), ((float)il2cpp_codegen_multiply(L_8, L_10))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___0_from;
+		float L_12 = L_11.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___1_to;
+		float L_14 = L_13.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = ___0_from;
+		float L_16 = L_15.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = ___1_to;
+		float L_18 = L_17.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_12, L_14)), ((float)il2cpp_codegen_multiply(L_16, L_18))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = ___0_from;
+		float L_20 = L_19.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = ___1_to;
+		float L_22 = L_21.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = ___0_from;
+		float L_24 = L_23.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = ___1_to;
+		float L_26 = L_25.___x;
+		V_3 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_20, L_22)), ((float)il2cpp_codegen_multiply(L_24, L_26))));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = ___2_axis;
+		float L_28 = L_27.___x;
+		float L_29 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = ___2_axis;
+		float L_31 = L_30.___y;
+		float L_32 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = ___2_axis;
+		float L_34 = L_33.___z;
+		float L_35 = V_3;
+		float L_36;
+		L_36 = Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_28, L_29)), ((float)il2cpp_codegen_multiply(L_31, L_32)))), ((float)il2cpp_codegen_multiply(L_34, L_35)))), NULL);
+		V_4 = L_36;
+		float L_37 = V_0;
+		float L_38 = V_4;
+		V_5 = ((float)il2cpp_codegen_multiply(L_37, L_38));
+		goto IL_0086;
+	}
+
+IL_0086:
+	{
+		float L_39 = V_5;
+		return L_39;
+	}
+}
+// Method Definition Index: 76103
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))))));
+		V_0 = ((float)L_6);
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		float L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 76094
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline(L_0, NULL);
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 76120
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+// Method Definition Index: 76095
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_lhs;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_lhs;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		V_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))));
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 76077
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_MoveTowards_m0363264647799F3173AC37F8E819F98298249B08_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_current, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_target, float ___2_maxDistanceDelta, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	bool V_5 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t G_B4_0 = 0;
+	int32_t G_B6_0 = 0;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_target;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_current;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_target;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_current;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___1_target;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___0_current;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		V_3 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))));
+		float L_18 = V_3;
+		if ((((float)L_18) == ((float)(0.0f))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		float L_19 = ___2_maxDistanceDelta;
+		if ((!(((float)L_19) >= ((float)(0.0f)))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		float L_20 = V_3;
+		float L_21 = ___2_maxDistanceDelta;
+		float L_22 = ___2_maxDistanceDelta;
+		G_B4_0 = ((((int32_t)((!(((float)L_20) <= ((float)((float)il2cpp_codegen_multiply(L_21, L_22)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0053;
+	}
+
+IL_0052:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_0053:
+	{
+		G_B6_0 = G_B4_0;
+		goto IL_0056;
+	}
+
+IL_0055:
+	{
+		G_B6_0 = 1;
+	}
+
+IL_0056:
+	{
+		V_5 = (bool)G_B6_0;
+		bool L_23 = V_5;
+		if (!L_23)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = ___1_target;
+		V_6 = L_24;
+		goto IL_009b;
+	}
+
+IL_0061:
+	{
+		float L_25 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_26;
+		L_26 = sqrt(((double)L_25));
+		V_4 = ((float)L_26);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27 = ___0_current;
+		float L_28 = L_27.___x;
+		float L_29 = V_0;
+		float L_30 = V_4;
+		float L_31 = ___2_maxDistanceDelta;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = ___0_current;
+		float L_33 = L_32.___y;
+		float L_34 = V_1;
+		float L_35 = V_4;
+		float L_36 = ___2_maxDistanceDelta;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = ___0_current;
+		float L_38 = L_37.___z;
+		float L_39 = V_2;
+		float L_40 = V_4;
+		float L_41 = ___2_maxDistanceDelta;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
+		memset((&L_42), 0, sizeof(L_42));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_42), ((float)il2cpp_codegen_add(L_28, ((float)il2cpp_codegen_multiply(((float)(L_29/L_30)), L_31)))), ((float)il2cpp_codegen_add(L_33, ((float)il2cpp_codegen_multiply(((float)(L_34/L_35)), L_36)))), ((float)il2cpp_codegen_add(L_38, ((float)il2cpp_codegen_multiply(((float)(L_39/L_40)), L_41)))), NULL);
+		V_6 = L_42;
+		goto IL_009b;
+	}
+
+IL_009b:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43 = V_6;
+		return L_43;
+	}
+}
+// Method Definition Index: 76159
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_RotateTowards_m50EF9D609C80CD423CDA856EA3481DE2004633A3_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_from, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_to, float ___2_maxDegreesDelta, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_from;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___1_to;
+		float L_2;
+		L_2 = Quaternion_Angle_mAADDBB3C30736B4C7B75CF3A241C1CF5E0386C26_inline(L_0, L_1, NULL);
+		V_0 = L_2;
+		float L_3 = V_0;
+		V_1 = (bool)((((float)L_3) == ((float)(0.0f)))? 1 : 0);
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5 = ___1_to;
+		V_2 = L_5;
+		goto IL_0030;
+	}
+
+IL_0019:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___0_from;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7 = ___1_to;
+		float L_8 = ___2_maxDegreesDelta;
+		float L_9 = V_0;
+		float L_10;
+		L_10 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline((1.0f), ((float)(L_8/L_9)), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_11;
+		L_11 = Quaternion_SlerpUnclamped_mAE7F4DF2F239831CCAA1DFB52F313E5AED52D32D(L_6, L_7, L_10, NULL);
+		V_2 = L_11;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = V_2;
+		return L_12;
+	}
+}
+// Method Definition Index: 123554
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float TargetProcessor_get_Weight_m4A7A06AC5A45C9069F17B94E1EABD3771B64D6FC_inline (TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessor.cs:38>
+		float L_0 = __this->____weight;
+		return L_0;
+	}
+}
+// Method Definition Index: 76105
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		V_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))));
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 76220
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_MoveTowards_m69751B5EC50D8E7127D4BB2C8D908E38808AF45D_inline (float ___0_current, float ___1_target, float ___2_maxDelta, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	{
+		float L_0 = ___1_target;
+		float L_1 = ___0_current;
+		float L_2;
+		L_2 = fabsf(((float)il2cpp_codegen_subtract(L_0, L_1)));
+		float L_3 = ___2_maxDelta;
+		V_0 = (bool)((((int32_t)((!(((float)L_2) <= ((float)L_3)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		float L_5 = ___1_target;
+		V_1 = L_5;
+		goto IL_0026;
+	}
+
+IL_0017:
+	{
+		float L_6 = ___0_current;
+		float L_7 = ___1_target;
+		float L_8 = ___0_current;
+		float L_9;
+		L_9 = Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline(((float)il2cpp_codegen_subtract(L_7, L_8)), NULL);
+		float L_10 = ___2_maxDelta;
+		V_1 = ((float)il2cpp_codegen_add(L_6, ((float)il2cpp_codegen_multiply(L_9, L_10))));
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		float L_11 = V_1;
+		return L_11;
+	}
+}
+// Method Definition Index: 123555
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TargetProcessor_set_Weight_mDAE70E3A4BE77C664837F04683E61D468C254574_inline (TargetProcessor_t196C6FA07FBF90C28D684461571601C7377E68B5* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.movement@d3b89c847dbc/Runtime/Native/Scripts/Retargeting/TargetProcessor.cs:39>
+		float L_0 = ___0_value;
+		__this->____weight = L_0;
+		return;
+	}
+}
+// Method Definition Index: 56262
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LocomotionEvent_get_Translation_m30955E2197430BDBD58E8E13F4AB5389A0CC914D_inline (LocomotionEvent_tECDD51A234545203F40F068C91D2745873285642* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@33d664ec3528/Runtime/Scripts/Interaction/Models/Locomotion/LocomotionEvent.cs:90>
+		int32_t L_0 = __this->___U3CTranslationU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 56263
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LocomotionEvent_get_Rotation_m17D423D1279F818504AB3E3F0CA0ECE99CC1D82C_inline (LocomotionEvent_tECDD51A234545203F40F068C91D2745873285642* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.meta.xr.sdk.interaction@33d664ec3528/Runtime/Scripts/Interaction/Models/Locomotion/LocomotionEvent.cs:96>
+		int32_t L_0 = __this->___U3CRotationU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 11686
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+	{
+		int32_t L_1 = __this->____size;
+		V_0 = L_1;
+		__this->____size = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->____items;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 11678
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 11730
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 11678
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) 
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = V_0;
+		int32_t L_7 = V_1;
+		int32_t L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (int32_t)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		int32_t L_9 = ___0_item;
+		List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 2660
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Tuple_2_get_Item1_mBF34A596062BBB3C1DD2A6CA36810366F445C9FA_gshared_inline (Tuple_2_t4B75F18A57363D88671568DEF504983C60E18AC6* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___m_Item1;
+		return L_0;
+	}
+}
+// Method Definition Index: 2661
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Tuple_2_get_Item2_m4C8E8E93C0299E98E046C765CA6ABB544412C1D9_gshared_inline (Tuple_2_t4B75F18A57363D88671568DEF504983C60E18AC6* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___m_Item2;
+		return L_0;
+	}
+}
+// Method Definition Index: 73606
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_mD24A174276905BA38E8992234D3A387A1BDF2E97_gshared_inline (NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347* __this, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = __this->___m_Buffer;
+		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 73606
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool NativeArray_1_get_IsCreated_m547C5D2E203906703FFE7232167A21D2A03D54C0_gshared_inline (NativeArray_1_tA833EB7E3E1C9AF82C37976AD964B8D4BAC38B2C* __this, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = __this->___m_Buffer;
+		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)((uintptr_t)0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 76217
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 76143
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		float L_3 = ___3_w;
+		__this->___w = L_3;
+		return;
+	}
+}
+// Method Definition Index: 76199
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) > ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 76102
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_vector;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_vector;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_vector;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_vector;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_vector;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___0_vector;
+		float L_11 = L_10.___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_12;
+		L_12 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))))));
+		V_0 = ((float)L_12);
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		float L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 76122
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)(L_1/L_2)), ((float)(L_4/L_5)), ((float)(L_7/L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+// Method Definition Index: 76098
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Angle_mB16906B482814C140FE5BA9D041D2DC11E42A68D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_from, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_to, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	float V_3 = 0.0f;
+	{
+		float L_0;
+		L_0 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&___0_from), NULL);
+		float L_1;
+		L_1 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&___1_to), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_2;
+		L_2 = sqrt(((double)((float)il2cpp_codegen_multiply(L_0, L_1))));
+		V_0 = ((float)L_2);
+		float L_3 = V_0;
+		V_2 = (bool)((((float)L_3) < ((float)(1.0E-15f)))? 1 : 0);
+		bool L_4 = V_2;
+		if (!L_4)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		V_3 = (0.0f);
+		goto IL_0056;
+	}
+
+IL_002c:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___0_from;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_to;
+		float L_7;
+		L_7 = Vector3_Dot_mBB86BB940AA0A32FA7D3C02AC42E5BC7095A5D52_inline(L_5, L_6, NULL);
+		float L_8 = V_0;
+		float L_9;
+		L_9 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)(L_7/L_8)), (-1.0f), (1.0f), NULL);
+		V_1 = L_9;
+		float L_10 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_11;
+		L_11 = acos(((double)L_10));
+		V_3 = ((float)il2cpp_codegen_multiply(((float)L_11), (57.2957802f)));
+		goto IL_0056;
+	}
+
+IL_0056:
+	{
+		float L_12 = V_3;
+		return L_12;
+	}
+}
+// Method Definition Index: 76214
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Sign_m42EE1F0BC041AF14F89DED7F762BE996E2C50D8A_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_f;
+		if ((((float)L_0) >= ((float)(0.0f))))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		G_B3_0 = (-1.0f);
+		goto IL_0015;
+	}
+
+IL_0010:
+	{
+		G_B3_0 = (1.0f);
+	}
+
+IL_0015:
+	{
+		V_0 = G_B3_0;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 76092
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
+		float L_1;
+		L_1 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_0, NULL);
+		V_0 = L_1;
+		float L_2 = V_0;
+		V_1 = (bool)((((float)L_2) > ((float)(9.99999975E-06f)))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_value;
+		float L_5 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_4, L_5, NULL);
+		V_2 = L_6;
+		goto IL_0026;
+	}
+
+IL_001e:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_2 = L_7;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_2;
+		return L_8;
+	}
+}
+// Method Definition Index: 76153
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Angle_mAADDBB3C30736B4C7B75CF3A241C1CF5E0386C26_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_a;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___1_b;
+		float L_2;
+		L_2 = Quaternion_Dot_mF9D3BE33940A47979DADA7E81650AEB356D5D12B_inline(L_0, L_1, NULL);
+		float L_3;
+		L_3 = fabsf(L_2);
+		float L_4;
+		L_4 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_3, (1.0f), NULL);
+		V_0 = L_4;
+		float L_5 = V_0;
+		bool L_6;
+		L_6 = Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_inline(L_5, NULL);
+		if (L_6)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		float L_7 = V_0;
+		float L_8;
+		L_8 = acosf(L_7);
+		G_B3_0 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_8, (2.0f))), (57.2957802f)));
+		goto IL_0039;
+	}
+
+IL_0034:
+	{
+		G_B3_0 = (0.0f);
+	}
+
+IL_0039:
+	{
+		V_1 = G_B3_0;
+		goto IL_003c;
+	}
+
+IL_003c:
+	{
+		float L_9 = V_1;
+		return L_9;
+	}
+}
+// Method Definition Index: 76196
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) < ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 76215
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		float L_9 = V_2;
+		return L_9;
+	}
+}
+// Method Definition Index: 76150
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Quaternion_Dot_mF9D3BE33940A47979DADA7E81650AEB356D5D12B_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = ___0_a;
+		float L_13 = L_12.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = ___1_b;
+		float L_15 = L_14.___w;
+		V_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15))));
+		goto IL_003b;
+	}
+
+IL_003b:
+	{
+		float L_16 = V_0;
+		return L_16;
+	}
+}
+// Method Definition Index: 76147
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Quaternion_IsEqualUsingDot_m9C672201C918C2D1E739F559DBE4406F95997CBD_inline (float ___0_dot, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		float L_0 = ___0_dot;
+		V_0 = (bool)((((float)L_0) > ((float)(0.999998987f)))? 1 : 0);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		bool L_1 = V_0;
+		return L_1;
+	}
+}
