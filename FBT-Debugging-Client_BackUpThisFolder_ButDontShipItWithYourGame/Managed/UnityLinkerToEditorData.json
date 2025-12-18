@@ -114,12 +114,6 @@
             "scenes": [],
             "dependencyType": 1,
             "icon": null
-          },
-          {
-            "name": "Required by Director Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.director"
           }
         ]
       },
@@ -188,12 +182,6 @@
             "scenes": [],
             "dependencyType": 1,
             "icon": null
-          },
-          {
-            "name": "Required by Director Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.director"
           },
           {
             "name": "Required by Video Module",
@@ -647,12 +635,6 @@
             "icon": "package/com.unity.modules.crashreporting"
           },
           {
-            "name": "Required by Director Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.director"
-          },
-          {
             "name": "Required by GraphicsStateCollectionSerializer Module",
             "scenes": [],
             "dependencyType": 2,
@@ -860,17 +842,6 @@
             "scenes": [],
             "dependencyType": 3,
             "icon": "class/PlayerSettings"
-          }
-        ]
-      },
-      {
-        "name": "Director",
-        "dependencies": [
-          {
-            "name": "PlayableDirector",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
           }
         ]
       },
@@ -1285,12 +1256,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.crashreporting"
-          },
-          {
-            "name": "Required by Director Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.director"
           },
           {
             "name": "Required by GraphicsStateCollectionSerializer Module",

@@ -95,14 +95,10 @@ namespace Meta.XR.Movement.Retargeting
             {
                 Vector3 playerForward = mpRoot.forward;
 
-                /*
-                    Left leg data is using RIGHT MediaPipe data at the moment.
-                    For some reason the legs are swapped on the Meta OVRBody.
-                    It might be a scaling/positioning issue with the MediaPipe data as well.
-                */
-                Vector3 lHip = ToWorld(MP_RIGHT_HIP);  
-                Vector3 lKnee = ToWorld(MP_RIGHT_KNEE);  
-                Vector3 lAnkle = ToWorld(MP_RIGHT_ANKLE);
+                // Left leg data.
+                Vector3 lHip = ToWorld(MP_LEFT_HIP);  
+                Vector3 lKnee = ToWorld(MP_LEFT_KNEE);  
+                Vector3 lAnkle = ToWorld(MP_LEFT_ANKLE);
 
                 // The quaternion rotations might need to be tweaked due to the MediaPipe -> Unity rotation conversion.
                 Vector3 lThighDir = (lKnee - lHip).normalized;
@@ -112,14 +108,10 @@ namespace Meta.XR.Movement.Retargeting
                 UpdateJointRotation(metaSkeleton, META_LEFT_LEG_UPPER, lThighRot);
                 UpdateJointRotation(metaSkeleton, META_LEFT_LEG_LOWER, lShinRot);
 
-                /*
-                    Same thing for the right leg. Using the LEFT MediaPipe data at the moment.
-                    For some reason the legs are swapped on the Meta OVRBody.
-                    It might be a scaling/positioning issue with the MediaPipe data as well.
-                */
-                Vector3 rHip = ToWorld(MP_LEFT_HIP);  
-                Vector3 rKnee = ToWorld(MP_LEFT_KNEE);  
-                Vector3 rAnkle = ToWorld(MP_LEFT_ANKLE);
+                // Right leg data.
+                Vector3 rHip = ToWorld(MP_RIGHT_HIP);  
+                Vector3 rKnee = ToWorld(MP_RIGHT_KNEE);  
+                Vector3 rAnkle = ToWorld(MP_RIGHT_ANKLE);
 
                 // The quaternion rotations might need to be tweaked due to the MediaPipe -> Unity rotation conversion.
                 Vector3 rThighDir = (rKnee - rHip).normalized;
@@ -134,7 +126,7 @@ namespace Meta.XR.Movement.Retargeting
             if (overwriteFeet)
             {
                 /*
-                    Like the legs, the left foot data is using RIGHT MediaPipe data at the moment.
+                    The left foot data is using RIGHT MediaPipe data at the moment.
                     For some reason the feet are swapped on the Meta OVRBody.
                     It might be a scaling/positioning issue with the MediaPipe data as well.
                 */
@@ -157,7 +149,7 @@ namespace Meta.XR.Movement.Retargeting
                 UpdateJointPosition(metaSkeleton, META_LEFT_FOOT_ANKLE, lAnkle);
 
                 /*
-                    Same thing for the right foot. Using the LEFT MediaPipe data at the moment.
+                    The right foot. Using the LEFT MediaPipe data at the moment.
                     For some reason the feet are swapped on the Meta OVRBody.
                     It might be a scaling/positioning issue with the MediaPipe data as well.
                 */
